@@ -63,7 +63,6 @@
 
 <!-- NAVBAR -->
 <x-navbar/>
-<!-- <x-welcome/> -->
 
 
 

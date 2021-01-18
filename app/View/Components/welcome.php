@@ -14,7 +14,6 @@ class welcome extends Component
     public function __construct()
     {
         //
-        echo "string";
     }
 
     /**

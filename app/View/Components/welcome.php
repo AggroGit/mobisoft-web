@@ -25,4 +25,5 @@ class welcome extends Component
     {
         return view('components.welcome-component');
     }
+    
 }

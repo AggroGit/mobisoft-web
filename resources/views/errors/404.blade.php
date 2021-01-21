@@ -15,7 +15,7 @@
 <body>
 <div class="board ">
   <p id="error">
-    error
+    ¿Cómo desarrollar una app desde cero en Barcelona?
   </p>
   <p id="code">
     404

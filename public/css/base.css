@@ -56,6 +56,7 @@ h4 {
   padding: 0 0 15px 0;
   border: none;
   border-radius: 0;
+  background: none !important;
 }
 .thumbnail img {
   width: 100%;
@@ -327,16 +328,33 @@ a:hover {
 }
 a {
   transition: all 0.2s ease;
+  color: var(--verde1);
 }
 .verdeClaro {
   color: var(--verde1) !important;
 }
-#map {
+
+#map,
+#pano {
   height: 400px;
-  /* The height is 400 pixels */
   width: 100%;
-  /* The width is the width of the web page */
 }
 .fullCompleta {
   padding: 0px !important;
+}
+.fondoOscuro {
+  background: var(--oscurito);
+}
+.letraBlanca>* {
+  color: #ffffff !important;
+}
+.imagenCuadrada {
+  overflow: hidden;
+  text-align: center;
+}
+.imagenCuadrada > img{
+  height: 230px;
+  width: auto !important;
+  border-radius: 20px;
+  margin: auto;
 }

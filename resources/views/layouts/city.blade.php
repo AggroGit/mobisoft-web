@@ -32,6 +32,19 @@
           position: Desarrollo,
           map: map,
         });
+        // La street view
+        const panorama = new google.maps.StreetViewPanorama(
+        document.getElementById("pano"),
+        {
+          position: Desarrollo,
+          pov: {
+            @yield('StreetViewPos')
+
+          },
+        }
+      );
+      map.setStreetView(panorama);
+
       }
     </script>
   <!-- STYLES -->
@@ -139,12 +152,12 @@
         <div class="col-md-6">
           <p>También en whatsapp</p>
           <img class="img iconoWhats" src="/imagenes/whatsapp.png" alt="">
-          <a class="linkWhats" href="https://wa.me/34747410385?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo">747410385</a>
+          <a class="linkWhats" href="https://wa.me/34747410385?text=Hola%20!%20me%20interesa%20hacer%20una%20app">747410385</a>
         </div>
         <div class="col-md-6">
           <p>Llámanos</p>
           <img class="img iconoWhats" src="/imagenes/whatsapp-blanco.png" alt="">
-          <a class="linkWhats" href="#">747410385</a>
+          <a class="linkWhats" href="tel:747410385">747410385</a>
         </div>
       </div>
 
@@ -161,14 +174,64 @@
 </div>
 </div>
 
+<!-- MAPA -->
 <div class="container-fluid fullCompleta">
-<div id="map"></div>
+    <div class="" id="map"></div>
+    <!-- <div class="col-md-6" id="pano"></div> -->
+
+</div>
+
+
+<div class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+      <div class="col-sm-8">
+        <h2>Encuentranos en Barcelona</h2><br>
+        <h4><strong>LOREM:</strong> Visitanos en la ciudad condal, en pleno centro de Barcelona. Estamos junto a plaza Universidad, en <a target="_blank" href="https://www.google.com/maps/place/Plaza+del+Dr.+Letamendi,+2,+08007+Barcelona/@41.3897567,2.15794,15.53z/data=!4m13!1m7!3m6!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!2sPlaza+del+Dr.+Letamendi,+2,+08007+Barcelona!3b1!8m2!3d41.3885805!4d2.1610856!3m4!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!8m2!3d41.3885805!4d2.1610856">plaza Letamendi nº 1</a></h4><br>
+        <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LOS 3 PASOS -->
+<div id="portfolio" class="fondoOscuro letraBlanca noTanBlanco container-fluid text-center ">
+  <div class="container letraBlanca">
+  <h2>Una buena empresa de desarrollo de apps sigue:</h2><br>
+  <h4>Los 3 pasos obligatorios antes de empezar</h4>
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="imagenCuadrada letraBlanca">
+        <img src="/imagenes/usuarios.webp" alt="@yield('paso1')" width="400" height="300">
+        <p><strong>@yield('paso1')</strong></p>
+        <p>@yield('paso1definicion')</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="imagenCuadrada">
+        <img src="/imagenes/mano.webp" alt="@yield('paso1')" width="400" height="300">
+        <p><strong>@yield('paso1')</strong></p>
+        <p>@yield('paso1definicion')</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="imagenCuadrada">
+        <img src="/imagenes/ordenador-app.webp" alt="Paris" width="400" height="300">
+        <p><strong>@yield('paso1')</strong></p>
+        <p>@yield('paso1definicion')</p>
+      </div>
+    </div>
+</div>
 </div>
 
 
 
 
-<div class="container-fluid bg-grey">
+<div class="container-fluid">
   <div class="row">
     <div class="col-sm-4 text-center">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -264,7 +327,9 @@
         <p>Yes, San Fran is ours</p>
       </div>
     </div>
-  </div><br>
+  </div>
+
+  <br>
 
   <h2>What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">

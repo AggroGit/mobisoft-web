@@ -229,8 +229,8 @@
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
-  <h2>SERVICES</h2>
-  <h4>What we offer</h4>
+  <h2>TESTEO QUE TE VEO</h2>
+  <h4>BLA BLA</h4>
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
@@ -271,7 +271,7 @@
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>What our customers say</h2>
+  <h2>Las opiniones de nuestros clientes</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -308,13 +308,13 @@
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACT</h2>
+  <h2 class="text-center">CONTACTO</h2>
   <div class="row">
     <div class="col-sm-5">
-      <p>Contact us and we'll get back to you within 24 hours.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+      <p>CONTACTA CON NOSOTROS</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Barcelona</p>
+      <p><span class="glyphicon glyphicon-phone"></span> +00 633311949</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> info@mobisoft.works</p>
     </div>
     <div class="col-sm-7 slideanim">
       <div class="row">

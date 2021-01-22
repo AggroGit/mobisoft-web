@@ -189,10 +189,12 @@
   <div class="container slideanim">
     <div class="row">
       <div class="col-sm-6 text-center">
-        <img class="imageGoogleMap" src="https://maps.googleapis.com/maps/api/staticmap?center=41.3897567,2.15794&zoom=12&size=400x400&maptype=roadmap
-    &markers=41.3897567,2.15794
-    &style=color:red
-    &key=AIzaSyAZRjU-Ul0mi2mMAzruvkpA1VIYfmpZuc0" alt="">
+        <a href="#">
+          <img class="imageGoogleMap" src="https://maps.googleapis.com/maps/api/staticmap?center=41.3897567,2.15794&zoom=12&size=400x400&maptype=roadmap
+      &style=color:red
+      &key=AIzaSyAZRjU-Ul0mi2mMAzruvkpA1VIYfmpZuc0" alt="">
+        </a>
+
       </div>
       <div class="col-sm-6">
         <h2>Encuentranos en Barcelona</h2><br>
@@ -370,7 +372,6 @@
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
 </footer>
 
 <script>

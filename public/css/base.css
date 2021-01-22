@@ -132,10 +132,9 @@ h4 {
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
-  line-height: 1.42857143 !important;
   letter-spacing: 4px;
   border-radius: 0;
-  font-family: Montserrat, sans-serif;
+  padding: 10px;
 }
 .navbar li a, .navbar .navbar-brand {
   color: #fff !important;
@@ -329,7 +328,7 @@ list-style-type: none !important;
 a:hover {
   transition: all 0.3s ease;
   color: var(--verdeClaro) !important;
-  text-shadow: 0 0 3px #ffffff, -2px 1px 5px #3abc97;
+  text-shadow:0 0 2rem var(--verdeClaro);
 }
 a {
   transition: all 0.2s ease;
@@ -363,21 +362,16 @@ a {
   border-radius: 20px;
   margin: auto;
 }
-.fuenteNeon {
-  font: 75px/75px Monoton, cursive;
-
-}
 
 
 
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
-
- {
+{
   /* Base font size */
   font-size: 10px;
 
-
 }
+
 
 
 
@@ -434,6 +428,28 @@ a {
         box-shadow: none;
     }
 }
+
+/* Parpadeo */
+@keyframes parpadeo {
+
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+
+        text-shadow:
+
+            0 0 2rem var(--verdeClaro);
+            /* 0 0 4rem var(--neon-text-color),
+            0 0 6rem var(--neon-text-color),
+            0 0 8rem var(--neon-text-color),
+            0 0 10rem var(--neon-text-color); */
+
+
+    }
+
+    20%, 24%, 55% {
+        text-shadow: none;
+        box-shadow: none;
+    }
+}
 .flex {
   display: flex;
 }
@@ -442,4 +458,27 @@ a {
 }
 .imageGoogleMap {
   border-radius: 50%;
+  width: 70%;
+
+}
+
+.fuenteNeon {
+  font-family: Monoton, cursive;
+
+}
+.parpadeo {
+  animation: parpadeo 1.5s infinite alternate;
+}
+.iconoMenu {
+  width: auto;
+  height: 40px;
+}
+.logoYNombre {
+  font-size: 2.3rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+.logoYNombre:hover {
+  text-decoration: none;
+  color: #ffffff;
 }

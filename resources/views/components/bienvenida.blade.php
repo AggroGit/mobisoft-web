@@ -2,7 +2,7 @@
   <div class="container slideanim ">
 
     <h1>@yield('titulo')</h1>
-    <h1 class="verdeClaro">@yield('tituloUbi')</h1>
+    <h1 class="verdeClaro fuenteNeon parpadeo">@yield('tituloUbi')</h1>
 
     <div class="bordesLilas ">
       <h2 class="blanco">@yield('tituloEntrelineado')</h2>
@@ -31,10 +31,10 @@
         <a class="noLink" href="{{url('/')}}">mobisoft.works > </a>
       </li>
       <li>
-        <a class="noLink" href="{{url('/')}}">desarrollo apps > </a>
+        <a class="noLink" href="{{url('/desarrollo-apps/')}}">desarrollo apps > </a>
       </li>
       <li>
-        <a class="noLink" href="http://www.example.com/books/sciencefiction">  @yield('migasPan')</a>
+        <a class="noLink" href="{{url('/desarrollo-apps/')}}/@yield('cityName')">  @yield('migasPan')</a>
       </li>
     </ol>
 </div>

@@ -7,49 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <!-- Letra Neon -->
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
 
 
   <!-- BUSCADORES -->
   <meta name="robots" content="noindex">
-  <!-- Google Maps -->
-  <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZRjU-Ul0mi2mMAzruvkpA1VIYfmpZuc0&callback=initMap&libraries=&v=weekly"
-      async
-    ></script>
 
-    <script async>
-      // Initialize and add the map
-      function initMap() {
-        // The location of Uluru
-        const Desarrollo = { @yield('latLong') };
-        // The map, centered at Uluru
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 14,
-          center: Desarrollo,
-          mapId:'3dc6b387cf021a27'
-        });
-        // The marker, positioned at Uluru
-        const marker = new google.maps.Marker({
-          position: Desarrollo,
-          map: map,
-        });
-        // La street view
-        const panorama = new google.maps.StreetViewPanorama(
-        document.getElementById("pano"),
-        {
-          position: Desarrollo,
-          pov: {
-            @yield('StreetViewPos')
 
-          },
-        }
-      );
-      map.setStreetView(panorama);
-
-      }
-    </script>
   <!-- STYLES -->
   <link href="{{ asset('css/base.css') }}" rel="stylesheet">
   <!-- MIGAS DE PAN -->
@@ -85,7 +51,7 @@
 
 <!-- Container (About Section) -->
 <div id="about" class="container">
-  <div class="row">
+  <div class="row ">
     <div class="col-sm-8">
 
       @yield('ptimerTexto')
@@ -189,7 +155,7 @@
   <div class="container slideanim">
     <div class="row">
       <div class="col-sm-6 text-center">
-        <a href="#">
+        <a target="_blank" href="https://www.google.com/maps/place/Plaza+del+Dr.+Letamendi,+2,+08007+Barcelona/@41.3897567,2.15794,15.53z/data=!4m13!1m7!3m6!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!2sPlaza+del+Dr.+Letamendi,+2,+08007+Barcelona!3b1!8m2!3d41.3885805!4d2.1610856!3m4!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!8m2!3d41.3885805!4d2.1610856">
           <img class="imageGoogleMap" src="https://maps.googleapis.com/maps/api/staticmap?center=41.3897567,2.15794&zoom=12&size=400x400&maptype=roadmap
       &style=color:red
       &key=AIzaSyAZRjU-Ul0mi2mMAzruvkpA1VIYfmpZuc0" alt="">
@@ -210,7 +176,12 @@
 <div id="portfolio" class="fondoOscuro letraBlanca noTanBlanco container-fluid text-center ">
   <div class="container letraBlanca">
   <h2>Una buena empresa de desarrollo de apps sigue:</h2><br>
-  <h4>Los 3 pasos obligatorios antes de empezar</h4>
+  <div class="row text-center flex">
+    <div class="col-6 margin-auto">
+      <h4 class="neon">Los 3 pasos obligatorios antes de empezar</h4>
+    </div>
+
+  </div>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="imagenCuadrada letraBlanca">
@@ -222,15 +193,15 @@
     <div class="col-sm-4">
       <div class="imagenCuadrada">
         <img src="/imagenes/mano.webp" alt="@yield('paso1')" width="400" height="300">
-        <p><strong>@yield('paso1')</strong></p>
-        <p>@yield('paso1definicion')</p>
+        <p><strong>@yield('paso2')</strong></p>
+        <p>@yield('paso2definicion')</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="imagenCuadrada">
         <img src="/imagenes/ordenador-app.webp" alt="Paris" width="400" height="300">
-        <p><strong>@yield('paso1')</strong></p>
-        <p>@yield('paso1definicion')</p>
+        <p><strong>@yield('paso3')</strong></p>
+        <p>@yield('paso3definicion')</p>
       </div>
     </div>
 </div>
@@ -300,7 +271,6 @@
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-
   <h2>What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
@@ -366,7 +336,6 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">

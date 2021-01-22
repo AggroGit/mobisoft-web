@@ -1,7 +1,12 @@
+
+
 @extends('layouts.city')
 
 <!-- Titulo del head -->
 @section('headTitle', '📱✅ Desarrollo Apps Barcelona')
+
+@section('cityName', 'Barcelona')
+
 
 <!-- PARTE SUPERIOR -->
 
@@ -100,5 +105,20 @@ pitch: 20,
 1. Definir usuario objetivo
 @endsection
 @section('paso1definicion')
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Definir al usuario objetivo permite enfocar el software desde el inicio a las personas que realmente lo van a utilizar.
+@endsection
+
+@section('paso2')
+2. Trabajar la UI/UX en los diseños
+@endsection
+@section('paso2definicion')
+La experiencia de usuario es la responsable de que estos estén satisfechos y utilicen más tiempo tu aplicación.
+@endsection
+
+
+@section('paso3')
+3. Testing antes de la entrega
+@endsection
+@section('paso3definicion')
+No aceptes ninguna entrega de software que no haya sido probado por varios miembros del equipo.
 @endsection

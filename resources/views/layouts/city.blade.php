@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 
   <!-- BUSCADORES -->
   <meta name="robots" content="noindex">
@@ -130,15 +132,13 @@
 <br>
 
 <!-- BUSCAR INFO -->
-<div class="container-fluid moreInfo noTanBlanco">
+<div class="container-fluid moreInfo noTanBlanco d-flex align-items-center justify-content-center">
   <div class="container slideanim">
-  <div class="row text-center">
-    <div class="col-md-6 ">
+  <div class="row text-center flex">
+    <div class="col-6 margin-auto">
       <h3 class="neon">¿Buscas ayuda immediata?</h3>
     </div>
-    <div class="col-md-6">
-      <h3>Te atendemos al momento</h3>
-    </div>
+
   </div>
 
   <br>
@@ -178,19 +178,23 @@
 
 <!-- MAPA -->
 <div class="container-fluid fullCompleta">
-    <div class="" id="map"></div>
+    <!-- <div class="" id="map"></div> -->
     <!-- <div class="col-md-6" id="pano"></div> -->
+    <!-- <img src="https://maps.googleapis.com/maps/api/staticmap?size=512x512&zoom=15&center=Brooklyn&key=AIzaSyAZRjU-Ul0mi2mMAzruvkpA1VIYfmpZuc0" alt=""> -->
 
 </div>
 
 
 <div class="container-fluid">
-  <div class="container">
+  <div class="container slideanim">
     <div class="row">
-      <div class="col-sm-4 text-center">
-        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      <div class="col-sm-6 text-center">
+        <img class="imageGoogleMap" src="https://maps.googleapis.com/maps/api/staticmap?center=41.3897567,2.15794&zoom=12&size=400x400&maptype=roadmap
+    &markers=41.3897567,2.15794
+    &style=color:red
+    &key=AIzaSyAZRjU-Ul0mi2mMAzruvkpA1VIYfmpZuc0" alt="">
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-6">
         <h2>Encuentranos en Barcelona</h2><br>
         <h4><strong>LOREM:</strong> Visitanos en la ciudad condal, en pleno centro de Barcelona. Estamos junto a plaza Universidad, en <a target="_blank" href="https://www.google.com/maps/place/Plaza+del+Dr.+Letamendi,+2,+08007+Barcelona/@41.3897567,2.15794,15.53z/data=!4m13!1m7!3m6!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!2sPlaza+del+Dr.+Letamendi,+2,+08007+Barcelona!3b1!8m2!3d41.3885805!4d2.1610856!3m4!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!8m2!3d41.3885805!4d2.1610856">plaza Letamendi nº 1</a></h4><br>
         <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -229,11 +233,12 @@
     </div>
 </div>
 </div>
+</div>
 
 
 
 
-<div class="container-fluid">
+<div class="container-fluid ">
   <div class="row">
     <div class="col-sm-4 text-center">
       <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -247,19 +252,7 @@
   </div>
 </div>
 
-<div class="panel-group">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" href="#collapse1">Hola </a>
-      </h4>
-    </div>
-    <div id="collapse1" class="panel-collapse collapse">
-      <div class="panel-body">Panel Body</div>
-      <div class="panel-footer">Panel Footer</div>
-    </div>
-  </div>
-</div>
+
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center">
@@ -305,33 +298,6 @@
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
-  <h4>What we have created</h4>
-  <div class="row text-center slideanim">
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
-      </div>
-    </div>
-  </div>
-
-  <br>
 
   <h2>What our customers say</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
@@ -367,72 +333,6 @@
   </div>
 </div>
 
-<!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
-  <div class="text-center">
-    <h2>Pricing</h2>
-    <h4>Choose a payment plan that works for you</h4>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Basic</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>20</strong> Lorem</p>
-          <p><strong>15</strong> Ipsum</p>
-          <p><strong>5</strong> Dolor</p>
-          <p><strong>2</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$19</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Pro</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>50</strong> Lorem</p>
-          <p><strong>25</strong> Ipsum</p>
-          <p><strong>10</strong> Dolor</p>
-          <p><strong>5</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$29</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Premium</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>100</strong> Lorem</p>
-          <p><strong>50</strong> Ipsum</p>
-          <p><strong>25</strong> Dolor</p>
-          <p><strong>10</strong> Sit</p>
-          <p><strong>Endless</strong> Amet</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$49</h3>
-          <h4>per month</h4>
-          <button class="btn btn-lg">Sign Up</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">

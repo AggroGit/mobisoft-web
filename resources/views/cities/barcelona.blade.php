@@ -46,7 +46,7 @@ desarrollo aplicaciones Barcelona
 
 <!-- BIENVENIDA -->
 @section('ptimerTexto')
-<h2 class="neon">Sobre Nosotros</h2>
+<h2>Sobre Nosotros</h2>
 <br>
 <h4>
   Mobisoft es la empresa de desarrollo de apps en Barcelona que te ayudará a crear tu aplicación para que tu digitalización, nueva startup, producto o servicio sea un total éxito. ¡Cuenta con nosotros!

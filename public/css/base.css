@@ -434,3 +434,12 @@ a {
         box-shadow: none;
     }
 }
+.flex {
+  display: flex;
+}
+.margin-auto {
+  margin: auto;
+}
+.imageGoogleMap {
+  border-radius: 50%;
+}

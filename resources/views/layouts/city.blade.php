@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+
   <!-- BUSCADORES -->
   <meta name="robots" content="noindex">
   <!-- Google Maps -->
@@ -83,6 +85,7 @@
 <div id="about" class="container">
   <div class="row">
     <div class="col-sm-8">
+
       @yield('ptimerTexto')
       <br><button class="btn btn-default btn-lg">Get in Touch</button>
     </div>
@@ -131,7 +134,7 @@
   <div class="container slideanim">
   <div class="row text-center">
     <div class="col-md-6 ">
-      <h3>¿Buscas ayuda immediata?</h3>
+      <h3 class="neon">¿Buscas ayuda immediata?</h3>
     </div>
     <div class="col-md-6">
       <h3>Te atendemos al momento</h3>

@@ -310,44 +310,47 @@
 
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center bg-grey">
-  <h2>TESTEO QUE TE VEO</h2>
-  <h4>BLA BLA</h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
-      <h4>POWER</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+  <div class="contenedor">
+    <h2>TESTEO QUE TE VEO</h2>
+    <h4>BLA BLA</h4>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-off logo-small"></span>
+        <h4>POWER</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <h4>LOVE</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <h4>JOB DONE</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
-      <h4>LOVE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>JOB DONE</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-leaf logo-small"></span>
+        <h4>GREEN</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-certificate logo-small"></span>
+        <h4>CERTIFIED</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4 text">
+        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <h4 style="color:#303030;">HARD WORK</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
     </div>
   </div>
-  <br><br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
-      <h4>GREEN</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CERTIFIED</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-    <div class="col-sm-4 text">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
-      <p>Lorem ipsum dolor sit amet..</p>
-    </div>
-  </div>
+
 </div>
 
 
@@ -461,6 +464,8 @@ los emprendedores y PRESUPUESTO GRATIS.
 
 
 
+
+
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -478,10 +483,44 @@ los emprendedores y PRESUPUESTO GRATIS.
 
     </div>
   </div>
+
+  <div class="wrapper">
+    <div class="icon facebook">
+      <div class="tooltip">Facebook</div>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </div>
+    <div class="icon twitter">
+      <div class="tooltip">Twitter</div>
+      <span><i class="fab fa-twitter"></i></span>
+    </div>
+    <div class="icon instagram">
+      <div class="tooltip">Instagram</div>
+      <span><i class="fab fa-instagram"></i></span>
+    </div>
+    <div class="icon github">
+      <div class="tooltip">Github</div>
+      <span><i class="fab fa-github"></i></span>
+    </div>
+    <div class="icon youtube">
+      <div class="tooltip">Youtube</div>
+      <span><i class="fab fa-youtube"></i></span>
+    </div>
+  </div>
 </footer>
 
 <script>
+
+
+// COMPARTIR
+$(".share").on('click', function(e) {
+  $(".fab").removeClass("no");
+  if(e.target != this) return;
+  $('.share, .fab').toggleClass("active");
+});
 $(document).ready(function(){
+
+
+
   // Add smooth scrolling to all links in navbar + footer link
   $(".smoothScroll, .navbar a, footer a[href='#myPage']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior

@@ -5,14 +5,14 @@
     <h1 class="verdeClaro fuenteNeon parpadeo">@yield('tituloUbi')</h1>
 
     <div class="bordesLilas ">
-      <h2 class="blanco">@yield('tituloEntrelineado')</h2>
+      <span class="blanco">@yield('tituloEntrelineado')</span>
     </div>
 
-    <div class="">
-      <h3>@yield('subtitulo1')</h3>
-      <h3><a class=" smoothScroll linkSubrallado" href="#services">@yield('subtitulo2')</a>
+    <div class="Subtitulo">
+      <h2>@yield('subtitulo1')</h2>
+      <h2><a class=" smoothScroll linkSubrallado" href="#services">@yield('subtitulo2')</a>
         @yield('subtitulo3')
-      </h3>
+      </h2>
     </div>
 
     <br>

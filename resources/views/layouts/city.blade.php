@@ -17,7 +17,7 @@
 
 
   <!-- STYLES -->
-  <link href="{{ asset('css/base.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/base.css?v=0.1') }}" rel="stylesheet">
   <!-- MIGAS DE PAN -->
   <script type="application/ld+json">
     {
@@ -63,6 +63,9 @@
   </div>
 </div>
 
+
+
+
 <br>
 
 <!-- BOTON DESPLEGABLE -->
@@ -79,6 +82,8 @@
       <br>
     </div>
 </div>
+
+
 <br>
 <!-- BOTON DESPLEGABLE -->
 <div class="container">
@@ -98,8 +103,9 @@
 <br>
 
 <!-- BUSCAR INFO -->
-<div class="container-fluid moreInfo noTanBlanco d-flex align-items-center justify-content-center">
-  <div class="container slideanim">
+
+<div class="container-fluid   moreInfo noTanBlanco d-flex align-items-center justify-content-center">
+  <div class="contenedor slideanim">
   <div class="row text-center flex">
     <div class="col-6 margin-auto">
       <h3 class="neon">¿Buscas ayuda immediata?</h3>
@@ -115,7 +121,7 @@
       <img class="img logollamada" src="/imagenes/llamada.png" alt="">
     </div>
     <!-- Medios contacto -->
-    <div class="col-md-9 container">
+    <div class="col-md-9 ">
       <div class="row">
         <div class="col-md-6">
           <p>También en whatsapp</p>
@@ -142,6 +148,9 @@
 </div>
 </div>
 
+
+
+
 <!-- MAPA -->
 <div class="container-fluid fullCompleta">
     <!-- <div class="" id="map"></div> -->
@@ -151,8 +160,13 @@
 </div>
 
 
-<div class="container-fluid">
-  <div class="container slideanim">
+
+
+
+
+
+<div class="container-fluid container">
+  <div class=" slideanim">
     <div class="row">
       <div class="col-sm-6 text-center">
         <a target="_blank" href="https://www.google.com/maps/place/Plaza+del+Dr.+Letamendi,+2,+08007+Barcelona/@41.3897567,2.15794,15.53z/data=!4m13!1m7!3m6!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!2sPlaza+del+Dr.+Letamendi,+2,+08007+Barcelona!3b1!8m2!3d41.3885805!4d2.1610856!3m4!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!8m2!3d41.3885805!4d2.1610856">
@@ -172,9 +186,14 @@
   </div>
 </div>
 
+
+
+
+
+
 <!-- LOS 3 PASOS -->
 <div id="portfolio" class="fondoOscuro letraBlanca noTanBlanco container-fluid text-center ">
-  <div class="container letraBlanca">
+  <div class="contenedor letraBlanca">
   <h2>Una buena empresa de desarrollo de apps sigue:</h2><br>
   <div class="row text-center flex">
     <div class="col-6 margin-auto">
@@ -210,25 +229,87 @@
 
 
 
-
-<div class="container-fluid ">
-  <div class="row">
-    <div class="col-sm-4 text-center">
-      <span class="glyphicon glyphicon-globe logo slideanim"></span>
+<div class="container-fluid container">
+  <div class="">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+      <div class="col-sm-8 slideanim">
+        <h2>Conceptualización de la idea</h2>
+        <p>1. Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
+        <p>2. Seguimos ordenando estas ideas antes de empezar el desarrollo de apps en Barcelona gracias al "card sorting".</p>
+        <p>3. Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
+        <p>4. Todos los proyectos de desarrollo de software (en especial los de aplicaciones) cuentan con un Front-end que se encarga de convertir el diseño en código y un Back-end que se encarga de escribir todo el funcionamiento interno de las funcionalidades.</p>
+        <p>En Mobility Software Solutions utilizamos las tecnologías más punteras como son Flutter para el desarrollo Android y iOS, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
+      </div>
     </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-      <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+</div>
+
+<div class="container-fluid container">
+  <div class="">
+    <div class="row">
+      <div class="col-sm-8 slideanim">
+        <h2>Conceptualización de la idea</h2>
+        <p>1. Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
+        <p>2. Seguimos ordenando estas ideas antes de empezar el desarrollo de apps en Barcelona gracias al "card sorting".</p>
+        <p>3. Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
+        <p>4. Todos los proyectos de desarrollo de software (en especial los de aplicaciones) cuentan con un Front-end que se encarga de convertir el diseño en código y un Back-end que se encarga de escribir todo el funcionamiento interno de las funcionalidades.</p>
+        <p>En Mobility Software Solutions utilizamos las tecnologías más punteras como son Flutter para el desarrollo Android y iOS, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid container">
+  <div class="">
+    <div class="row">
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
+      <div class="col-sm-8 slideanim">
+        <h2>Conceptualización de la idea</h2>
+        <p>1. Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
+        <p>2. Seguimos ordenando estas ideas antes de empezar el desarrollo de apps en Barcelona gracias al "card sorting".</p>
+        <p>3. Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
+        <p>4. Todos los proyectos de desarrollo de software (en especial los de aplicaciones) cuentan con un Front-end que se encarga de convertir el diseño en código y un Back-end que se encarga de escribir todo el funcionamiento interno de las funcionalidades.</p>
+        <p>En Mobility Software Solutions utilizamos las tecnologías más punteras como son Flutter para el desarrollo Android y iOS, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid container">
+  <div class="">
+    <div class="row">
+      <div class="col-sm-8 slideanim">
+        <h2>Conceptualización de la idea</h2>
+        <p>1. Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
+        <p>2. Seguimos ordenando estas ideas antes de empezar el desarrollo de apps en Barcelona gracias al "card sorting".</p>
+        <p>3. Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
+        <p>4. Todos los proyectos de desarrollo de software (en especial los de aplicaciones) cuentan con un Front-end que se encarga de convertir el diseño en código y un Back-end que se encarga de escribir todo el funcionamiento interno de las funcionalidades.</p>
+        <p>En Mobility Software Solutions utilizamos las tecnologías más punteras como son Flutter para el desarrollo Android y iOS, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
+      </div>
+      <div class="col-sm-4 text-center">
+        <span class="glyphicon glyphicon-globe logo slideanim"></span>
+      </div>
     </div>
   </div>
 </div>
 
 
 
+
+
+
+
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
+<div id="services" class="container-fluid text-center bg-grey">
   <h2>TESTEO QUE TE VEO</h2>
   <h4>BLA BLA</h4>
   <br>
@@ -269,8 +350,9 @@
   </div>
 </div>
 
+
 <!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<div id="portfolio" class="container-fluid text-center ">
   <h2>Las opiniones de nuestros clientes</h2>
   <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
     <!-- Indicators -->
@@ -306,41 +388,96 @@
 </div>
 
 
-<!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
-  <h2 class="text-center">CONTACTO</h2>
-  <div class="row">
-    <div class="col-sm-5">
-      <p>CONTACTA CON NOSOTROS</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Barcelona</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +00 633311949</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> info@mobisoft.works</p>
+
+
+
+<div class="container-fluid  contact ">
+  <div class="contenedor">
+    <!-- Imagen -->
+    <div class="row">
+      <div class="contieneImagenTituloContact">
+        <img src="{{asset('imagenes/titulo-salteado.png')}}" alt="">
+      </div>
     </div>
-    <div class="col-sm-7 slideanim">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+    <!-- Formulario -->
+    <div class="row pabajo">
+      <div class="col-sm-6">
+        <div class="col-sm-12">
+          <h5 class="text-center">Somos expertos a tu servicio</h5>
+          <p>1. Llevamos +5 años haciendo aplicaciones móviles conuna relación calidad/precio inmejorable.</p>
+          <p>2. Nuestros clientes vuelven a confiar en nosotros para sus futuros desarrollos tanto webs como móviles.</p>
+          <p>3. No subcontratamos desarrolladores de otros países, todo el equipo es interno.</p>
         </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        <div class="col-sm-12">
+          <h5 class="text-center">Somos expertos a tu servicio</h5>
+          <p>1. Llevamos +5 años haciendo aplicaciones móviles conuna relación calidad/precio inmejorable.</p>
+          <p>2. Nuestros clientes vuelven a confiar en nosotros para sus futuros desarrollos tanto webs como móviles.</p>
+          <p>3. No subcontratamos desarrolladores de otros países, todo el equipo es interno.</p>
         </div>
       </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-      <div class="row">
-        <div class="col-sm-12 form-group">
-          <button class="btn btn-default pull-right" type="submit">Send</button>
+      <div class="col-sm-6">
+        <div class="tarjetaContactoForm">
+          <h5 class="text-center">¿Quieres hacer una app en @yield('cityName')?</h5>
+          <p>
+            Apostamos por la transparencia y la honestidad,si
+buscas un equipo de confianza estás en el lugar correcto.
+Nos adaptamos al covid19 con MEJORES PRECIOS para
+los emprendedores y PRESUPUESTO GRATIS.
+</p>
+      <form class="" action="index.html" method="post">
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" class="form-control" name="name" id="name">
+        </div>
+        <div class="form-group">
+          <label for="phone">Teléfono:</label>
+          <input type="tel" class="form-control" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" name="email" id="email">
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+          <input required type="checkbox" class="form-check-input" value=""> Acepto la política de privacidad
+        </label>
+      </div>
+      <div class="contieneBotonForm">
+        <button class="btn boton" type="submit">
+          Empecemos
+        </button>
+      </div>
+
+      </form>
+
         </div>
       </div>
     </div>
   </div>
+
 </div>
 
-<!-- Image of location/map -->
+
+
+
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACTO</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>CONTACTA CON NOSOTROS</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Barcelona</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +00 633311949</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> info@mobisoft.works</p>
+      </div>
+
+    </div>
+  </div>
 </footer>
 
 <script>

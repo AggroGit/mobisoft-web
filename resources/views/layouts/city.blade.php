@@ -19,7 +19,8 @@
 
 
   <!-- STYLES -->
-  <link href="{{ asset('css/base.css?v=0.1') }}" rel="stylesheet">
+  <link href="{{ asset('css/base.css?v=0.2') }}" rel="stylesheet">
+  <link href="{{ asset('css/menu.css?v=0.2') }}" rel="stylesheet">
   <!-- MIGAS DE PAN -->
   <script type="application/ld+json">
     {

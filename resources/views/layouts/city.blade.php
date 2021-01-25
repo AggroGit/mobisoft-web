@@ -11,7 +11,7 @@
   <!-- Letra Neon -->
   <!-- <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'> -->
   <!-- Carga delayed de imagenes -->
-  <script src="{{asset('js/lazysizes.min.js')}}" async></script>
+  <script src="{{asset('js/lazysizes.min.js')}}" defer></script>
   <!-- Images End -->
 
   <!-- BUSCADORES -->

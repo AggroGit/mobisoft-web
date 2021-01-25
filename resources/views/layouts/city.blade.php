@@ -10,7 +10,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <!-- Letra Neon -->
   <!-- <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'> -->
-
+  <!-- Carga delayed de imagenes -->
+  <script src="{{asset('js/lazysizes.min.js')}}" async></script>
+  <!-- Images End -->
 
   <!-- BUSCADORES -->
   <meta name="robots" content="noindex">
@@ -118,19 +120,19 @@
   <div class="row">
     <!-- Imagen contacto -->
     <div class="col-md-3 text-center">
-      <img class="img logollamada" src="/imagenes/llamada.png" alt="">
+      <img class="img  logollamada lazyload"  data-src="/imagenes/llamada.png" alt="">
     </div>
     <!-- Medios contacto -->
     <div class="col-md-9 ">
       <div class="row">
         <div class="col-md-6">
           <p>También en whatsapp</p>
-          <img class="img iconoWhats" src="/imagenes/whatsapp.png" alt="">
+          <img class="img iconoWhats lazyload" data-src="/imagenes/whatsapp.png" alt="">
           <a class="linkWhats" href="https://wa.me/34747410385?text=Hola%20!%20me%20interesa%20hacer%20una%20app">747410385</a>
         </div>
         <div class="col-md-6">
           <p>Llámanos</p>
-          <img class="img iconoWhats" src="/imagenes/whatsapp-blanco.png" alt="">
+          <img class="img iconoWhats lazyload" data-src="/imagenes/whatsapp-blanco.png" alt="">
           <a class="linkWhats" href="tel:747410385">747410385</a>
         </div>
       </div>
@@ -170,7 +172,7 @@
     <div class="row">
       <div class="col-sm-6 text-center">
         <a target="_blank" href="https://www.google.com/maps/place/Plaza+del+Dr.+Letamendi,+2,+08007+Barcelona/@41.3897567,2.15794,15.53z/data=!4m13!1m7!3m6!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!2sPlaza+del+Dr.+Letamendi,+2,+08007+Barcelona!3b1!8m2!3d41.3885805!4d2.1610856!3m4!1s0x12a4a28db53f0495:0xb37cb15cd638a6d!8m2!3d41.3885805!4d2.1610856">
-          <img class="imageGoogleMap" src="https://maps.googleapis.com/maps/api/staticmap?center=41.3897567,2.15794&zoom=12&size=400x400&maptype=roadmap
+          <img class="imageGoogleMap lazyload" data-src="https://maps.googleapis.com/maps/api/staticmap?center=41.3897567,2.15794&zoom=12&size=400x400&maptype=roadmap
       &style=color:red
       &key=AIzaSyAZRjU-Ul0mi2mMAzruvkpA1VIYfmpZuc0" alt="">
         </a>
@@ -204,21 +206,21 @@
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="imagenCuadrada letraBlanca">
-        <img src="/imagenes/usuarios.webp" alt="@yield('paso1')" width="400" height="300">
+        <img class="lazyload" data-src="/imagenes/usuarios.webp" alt="@yield('paso1')" width="400" height="300">
         <p><strong>@yield('paso1')</strong></p>
         <p>@yield('paso1definicion')</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="imagenCuadrada">
-        <img src="/imagenes/mano.webp" alt="@yield('paso1')" width="400" height="300">
+        <img class="lazyload" data-src="/imagenes/mano.webp" alt="@yield('paso1')" width="400" height="300">
         <p><strong>@yield('paso2')</strong></p>
         <p>@yield('paso2definicion')</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="imagenCuadrada">
-        <img src="/imagenes/ordenador-app.webp" alt="Paris" width="400" height="300">
+        <img class="lazyload" data-src="/imagenes/ordenador-app.webp" alt="Paris" width="400" height="300">
         <p><strong>@yield('paso3')</strong></p>
         <p>@yield('paso3definicion')</p>
       </div>
@@ -399,7 +401,7 @@
     <!-- Imagen -->
     <div class="row">
       <div class="contieneImagenTituloContact">
-        <img src="{{asset('imagenes/titulo-salteado.png')}}" alt="">
+        <img data-src="{{asset('imagenes/titulo-salteado.png')}}" class="lazyload" alt="">
       </div>
     </div>
     <!-- Formulario -->
@@ -482,30 +484,34 @@ los emprendedores y PRESUPUESTO GRATIS.
       </div>
 
     </div>
+    <div class="row">
+      <div class="wrapper">
+        <div class="icon facebook">
+          <div class="tooltip">Facebook</div>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </div>
+        <div class="icon twitter">
+          <div class="tooltip">Twitter</div>
+          <span><i class="fab fa-twitter"></i></span>
+        </div>
+        <div class="icon instagram">
+          <div class="tooltip">Instagram</div>
+          <span><i class="fab fa-instagram"></i></span>
+        </div>
+        <div class="icon github">
+          <div class="tooltip">Github</div>
+          <span><i class="fab fa-github"></i></span>
+        </div>
+        <div class="icon youtube">
+          <div class="tooltip">Youtube</div>
+          <span><i class="fab fa-youtube"></i></span>
+        </div>
+      </div>
+
+    </div>
   </div>
 
-  <div class="wrapper">
-    <div class="icon facebook">
-      <div class="tooltip">Facebook</div>
-      <span><i class="fab fa-facebook-f"></i></span>
-    </div>
-    <div class="icon twitter">
-      <div class="tooltip">Twitter</div>
-      <span><i class="fab fa-twitter"></i></span>
-    </div>
-    <div class="icon instagram">
-      <div class="tooltip">Instagram</div>
-      <span><i class="fab fa-instagram"></i></span>
-    </div>
-    <div class="icon github">
-      <div class="tooltip">Github</div>
-      <span><i class="fab fa-github"></i></span>
-    </div>
-    <div class="icon youtube">
-      <div class="tooltip">Youtube</div>
-      <span><i class="fab fa-youtube"></i></span>
-    </div>
-  </div>
+
 </footer>
 
 <script>

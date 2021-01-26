@@ -58,7 +58,7 @@
     <div class="col-sm-8">
 
       @yield('ptimerTexto')
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      
     </div>
     <div class="col-sm-4 text-center">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -314,8 +314,7 @@
 <!-- Container (Services Section) -->
 <div id="services" class="container-fluid text-center bg-grey">
   <div class="contenedor">
-    <h2>TESTEO QUE TE VEO</h2>
-    <h4>BLA BLA</h4>
+    <h2>Empieza a crear tu aplicación</h4>
     <br>
     <div class="row slideanim">
       <div class="col-sm-4">

@@ -19,7 +19,7 @@
     <div class="contieneBotonMobisoft">
       <a class="noLink" href="">
         <div class="BotonMobisoft">
-          Sí, empecemos
+          <span>Sí, empecemos</span>
         </div>
       </a>
     </div>

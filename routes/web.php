@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CityController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -15,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',      [CityController::class, 'common']);
+Route::get('/',      [HomeController::class, 'home']);
+Route::get('/city',      [CityController::class, 'common']);

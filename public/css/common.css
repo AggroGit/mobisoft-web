@@ -1,0 +1,12 @@
+:root {
+  --verde1: #00BC97;
+  --verde2: #1ad5b0;
+  --verdeClaro: #20f0c8;
+  /*  */
+  --lila: #ff45cd;
+  /*  */
+  --oscurito:#263238;
+  /* Set neon color */
+  --neon-text-color: #20f0c8;
+  --neon-border-color: #ff45cd;
+}

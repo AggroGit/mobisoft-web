@@ -265,6 +265,11 @@ footer .glyphicon {
   color: #ffffff;
   font-size: 2rem;
   font-weight: 100;
+  transition: all 0.2s ease;
+}
+.BotonMobisoft:hover {
+  box-shadow: 14px 14px var(--lila);
+  transform: rotate(45deg);
 }
 .noLink {
   text-decoration: none !important;

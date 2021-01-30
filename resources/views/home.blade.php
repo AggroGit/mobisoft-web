@@ -10,13 +10,17 @@
     @yield('head')
     <!-- STYLES -->
     <link href="{{ asset('css/common.css?v=0.2') }}" rel="stylesheet">
+    <link href="{{ asset('css/first.css?v=0.2') }}" rel="stylesheet">
   </head>
   <body>
     @yield('content')
-    <div class="content">
+    <div class="content | welcome">
       <h1>Mobisoft | Empresa de desarrollo de apps, software y webs a medida</h1>
       <span>Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
       <p>¿Quieres empezar ahora a crear una app que destaque?</p>
+      <a href="">
+        <button name="button">Sí, Empecemos</button>
+      </a>
     </div>
 
     <div class="content">

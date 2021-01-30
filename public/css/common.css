@@ -32,7 +32,30 @@ body {
 h1,h2,h3,h4,h5 {
   font-weight: 500;
 }
+a {
+  text-decoration: none !important;
+  font: 400 15px Mono, sans-serif;
+}
 .content {
+  width: 90%;
   margin: auto;
-  max-width: 1200px;
+  max-width: 1000px;
+
+}
+.entrelineado {
+      border-width: 2.4px;
+  padding: 30px;
+  margin: auto;
+  font-size: 1.2rem;
+  border-style: dashed none dashed none;
+
+}
+.linea-lila {
+   border-color: var(--lila);
+}
+.center {
+  text-align: center;
+}
+p {
+  line-height: 180%;
 }

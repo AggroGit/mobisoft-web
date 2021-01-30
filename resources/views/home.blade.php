@@ -16,10 +16,10 @@
     @yield('content')
     <div class="content | welcome">
       <h1>Mobisoft | Empresa de desarrollo de apps, software y webs a medida</h1>
-      <span>Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
-      <p>¿Quieres empezar ahora a crear una app que destaque?</p>
-      <a href="">
-        <button name="button">Sí, Empecemos</button>
+      <span class="entrelineado | linea-lila">Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
+      <p>¿Quieres empezar ahora a <br> crear una app que destaque?</p>
+      <a class="boton-lila | center" href="">
+        Sí, Empecemos
       </a>
     </div>
 

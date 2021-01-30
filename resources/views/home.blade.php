@@ -9,8 +9,8 @@
     <meta name="robots" content="noindex">
     @yield('head')
     <!-- STYLES -->
-    <link rel="preload" async href="{{ asset('css/common.css?v=0.2') }}" rel="stylesheet">
-    <link rel="preload" async href="{{ asset('css/first.css?v=0.2') }}" rel="stylesheet">
+    <link async href="{{ asset('css/common.css?v=0.2') }}" rel="stylesheet">
+    <link async href="{{ asset('css/first.css?v=0.2') }}" rel="stylesheet">
   </head>
   <body>
     @yield('content')

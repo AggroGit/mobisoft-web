@@ -45,8 +45,6 @@
           <p>Escritor y conferenciante</p>
         </div>
       </div>
-
-
     </div>
 
   </body>

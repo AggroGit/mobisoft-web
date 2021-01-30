@@ -29,3 +29,66 @@ h1 {
   box-shadow: 6px 6px var(--lila);
 
 }
+
+.contieneLema > p, .lema p, .quienCita p {
+  line-height: 100%;
+}
+.lema {
+  display: flex;
+
+  font-weight: 600;
+  color: #000000;
+}
+.lema span{
+  color: var(--lila);
+}
+q {
+  width: 100%;
+  color: #1A1F35;
+}
+.contieneLema {
+  padding: 0px 30px;
+  padding-bottom: 20px;
+  background: #FBFAE1;
+  width: 90%;
+  margin: auto;
+}
+.triangle {
+
+  bottom: 0;
+  left: 0;
+  margin-left: 6vw;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 0 20px;
+  border-color: #FBFAE1 transparent transparent transparent;
+  transform: translateY(-5px);
+
+}
+.citado {
+  display: flex;
+  margin-top: 10px;
+}
+.quienCita {
+  margin-top: 20px;
+}
+.citaimg img{
+  width: 100%;
+}
+.citaimg {
+  height: 80px;
+  width: 80px;
+  margin-left: 20px;
+  margin-right: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid 2px var(--verde1);
+}
+.quienCita span {
+  font-weight: 600;
+  color: var(--lila);
+}
+.quienCita p {
+  font-weight: lighter;
+}

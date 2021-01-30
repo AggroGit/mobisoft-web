@@ -27,7 +27,7 @@
 body {
   background: var(--fondoOscuro);
   color: var(--verdeBeix);
-  font: 400 15px Mono, sans-serif;
+  font: 400 1rem Mono, sans-serif;
 }
 h1,h2,h3,h4,h5 {
   font-weight: 500;
@@ -40,7 +40,7 @@ a {
   width: 90%;
   margin: auto;
   max-width: 1000px;
-
+  margin-top: 5vh;
 }
 .entrelineado {
       border-width: 2.4px;

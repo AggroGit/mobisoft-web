@@ -20,13 +20,17 @@
         <img src="{{asset('logos/mobisoft-mini.png')}}" alt="Mobility Software Solutions">
       </div>
     </nav>
-    <div class="content | welcome">
+    <div class="content | welcome | slideanim">
       <h1>Mobisoft | Empresa de desarrollo de apps, software y webs a medida</h1>
       <span class="entrelineado | linea-lila">Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
       <p>¿Quieres empezar ahora a <br> crear una app que destaque?</p>
       <a class="boton-lila | center" href="#test">
         Sí, Empecemos
       </a>
+    </div>
+
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <div class="content">
@@ -74,7 +78,7 @@
     </div>
 
 
-    <div class="content" id="test">
+    <div class="content slideanim" id="test">
       <div class="divided">
         <img class="divided-1-2 | img-rot" src="/imagenes/apps/collblanc.png" alt="">
         <div class="divided-1-2 | inlined">
@@ -86,6 +90,8 @@
 
 
     </div>
+
+
 
 
 
@@ -116,6 +122,26 @@
       divideds[i].style.display = "flex";
       // calculamos sus hijos
     }
+
+    // SCROLL SMOTH APPEAR
+    var elements = document.getElementsByClassName('slideanim');
+    window.onscroll = function() {checkSmothAppeares(elements)};
+    // initial
+    this.checkSmothAppeares(elements);
+    function checkSmothAppeares(elements) {
+      for (var i = 0; i < elements.length; i++) {
+        if(document.documentElement.scrollTop+600 >= elements[i].offsetTop || elements[i].offsetTop<=100){
+          elements[i].classList.add('slide')
+        }
+
+      }
+
+    }
+
+
+
+
+
 
 
 

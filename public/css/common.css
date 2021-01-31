@@ -11,6 +11,7 @@
   --neon-border-color: #ff45cd;
   /* Nuevo */
   --fondoOscuro: #232840;
+  --fondoOscurodARK: #1a1f35;
   --verdeBeix: #A3CACD;
 }
 
@@ -31,6 +32,7 @@ body {
   color: var(--verdeBeix);
   font: 400 1rem Mono, sans-serif;
   padding: 0;
+  margin: 0;
 }
 h1,h2,h3,h4,h5 {
   font-weight: 500;
@@ -165,4 +167,16 @@ p {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+}
+footer {
+  background: var(--fondoOscurodARK);
+  padding: 5%;
+  margin: 0;
+  width: 90%;
+  margin-top: 30vh;
+  font-weight: lighter;
+}
+footer p> span {
+  color: var(--lila);
+  font-weight: bold;
 }

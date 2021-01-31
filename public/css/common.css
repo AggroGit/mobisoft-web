@@ -44,7 +44,7 @@ a {
   margin-top: 5vh;
 }
 .entrelineado {
-      border-width: 2.4px;
+  border-width: 2.4px;
   padding: 30px;
   margin: auto;
   font-size: 1.2rem;
@@ -59,4 +59,48 @@ a {
 }
 p {
   line-height: 180%;
+}
+
+
+/* COLLAPSABLE */
+.collapsible {
+  cursor: pointer;
+  padding: 13px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+.active, .collapsible:hover {
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: var(--verdeBeix);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 2rem;
+  margin-top: -10px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.contentCollapsable {
+  padding: 0 13px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*  */
+
+.borde-linear{
+  border-width: 2.4px;
+  margin: auto;
+  font-size: 1.2rem;
+  border-style: dashed ;
 }

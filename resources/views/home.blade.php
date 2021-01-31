@@ -14,6 +14,12 @@
   </head>
   <body>
     @yield('content')
+
+    <nav>
+      <div class="icon">
+        <img src="{{asset('logos/mobisoft-mini.png')}}" alt="Mobility Software Solutions">
+      </div>
+    </nav>
     <div class="content | welcome">
       <h1>Mobisoft | Empresa de desarrollo de apps, software y webs a medida</h1>
       <span class="entrelineado | linea-lila">Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
@@ -46,6 +52,43 @@
         </div>
       </div>
     </div>
+
+    <div class="content">
+      <div class="borde-linear">
+        <h2 class="collapsible">Empresa desarrollo de software</h2>
+        <div class="contentCollapsable">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="content">
+      <div class="borde-linear">
+        <h2 class="collapsible">Empresa desarrollo de software</h2>
+        <div class="contentCollapsable">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+    // collapsable
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+    </script>
 
   </body>
 </html>

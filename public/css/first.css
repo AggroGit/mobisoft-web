@@ -93,3 +93,6 @@ q {
 .quienCita p {
   font-weight: lighter;
 }
+.img-rot {
+  transform: rotate(-24deg);
+}

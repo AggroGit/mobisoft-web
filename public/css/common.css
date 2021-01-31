@@ -86,10 +86,11 @@ p {
   margin-left: 5px;
   font-size: 2rem;
   margin-top: -10px;
+  transition: all 0.4s ease;
 }
 
 .active:after {
-  content: "\2212";
+  transform: rotate(135deg);
 }
 
 .contentCollapsable {
@@ -131,9 +132,4 @@ p {
 }
 .down-40 {
   margin-top: 40px;
-}
-.img-rot {
-  transform: rotate(
--24deg
-);
 }

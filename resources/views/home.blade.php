@@ -24,7 +24,7 @@
       <h1>Mobisoft | Empresa de desarrollo de apps, software y webs a medida</h1>
       <span class="entrelineado | linea-lila">Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
       <p>¿Quieres empezar ahora a <br> crear una app que destaque?</p>
-      <a class="boton-lila | center" href="">
+      <a class="boton-lila | center" href="#test">
         Sí, Empecemos
       </a>
     </div>
@@ -74,7 +74,7 @@
     </div>
 
 
-    <div class="content">
+    <div class="content" id="test">
       <div class="divided">
         <img class="divided-1-2 | img-rot" src="/imagenes/apps/collblanc.png" alt="">
         <div class="divided-1-2 | inlined">

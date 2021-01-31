@@ -37,6 +37,9 @@ a {
   text-decoration: none !important;
   font: 400 15px Mono, sans-serif;
 }
+a:visited {
+  color: inherit;
+}
 .content {
   margin: auto;
   max-width: 1000px;
@@ -97,10 +100,39 @@ p {
 }
 
 /*  */
-
+/* GRIDS */
 .borde-linear{
   border-width: 2.4px;
   margin: auto;
-  font-size: 1.2rem;
   border-style: dashed ;
+  transition: all 0.3s ease;
+}
+.lila-on-hover:hover {
+  border-color: var(--lila);
+}
+.divided-1-3 {
+  width: 33.3%;
+}
+.divided-1-2 {
+  width: 40%;
+  padding: 5%;
+}
+/*  */
+.boton-sencillo {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+}
+.inlined {
+  display: inline-block;
+}
+.inlined >* {
+  float: left;
+}
+.down-40 {
+  margin-top: 40px;
+}
+.img-rot {
+  transform: rotate(
+-24deg
+);
 }

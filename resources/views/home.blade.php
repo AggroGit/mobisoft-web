@@ -58,11 +58,12 @@
         <h2 class="collapsible">Empresa desarrollo de software</h2>
         <div class="contentCollapsable">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
       </div>
     </div>
 
-    
+
     <div class="content">
       <div class="borde-linear">
         <h2 class="collapsible">Empresa desarrollo de software</h2>
@@ -71,6 +72,24 @@
         </div>
       </div>
     </div>
+
+
+    <div class="content">
+      <div class="divided">
+        <img class="divided-1-2 | img-rot" src="/imagenes/apps/collblanc.png" alt="">
+        <div class="divided-1-2 | inlined">
+          <h2>Lorem ipsum</h2>
+          <p>These opinions paint a picture of a language getting more mature, but also more complex. And perhaps –at least while we struggle to keep up with the pace of change– a little less enjoyable?</p>
+          <a class="borde-linear | boton-sencillo | down-40" href="">Ver Portfolio</a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
 
     <script type="text/javascript">
     // collapsable
@@ -88,6 +107,18 @@
     }
   });
 }
+
+
+    // pruebas mias
+    var divideds = document.getElementsByClassName('divided');
+    // le ponemos flex
+    for (var i = 0; i < divideds.length; i++) {
+      divideds[i].style.display = "flex";
+      // calculamos sus hijos
+    }
+
+
+
     </script>
 
   </body>

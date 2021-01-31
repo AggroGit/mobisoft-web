@@ -121,6 +121,7 @@ p {
 .boton-sencillo {
   padding: 10px 30px;
   font-size: 1.2rem;
+  text-align: center;
 }
 .inlined {
   display: inline-block;

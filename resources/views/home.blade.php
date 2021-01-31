@@ -76,7 +76,7 @@
 
     <div class="content">
       <div class="divided">
-        <img class="divided-1-2 | img-rot" src="/imagenes/apps/collblanc.png" alt="">
+        <img class="divided-1-2 | img-rot" src="/imagenes/apps/collblanc.jpeg" alt="">
         <div class="divided-1-2 | inlined">
           <h2>Lorem ipsum</h2>
           <p>These opinions paint a picture of a language getting more mature, but also more complex. And perhaps –at least while we struggle to keep up with the pace of change– a little less enjoyable?</p>

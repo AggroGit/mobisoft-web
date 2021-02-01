@@ -41,10 +41,10 @@ a {
   text-decoration: none !important;
   font: 400 15px Mono, sans-serif;
 }
-a:visited {
+a, a:visited {
   color: inherit;
   text-decoration: none;
-  
+
 }
 .content {
   margin: auto;

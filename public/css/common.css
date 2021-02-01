@@ -33,6 +33,7 @@ body {
   font: 400 1rem Mono, sans-serif;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 h1,h2,h3,h4,h5 {
   font-weight: 500;
@@ -52,7 +53,6 @@ a, a:visited {
   max-width: 1000px;
   padding: 0px 50px;
   margin-top: 5vh;
-  overflow-x: hidden;
 }
 .entrelineado {
   border-width: 2.4px;
@@ -204,7 +204,6 @@ nav {
   .divided {
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
   }
   .divided >* {
     width: 100%;

@@ -52,6 +52,7 @@ a, a:visited {
   max-width: 1000px;
   padding: 0px 50px;
   margin-top: 5vh;
+  overflow-x: hidden;
 }
 .entrelineado {
   border-width: 2.4px;

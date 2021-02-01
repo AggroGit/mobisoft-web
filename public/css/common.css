@@ -180,3 +180,19 @@ footer p> span {
   color: var(--lila);
   font-weight: bold;
 }
+.contact {
+  color: var(--lila);
+  font-weight: bold;
+  float: right;
+  margin: auto;
+  margin-right: 0;
+}
+.neonhover:hover {
+  text-shadow: var(--lila) 0px 2px 7px;
+}
+nav {
+  display: flex;
+  width: calc(90%-4px);
+  padding: 4px 5%;
+
+}

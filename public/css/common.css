@@ -10,10 +10,11 @@
   --neon-text-color: #20f0c8;
   --neon-border-color: #ff45cd;
   /* Nuevo */
-  --fondoOscuro: #232840;
+  --fondoOscuro: #2d3352; /* #2d3352; */
   --fondoOscurodARK: #1a1f35;
   --fondoOscuroClaro: #4C5686;
   --verdeBeix: #A3CACD;
+  --blanquino: #363e3cc4;
 }
 
 
@@ -44,10 +45,13 @@ a {
   font: 400 15px Mono, sans-serif;
 }
 a, a:visited {
-  color: inherit;
+  color: var(--lila);
   text-decoration: none;
   transition: all 0.3s ease;
 
+}
+a:hover {
+  text-shadow: var(--lila) 0px 2px 7px;
 }
 .unselectable {
     -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
@@ -145,6 +149,11 @@ p {
   padding: 10px 30px;
   font-size: 1.2rem;
   text-align: center;
+  color: var(--verdeBeix) !important;
+}
+.boton-sencillo:hover {
+  border: solid 2.4px var(--lila);
+  color: var(--lila) !important;
 }
 .inlined {
   display: inline-block;
@@ -268,14 +277,15 @@ img {
   width: 60%;
 }
 .cita-form {
-  color: #014236c4;
+  color: var(--blanquino);
 }
 
 
 .form-title {
-  font-size: 4vw;
+  font-size: 4rem;
   color: #ffffff;
   padding: 20px;
+  padding-top: 0px;
 }
 .contieneFormulario {
   margin: auto;
@@ -304,6 +314,133 @@ textarea, input {
   opacity: 1; /* Firefox */
 }
 
+.checkbox {
+  display: inline-block;
+}
+.checkbox>* {
+  float: left;
+  width: auto;
+}
+
+.contienecheckandbutton {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+}
+.checkbox{
+  float: left;
+
+}
+.btn-form  {
+  float: right;
+
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.btn-form-b{
+  background: var(--lila);
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+
+.container-check {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container-check > a {
+  color: var(--lila);
+  opacity: 0.7;
+}
+.by-quote {
+  color: var(--blanquino);
+  width: 100% !important;
+  float: right;
+  font-size: 16px;
+  text-align: right;
+  margin-top: 25px;
+}
+
+/* Hide the browser's default checkbox */
+.container-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: var(--verdeClaro);
+}
+
+/* On mouse-over, add a grey background color */
+.container-check:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-check input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-check input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-check .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.checkbox {
+  margin-right: 0;
+}
+.titulos {
+  width: 100%;
+  text-align: center;
+}
 
 
 @media only screen and (max-width: 600px) {

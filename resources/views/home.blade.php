@@ -75,7 +75,7 @@
 
     <div class="content slideanim" id="test">
       <div class="divided">
-        <img class="divided-1-2 |  | unselectable" src="/imagenes/apps/collblanc.png" alt="">
+        <img class="divided-1-2 | phone-img | unselectable" src="/imagenes/apps/collblanc.png" alt="">
         <div class="divided-1-2 | inlined">
           <h2>Lorem ipsum</h2>
           <p>These opinions paint a picture of a language getting more mature, but also more complex. And perhaps –at least while we struggle to keep up with the pace of change– a little less enjoyable?</p>
@@ -98,8 +98,7 @@
             <p>Seguimos ordenando estas ideas antes de empezar el desarrollo de apps en Barcelona gracias al "card sorting”</p>
           </div>
           <div class="divided-1-2">
-            <img class="unselectable | " src="/desarrollo/idea-hacer-app.png" alt="">
-
+            <img class="unselectable " src="/desarrollo/idea-hacer-app.png" alt="">
           </div>
 
         </div>

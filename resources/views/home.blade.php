@@ -131,7 +131,7 @@
 
 
     <div class="contieneFormulario" >
-      <div id="contacto" class="slideanim | content-big" >
+      <div id="contacto" class="slideanim | content-big | agranda-en-pe" >
         <div class="formulario">
           <h4 class="form-title">Empieza a hacer crecer tu negocio con <span class="color-lila">Mobisoft</span></h4>
           <form class="" action="index.html" method="post">
@@ -145,6 +145,9 @@
               <div class="form-input">
                 <input placeholder="Teléfono" type="phone" name="phone" value="">
               </div>
+            </div>
+            <div class="form-input">
+              <input placeholder="Sobre tu proyecto" type="text" name="about" value="">
             </div>
           </form>
         </div>

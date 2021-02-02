@@ -178,12 +178,14 @@
 
     // SCROLL SMOTH APPEAR
     var elements = document.getElementsByClassName('slideanim');
-    window.onscroll = function() {checkSmothAppeares(elements)};
+    var altura = window.innerHeight*0.4;
+    window.onscroll = function() {checkSmothAppeares(elements,altura)};
     // initial
     this.checkSmothAppeares(elements);
-    function checkSmothAppeares(elements) {
+    function checkSmothAppeares(elements,altura) {
+
       for (var i = 0; i < elements.length; i++) {
-        if(document.documentElement.scrollTop+600 >= elements[i].offsetTop || elements[i].offsetTop<=100){
+        if(document.documentElement.scrollTop+altura >= elements[i].offsetTop || elements[i].offsetTop<=100){
           elements[i].classList.add('slide')
         }
       }

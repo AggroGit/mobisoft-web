@@ -130,8 +130,8 @@
     </div>
 
 
-    <div class="contieneFormulario" class="content-big | ">
-      <div id="contacto" class="slideanim" >
+    <div class="contieneFormulario" >
+      <div id="contacto" class="slideanim | content-big" >
         <div class="formulario">
           <h4 class="form-title">Empieza a hacer crecer tu negocio con <span class="color-lila">Mobisoft</span></h4>
           <form class="" action="index.html" method="post">

@@ -97,8 +97,9 @@ q {
   transform: rotate(-24deg);
 }
 @media only screen and (max-width: 600px) {
-  #proceso > div:nth-child(even)>div{
-    margin-top: 8vh;
-    flex-direction: row-reverse !important;
-  }
+
+}
+#proceso > div:nth-child(even)>div{
+  margin-top: 8vh;
+  flex-direction: row-reverse !important;
 }

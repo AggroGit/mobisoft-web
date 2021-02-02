@@ -130,8 +130,8 @@
     </div>
 
 
-    <div class="contieneFormulario" class="content-big | slideanim">
-      <div id="contacto" >
+    <div class="contieneFormulario" class="content-big | ">
+      <div id="contacto" class="slideanim" >
         <div class="formulario">
           <h4 class="form-title">Empieza a hacer crecer tu negocio con <span class="color-lila">Mobisoft</span></h4>
           <form class="" action="index.html" method="post">
@@ -151,7 +151,7 @@
         <div class="lado-form">
 
           <div class="quoted">
-            <img src="/desarrollo/quote.png" alt="">
+            <img class="unselectable" src="/desarrollo/quote.png" alt="">
           </div>
           <q class="cita-form" cite="">For me, working with a team of reliable, professional people is a major factor. I am really glad I found Mobisoft, a great team of pros, who outdid my expectations and were always available for new ideas.</q>
         </div>

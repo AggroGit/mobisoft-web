@@ -218,21 +218,7 @@ img {
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  .divided {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .divided >* {
-    width: 100%;
-  }
-  .bigger {
-    width: 100% !important;
-  }
-  .content-big {
-    padding: 0px 50px;
-  }
-}
+
 .bigger {
   width: 70%;
 }
@@ -284,7 +270,7 @@ img {
 
 
 .form-title {
-  font-size: 4rem;
+  font-size: 3.4em;
   color: #ffffff;
   padding: 20px;
 }
@@ -292,4 +278,38 @@ img {
   margin: auto;
   width: 100%;
   display: flex;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .divided {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .divided >* {
+    width: 100%;
+  }
+  .bigger {
+    width: 100% !important;
+  }
+  .content-big {
+    padding: 0px 50px;
+  }
+  #contacto {
+
+  }
+  .form-title {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+  .formulario {
+    border-radius:  40px ;
+    padding: 10px;
+    margin: auto;
+    width: 100%;
+  }
+  .lado-form  {
+    display: none !important;
+  }
 }

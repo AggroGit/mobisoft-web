@@ -48,11 +48,24 @@ a, a:visited {
   transition: all 0.3s ease;
 
 }
+.unselectable {
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+}
 .content {
   margin: auto;
   max-width: 1000px;
   padding: 0px 50px;
   margin-top: 5vh;
+}
+.content-big {
+  max-width: 1400px;
+  margin: auto;
 }
 .entrelineado {
   border-width: 2.4px;
@@ -198,8 +211,12 @@ nav {
   display: flex;
   width: calc(90%-4px);
   padding: 4px 5%;
-
 }
+img {
+  width: 100%;
+  height: auto;
+}
+
 @media only screen and (max-width: 600px) {
   .divided {
     display: flex;
@@ -208,4 +225,13 @@ nav {
   .divided >* {
     width: 100%;
   }
+  .bigger {
+    width: 100% !important;
+  }
+  .content-big {
+    padding: 0px 50px;
+  }
+}
+.bigger {
+  width: 70%;
 }

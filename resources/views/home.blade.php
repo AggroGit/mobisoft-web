@@ -127,10 +127,37 @@
 
         </div>
       </div>
-
-
-
     </div>
+
+
+    <div class="contieneFormulario" class="content-big | slideanim">
+      <div id="contacto" >
+        <div class="formulario">
+          <h4 class="form-title">Empieza a hacer crecer tu negocio con <span class="color-lila">Mobisoft</span></h4>
+          <form class="" action="index.html" method="post">
+            <div class="inputs-forms-divided">
+              <div class="form-input">
+                <input placeholder="Nombre" type="email" name="name">
+              </div>
+              <div class="form-input">
+                <input placeholder="Correo" type="name  " name="email" value="">
+              </div>
+              <div class="form-input">
+                <input placeholder="Teléfono" type="phone" name="phone" value="">
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="lado-form">
+
+          <div class="quoted">
+            <img src="/desarrollo/quote.png" alt="">
+          </div>
+          <q class="cita-form" cite="">For me, working with a team of reliable, professional people is a major factor. I am really glad I found Mobisoft, a great team of pros, who outdid my expectations and were always available for new ideas.</q>
+        </div>
+      </div>
+    </div>
+
 
 
 
@@ -181,7 +208,7 @@
     var altura = window.innerHeight*0.4;
     window.onscroll = function() {checkSmothAppeares(elements,altura)};
     // initial
-    this.checkSmothAppeares(elements);
+    this.checkSmothAppeares(elements,altura);
     function checkSmothAppeares(elements,altura) {
 
       for (var i = 0; i < elements.length; i++) {

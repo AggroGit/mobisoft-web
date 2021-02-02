@@ -100,6 +100,5 @@ q {
   #proceso > div:nth-child(even)>div{
     margin-top: 8vh;
     flex-direction: row-reverse !important;
-    background: red;
   }
 }

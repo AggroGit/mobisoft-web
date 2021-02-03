@@ -77,6 +77,7 @@ a:hover {
   padding: 30px;
   margin: auto;
   font-size: 1.2rem;
+
   border-style: dashed none dashed none;
 
 }
@@ -246,6 +247,7 @@ img {
   margin: auto;
   display: flex;
   max-width: 1100px;
+  padding-top: 5vh;
 
 }
 #contacto>div {
@@ -444,7 +446,16 @@ button, input[type="submit"], input[type="reset"] {
 .phone-img {
   height: 100%;
 }
-
+.hamb-menu {
+  margin-top: 7px !important;
+}
+.hamb-menu>span {
+  height: 4px !important;
+  background: var(--verdeBeix) !important;
+}
+.open >span {
+  background: var(--lila) !important;
+}
 
 @media only screen and (max-width: 600px) {
   .divided {

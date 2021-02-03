@@ -29,6 +29,9 @@ h1 {
   box-shadow: 6px 6px var(--lila);
 
 }
+.boton-lila:hover {
+  text-shadow: none !important;
+}
 
 .contieneLema > p, .lema p, .quienCita p {
   line-height: 100%;

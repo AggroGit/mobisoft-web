@@ -1,9 +1,9 @@
 <nav class="borde-linear | fixed">
   <div class="hamb-menu" id="nav-icon3">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
+    <span class="no-selectionable"></span>
+    <span class="no-selectionable"></span>
+    <span class="no-selectionable"></span>
+    <span class="no-selectionable"></span>
   </div>
   <div id="menuLi" class="menu">
     <ul class="listado-menu">
@@ -18,7 +18,6 @@
           <li> <a href="#">Opcion</a> </li>
         </ul>
       </li>
-
     </ul>
     <div class="bocata-help | borde-linear">
       <h5>¿Necesitas <span>ayuda</span> ?</h5>

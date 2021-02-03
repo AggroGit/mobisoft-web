@@ -54,12 +54,10 @@ a:hover {
   text-shadow:  0px 2px 7px;
 }
 .unselectable {
-    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -moz-user-select: none;
     -webkit-user-select: none;
-    -ms-user-select: none; /* From IE10 only */
-    user-select: none; /* Not valid CSS yet, as of July 2012 */
-
-    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    -ms-user-select: none;
+    user-select: none;
     user-drag: none;
 }
 .content {
@@ -185,6 +183,7 @@ p {
     border-style: dashed;
     border-top: none;
     border-left: 0;
+    overflow-y: scroll;
 }
 .menu-open {
     transform: translateX(0px);
@@ -204,8 +203,7 @@ p {
   padding-top: 10px;
   max-width: 400px;
   border-radius: 30px 30px 30px 0px;
-  margin-top: 60px;
-
+  margin-top: 50px;
 }
 .bocata-help > h5 {
   width: 100%;
@@ -536,6 +534,25 @@ button, input[type="submit"], input[type="reset"] {
 .android-helper > img {
   width: 140px !important;
 }
+.hamb-menu>span, .hamb-menu{
+   -moz-user-select: none !important;
+   -webkit-user-select: none !important;
+   -ms-user-select: none !important;
+   user-select: none !important;
+}
+.titleEspana {
+  margin-left: 5%;
+}
+.contieneBotonesPais {
+  flex-wrap: wrap;
+}
+.contieneBotonesPais > a {
+  float: left;
+  width: 30%;
+  margin: 15px;
+
+
+}
 
 @media only screen and (max-width: 600px) {
   .divided {
@@ -576,6 +593,21 @@ button, input[type="submit"], input[type="reset"] {
   .agranda-en-pe {
     width: 100%;
     padding: 0;
+  }
+  .bocata-help {
+    padding: 8px;
+    padding-bottom: 30px;
+  }
+  .contieneBotonesPais {
+    display: flex;
+  }
+  .contieneBotonesPais > a {
+    float: left;
+    width: 100%;
+    margin: 10px;
+
+
+
   }
 
 }

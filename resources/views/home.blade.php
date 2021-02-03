@@ -87,7 +87,6 @@
     </div>
 
     <div class="" id="proceso" >
-
       <div class="content-big | slideanim">
         <div class="titulos | slideanim">
           <h2>El proceso de desarrollo de software</h2>
@@ -135,6 +134,22 @@
       </div>
     </div>
 
+    <div class="content-big">
+      <h2 class="titleEspana">Estamos las ciudades más importantes de España</h2>
+      <div class="divided">
+        <div class="divided-1-2 | contieneBotonesPais">
+          <a class="borde-linear | boton-sencillo | down-40" href="">Barcelona</a>
+          <a class="borde-linear | boton-sencillo | down-40" href="">Madrid</a>
+          <a class="borde-linear | boton-sencillo | down-40" href="">Alicante</a>
+
+        </div>
+        <div class="divided-1-2">
+          <img class="unselectable | " src="/imagenes/espana/azul.png" alt="">
+        </div>
+
+      </div>
+    </div>
+
 
     <div class="contieneFormulario" >
       <div class="formFondo"></div>
@@ -160,7 +175,7 @@
 
             <div class="contienecheckandbutton">
               <div class="checkbox">
-                <label class="container-check   ">Aceptar política <a href="df ">de privacidad</a>
+                <label class="container-check">Aceptar política <a href="df ">de privacidad</a>
                   <input type="checkbox" >
                   <span class="checkmark"></span>
                 </label>

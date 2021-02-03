@@ -51,7 +51,7 @@ a, a:visited {
 
 }
 a:hover {
-  text-shadow: var(--lila) 0px 2px 7px;
+  text-shadow:  0px 2px 7px;
 }
 .unselectable {
     -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
@@ -170,14 +170,26 @@ p {
 
 /* MENU */
 .menu {
-  z-index: 999;
+
+    z-index: 999;
     position: fixed;
     background: var(--fondoOscuro);
     left: 0;top: 67px;
     height: 100%;
     padding: 7vw;
-    box-shadow: 20px 4px 20px 4px #2d3352;
+    /* box-shadow: 20px 4px 20px 4px #2d3352; */
+    transition: all 0.4s ease;
+    transform: translateX(-900px);
+    border-width: 2.4px;
+    margin: auto;
+    border-style: dashed;
+    border-top: none;
+    border-left: 0;
 }
+.menu-open {
+    transform: translateX(0px);
+}
+
 .fixed {
   z-index: 9999999 !important;
   position: fixed;
@@ -216,6 +228,10 @@ p {
   width: 100%;
   text-align: center;
   margin-top: 20px;
+}
+.listado-menu a{
+  font-size: 1.6rem;
+  color: var(--verdeBeix);
 }
 
 

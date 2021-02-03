@@ -5,14 +5,14 @@
     <span></span>
     <span></span>
   </div>
-  <div class="menu menu-open">
+  <div id="menuLi" class="menu">
     <ul class="listado-menu">
       <li> <a href="#">Desarrollo Apps</a> </li>
       <li> <a href="#">Desarrollo Web</a> </li>
       <li> <a href="#">Software</a> </li>
       <li> <a href="#">Portfolio</a> </li>
       <li>
-        <a href="#">dESPLEGABLE</a>
+        <a href="#">Desplegable</a>
         <ul>
           <li> <a href="#">Opcion</a> </li>
           <li> <a href="#">Opcion</a> </li>
@@ -48,11 +48,15 @@
 <script type="text/javascript">
 
   var open = false;
-  var menu = document.getElementById('nav-icon3')
+  var menu = document.getElementById('nav-icon3');
+
   menu.onclick = () => {
+    var menuLi = document.getElementById('menuLi')
     if(open) {
+      menuLi.classList.remove('menu-open');
       menu.classList.remove('open');
     }else {
+      menuLi.classList.add('menu-open');
       menu.classList.add('open');
     }
     open = !open;

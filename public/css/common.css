@@ -60,6 +60,9 @@ a:hover {
     user-select: none;
     user-drag: none;
 }
+.mapaEspana {
+  padding-top: 0 !important;
+}
 .content {
   margin: auto;
   max-width: 1000px;
@@ -605,8 +608,6 @@ button, input[type="submit"], input[type="reset"] {
     float: left;
     width: 100%;
     margin: 10px;
-
-
 
   }
 

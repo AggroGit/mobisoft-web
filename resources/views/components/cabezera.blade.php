@@ -30,7 +30,7 @@
         <span>Whatsapp</span>
       </div>
       <div class="android-helper">
-        <img src="/imagenes/android.png" alt="">
+        <img class="unselectable" src="/imagenes/android.png" alt="">
       </div>
     </div>
   </div>

@@ -33,7 +33,7 @@
       </div>
       <div class="divided-1-3">
         <div class="svg | web-svg">
-          <x-svg.web/>
+          <x-svg.rocket/>
         </div>
         <h3>Marketing y asesoramiento digital</h3>
       </div>

@@ -127,6 +127,7 @@ p {
 .servicesContent>div {
   margin: 10px;
   margin-top: 40px;
+  display: inline-table;
 }
 .svg {
   fill:var(--verdeClaro);

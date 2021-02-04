@@ -7,7 +7,7 @@
   </div>
   <div id="menuLi" class="menu">
     <ul class="listado-menu">
-      <li> <a href="#">Desarrollo Apps</a> </li>
+      <li> <a href="#">Desarrollo de Apps</a> </li>
       <li> <a href="#">Desarrollo Web</a> </li>
       <li> <a href="#">Software</a> </li>
       <li> <a href="#">Portfolio</a> </li>

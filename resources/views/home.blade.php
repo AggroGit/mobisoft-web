@@ -51,7 +51,7 @@
 
 
 
-      <div class="content slideanim" id="test">
+      <div class="content slideanim top10" id="test">
         <div class="divided">
           <img class="divided-1-2 | phone-img | unselectable" src="/imagenes/apps/collblanc.png" alt="">
           <div class="divided-1-2 | inlined">

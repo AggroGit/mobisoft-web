@@ -29,7 +29,7 @@
         <img src="/imagenes/whatsapp.png" alt="">
         <span>Whatsapp</span>
       </div>
-      <div class="android-helper">
+      <div id="android-helper" class="android-helper">
         <img class="unselectable" src="/imagenes/android.png" alt="">
       </div>
     </div>
@@ -48,15 +48,19 @@
 
   var open = false;
   var menu = document.getElementById('nav-icon3');
-
+  var android = document.getElementById('android-helper')
   menu.onclick = () => {
     var menuLi = document.getElementById('menuLi')
     if(open) {
       menuLi.classList.remove('menu-open');
       menu.classList.remove('open');
+      android.classList.remove('appear');
     }else {
       menuLi.classList.add('menu-open');
       menu.classList.add('open');
+      setTimeout(function(){ android.classList.add('appear'); }, 800);
+
+
     }
     open = !open;
 

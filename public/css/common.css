@@ -124,6 +124,32 @@ p {
 }
 .servicesContent>div {
   margin: 10px;
+  margin-top: 40px;
+}
+.svg {
+  fill:var(--verdeClaro);
+}
+.app-svg {
+  display: flex;
+  max-width: 300px;
+}
+.app-svg>svg:nth-child(2) {
+  float: left;
+  width: 300px;
+}
+.app-svg>svg:nth-child(1), .app-svg>svg:nth-child(3) {
+  position: ;
+  width: 40px;
+
+}
+.app-svg>svg:nth-child(1) {
+  transform: scale(4) rotate(-25deg) translateY(2px) translateX(-2px);
+}
+.app-svg>svg:nth-child(3) {
+  transform: scale(4) rotate(25deg) translateY(4px) translateX(2px);;
+}
+.down-60 {
+  margin-top: 60px !important;
 }
 
 /* COLLAPSABLE */
@@ -272,9 +298,7 @@ p {
   margin: auto;
 }
 
-.web-svg {
-  fill:var(--verdeClaro);
-}
+
 
 
 

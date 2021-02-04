@@ -1,5 +1,19 @@
-<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+<filter id="neon">
+    <feFlood flood-color="rgb(255,255,128)" flood-opacity="0.5" in="SourceGraphic" />
+    <feComposite operator="in" in2="SourceGraphic" />
+    <feGaussianBlur stdDeviation="10" />
+    <feComponentTransfer result="glow1">
+      <feFuncA type="linear" slope="4" intercept="0" />
+    </feComponentTransfer>
+    <feMerge>
+       <feMergeNode in="glow1" />
+       <feMergeNode in="SourceGraphic" />
+    </feMerge>
+  </filter>
+<svg filter="url(#neon)" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+
 <g>
 	<g>
 		<path d="M477.858,8.533H34.142C15.317,8.533,0,23.851,0,42.675v281.591c0,4.71,3.823,8.533,8.533,8.533h494.933

@@ -28,6 +28,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   background: var(--fondoOscuro);
@@ -140,13 +141,14 @@ p {
 .app-svg>svg:nth-child(1), .app-svg>svg:nth-child(3) {
   position: ;
   width: 40px;
+  max-height: 50px;
 
 }
 .app-svg>svg:nth-child(1) {
-  transform: scale(4) rotate(-25deg) translateY(2px) translateX(-2px);
+  transform: scale(4) rotate(-25deg) translateY(31px) translateX(-16px);
 }
 .app-svg>svg:nth-child(3) {
-  transform: scale(4) rotate(25deg) translateY(4px) translateX(2px);;
+  transform: scale(4) rotate(25deg) translateY(33px) translateX(16px);;
 }
 .down-60 {
   margin-top: 60px !important;
@@ -296,6 +298,7 @@ p {
 .svg {
   max-width: 200px;
   margin: auto;
+  height: 100% !important;
 }
 
 

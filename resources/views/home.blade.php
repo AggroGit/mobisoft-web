@@ -50,7 +50,7 @@
   </section>
   <section class="content ">
     <div class="borde-linear">
-      <h2 class="collapsible">Empresa de desarrollo de Apps</h2>
+      <h2 class="collapsible">Empresa de desarrollo de software</h2>
       <div class="contentCollapsable">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
@@ -58,7 +58,7 @@
   </section>
   <section class="content ">
     <div class="borde-linear">
-      <h2 class="collapsible">Empresa desarrollo de Webs</h2>
+      <h2 class="collapsible">Empresa desarrollo de software</h2>
       <div class="contentCollapsable">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>

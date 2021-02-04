@@ -604,12 +604,12 @@ button, input[type="submit"], input[type="reset"] {
   width: auto !important;
   display: flex;
   transform: translateX(-200%) translateY(100%) rotate(0deg);
-  transition: all 0.8s ease;
+  transition: all 0.6s ease;
 
 }
 .appear {
-  transform: translateX(-50%) translateY(100%) rotate(28deg);
-  transition: all 0.8s ease;
+  transform: translateX(-50%) translateY(100%) rotate(28deg) scale(1.2);
+  transition: all 0.6s ease;
 
 }
 .android-helper > img {

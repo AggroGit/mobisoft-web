@@ -93,6 +93,39 @@ p {
 }
 
 
+.boton-lila {
+  margin: auto;
+  background: red;
+  font-weight: 530;
+  padding: 15px 30px;
+  font-size: 1rem;
+  color: #ffffff !important;
+  background: var(--verde1);
+  border-radius: 5px;
+  box-shadow: 6px 6px var(--lila);
+
+}
+.boton-lila:hover {
+  text-shadow: none !important;
+  box-shadow: 16px 16px var(--lila);
+  padding: 16px 35px;
+}
+#services {
+  margin-top: 80px;
+}
+#services > div > div h3 {
+  font-size: 1.8rem;
+  width: 100%;
+  text-align: center;
+  max-width: 280px;
+  margin: auto;
+  margin-top: 20px;
+
+}
+.servicesContent>div {
+  margin: 10px;
+}
+
 /* COLLAPSABLE */
 .collapsible {
   cursor: pointer;
@@ -232,6 +265,15 @@ p {
 .listado-menu a{
   font-size: 1.6rem;
   color: var(--verdeBeix);
+}
+
+.svg {
+  max-width: 200px;
+  margin: auto;
+}
+
+.web-svg {
+  fill:var(--verdeClaro);
 }
 
 

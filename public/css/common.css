@@ -186,7 +186,6 @@ p {
     border-style: dashed;
     border-top: none;
     border-left: 0;
-    overflow-y: scroll;
 }
 .menu-open {
     transform: translateX(0px);

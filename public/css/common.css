@@ -165,7 +165,7 @@ p {
   float: left;
 }
 .down-40 {
-  margin-top: 40px;
+  margin-top: 40px !important;
 }
 
 
@@ -552,8 +552,23 @@ button, input[type="submit"], input[type="reset"] {
   float: left;
   width: 30%;
   margin: 15px;
+}
+.titleSubtitle {
+  text-align: center;
+  margin: auto;
+}
+.titleSubtitle h1 {
+  font-size: 3rem;
+}
+.titleSubtitle p {
+  font-size: 1.4rem;
 
-
+}
+.titleSubtitle > a {
+  margin-top: 200px;
+}
+.first {
+  margin-top: 60px;
 }
 
 @media only screen and (max-width: 600px) {

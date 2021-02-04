@@ -1,17 +1,21 @@
 @extends('layouts.app')
 @section('content')
 
-  <div class="content-big | slideanim">
+  <section class="content-big | slideanim | first">
     <div class="divided">
-      <div class="divided-1-2 ">
-        <img class="unselectable | " src="/desarrollo/interfaz-app.png" alt="">
+      <div class="divided-1-2  | titleSubtitle">
+        <h1>Apps, software y webs a medida</h1>
+        <p>Somos verdaderos expertos en crear proyectos para tu negocio y hacer realidad tu idea</p>
+        <br>
+        <a class="boton-lila | center | down-40" href="#contacto">
+          Empecemos
+        </a>
       </div>
-      <div class="divided-1-2">
-        <h2>Interfaz y experiencia de usuario</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="divided-1-2 ">
+        <img class="unselectable | " src="/desarrollo/mobisoft-desarrollo.png" alt="">
       </div>
     </div>
-  </div>
+  </section>
 
 
   <x-nosotros/>

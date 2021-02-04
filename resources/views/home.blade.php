@@ -29,7 +29,7 @@
         <div class="svg | app-svg">
           <x-svg.app/>
         </div>
-        <h3 class="down-60">Apps para Android y iPhone</h3>
+        <h3 class="down">Apps para Android y iPhone</h3>
       </div>
       <div class="divided-1-3">
         <div class="svg | web-svg">

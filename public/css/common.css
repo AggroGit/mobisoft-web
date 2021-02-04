@@ -136,7 +136,7 @@ p {
 }
 .svg:hover {
   fill:var(--lila);
-  filter: drop-shadow(0px 3px 3px var(--lila));
+  filter: drop-shadow(0px 2px 13px var(--lila));
 
 }
 .app-svg {

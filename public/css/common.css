@@ -641,6 +641,9 @@ button, input[type="submit"], input[type="reset"] {
 .first {
   margin-top: 60px;
 }
+.top10 {
+  margin-top: 20vh;
+}
 
 @media only screen and (max-width: 600px) {
   .divided {

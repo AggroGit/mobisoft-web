@@ -1,4 +1,4 @@
-<div id="encuentranos"  class="content-big | slideanim">
+<div id="encuentranos"  class="content-big | slideanim | top10">
   <h2 class="titleEspana">Estamos las ciudades más importantes de España</h2>
   <div class="divided">
     <div class="divided-1-2 | contieneBotonesPais">

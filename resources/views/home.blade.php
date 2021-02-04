@@ -62,7 +62,11 @@
         </div>
       </div>
 
-      <div class="" id="proceso" >
+
+
+      <x-nosotros/>
+
+      <!-- <div class="" id="proceso" >
         <div class="content-big | slideanim">
           <div class="titulos | slideanim">
             <h2>El proceso de desarrollo de software</h2>
@@ -108,7 +112,7 @@
 
           </div>
         </div>
-      </div>
+      </div> -->
 
 
       <x-mapa/>

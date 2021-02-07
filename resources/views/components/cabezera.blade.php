@@ -1,4 +1,4 @@
-<nav class="borde-linear | fixed">
+<nav class="fixed">
   <div class="hamb-menu" id="nav-icon3">
     <span class="no-selectionable"></span>
     <span class="no-selectionable"></span>
@@ -40,7 +40,7 @@
   </div>
   <div class="icon">
     <a href="/">
-      <img src="{{asset('logos/mobisoft-mini.png')}}" alt="Mobility Software Solutions">
+      <img class="logo-max" src="{{asset('logos/mobisoft-logo-letras.png')}}" alt="Mobility Software Solutions">
     </a>
   </div>
   <div class="contact | neonhover">

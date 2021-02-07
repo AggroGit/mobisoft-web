@@ -65,12 +65,10 @@
   <x-contact/>
 
 
-  <section id="portfolio" class="slideanim">
-
+  <section id="portfolio" class="">
     <h3 class="center | tituloPortfolio">Portafolio Proyectos de Software, Webs y Apps</h3>
-
     <div class="portfolio-element" id="collblanc">
-      <div class="divided">
+      <div class="divided | slideanim">
         <div class="divided-1-2">
           <h4 class="titlePortfolio">Mercat Collblanc Shopping Center</h4>
           <p class="subtitle-portfolio">Funciones principales:</p>
@@ -95,7 +93,7 @@
 
 
     <div class="portfolio-element" id="vuitntas">
-      <div class="divided">
+      <div class="divided | slideanim">
         <div class="divided-1-2">
           <img class="phone-img | unselectable" src="/imagenes/apps/vuitantas.png" alt="">
         </div>
@@ -119,7 +117,7 @@
 
 
     <div class="portfolio-element" id="dipper">
-      <div class="divided">
+      <div class="divided | slideanim">
         <div class="divided-1-2">
           <h4 class="titlePortfolio">GRUPO DIPER</h4>
           <p class="subtitle-portfolio">Funciones principales:</p>
@@ -136,14 +134,46 @@
         </div>
       </div>
     </div>
+  </section>
 
 
+  <section class="content-big | slideanim">
+    <div class="contienetitlePasos">
+      <h3 class="center">¿Cómo Empezamos un Proyecto de Programación?</h3>
+      <h4 class="center">Los 3 pasos obligatorios antes de empezar</h4>
+    </div>
+    <div class="divided">
+      <div class="divided-1-3">
+        <div class="content-proceso">
+          <x-svg.web/>
+          <h3 class="center">1. Definir el usuario objetivo</h3>
+          <p class="center">Definir al usuario objetivo permite enfocar el software desde el inicio a las personas que realmente lo van a utilizar.</p>
+        </div>
+      </div>
+
+      <div class="divided-1-3">
+        <div class="content-proceso">
+          <x-svg.ux/>
+          <h3 class="center">2. Trabajar la UI/UX en los diseños</h3>
+          <p class="center">Definir al usuario objetivo permite enfocar el software desde el inicio a las personas que realmente lo van a utilizar.</p>
+        </div>
+      </div>
+
+      <div class="divided-1-3">
+        <div class="content-proceso">
+          <x-svg.list/>
+          <h3 class="center">3. Definición de objetivos</h3>
+          <p class="center">La tarea más clara para facilitar el entendimiento del proyecto y potenciar sus puntos fuertes es la definición de objetivos</p>
+        </div>
+      </div>
+
+    </div>
 
   </section>
 
 
 
-  <div class="" id="proceso" >
+  <section class="" id="proceso" >
     <div class="content-big | slideanim">
       <div class="titulos | slideanim">
         <h2>El proceso de desarrollo de software</h2>
@@ -189,7 +219,78 @@
 
       </div>
     </div>
-  </div>
+  </section>
+
+
+  <section  id="trust_us">
+    <div class="content">
+      <h3>Ya confían en nosotros</h3>
+    </div>
+    <div class="content-big">
+
+    </div>
+
+    <div class="content-big | contieneClientes">
+      <div class="contiene_trust">
+        <img src="/imagenes/clientes/ajuntament_barcelona.png" alt="">
+      </div>
+      <div class="contiene_trust">
+        <img src="/imagenes/clientes/zincobs.png" alt="">
+      </div>
+      <div class="contiene_trust">
+        <img src="/imagenes/clientes/aftermarketing.png" alt="">
+      </div>
+      <div class="contiene_trust">
+        <img src="/imagenes/clientes/collblanc.png" alt="">
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+
+  <section class="contieneFormulario | top10" >
+    <div id="contacto" class="slideanim | content-big | agranda-en-pe" >
+      <div class="formulario">
+        <h4 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h4>
+        <form class="" action="index.html" method="post">
+          <div class="inputs-forms-divided">
+            <div class="form-input">
+              <input placeholder="Nombre*" type="email" name="name">
+            </div>
+            <div class="form-input">
+              <input placeholder="Correo*" type="name  " name="email" value="">
+            </div>
+            <div class="form-input">
+              <input placeholder="Teléfono*" type="phone" name="phone" value="">
+            </div>
+          </div>
+          <div class="form-input">
+            <input placeholder="Sobre tu proyecto" type="text" name="about" value="">
+          </div>
+
+
+          <div class="contienecheckandbutton">
+            <div class="checkbox">
+              <label class="container-check">Aceptar política <a href="df ">de privacidad</a>
+                <input type="checkbox" >
+                <span class="checkmark"></span>
+              </label>
+            </div>
+            <div class="btn-form">
+              <button class="btn-form-b" type="submit" name="button">Enviar</button>
+            </div>
+          </div>
+
+        </form>
+      </div>
+      <div class="lado-form">
+
+      </div>
+  </section>
+
 
 
 

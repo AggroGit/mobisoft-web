@@ -47,11 +47,5 @@
         <span>747410385</span>
       </a>
 
-      <!-- <div class="quoted">
-        <img class="unselectable" src="/desarrollo/quote.png" alt="">
-      </div>
-      <q class="cita-form" cite="">For me, working with a team of reliable, professional people is a major factor. I am really glad I found Mobisoft, a great team of pros, who outdid my expectations and were always available for new ideas.</q>
-      <span class="by-quote">Someone Random</span>
-    </div> -->
   </div>
 </section>

@@ -17,21 +17,7 @@ h1 {
   font-size: 2.3rem;
 }
 
-.boton-lila {
-  margin: auto;
-  background: red;
-  font-weight: 530;
-  padding: 15px 30px;
-  font-size: 1rem;
-  color: #ffffff !important;
-  background: var(--verde1);
-  border-radius: 5px;
-  box-shadow: 6px 6px var(--lila);
 
-}
-.boton-lila:hover {
-  text-shadow: none !important;
-}
 
 .contieneLema > p, .lema p, .quienCita p {
   line-height: 100%;
@@ -100,8 +86,5 @@ q {
   transform: rotate(-24deg);
 }
 @media only screen and (max-width: 600px) {
-  #proceso > div:nth-child(even)>div{
-    margin-top: 8vh;
-    flex-direction: column-reverse;
-  }
+
 }

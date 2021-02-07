@@ -601,6 +601,9 @@ button, input[type="submit"], input[type="reset"] {
   width: 100%;
   text-align: center;
 }
+.tituloParrafo{
+  font-size: 2rem !important;
+}
 .phone-img {
   height: 100%;
 }
@@ -869,6 +872,13 @@ button, input[type="submit"], input[type="reset"] {
 .logo-max {
   max-height: 50px;
   width: auto;
+}
+.flex {
+  display: flex;
+}
+.flex > img {
+  height: auto;
+  margin: auto;
 }
 
 

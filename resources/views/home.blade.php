@@ -12,7 +12,7 @@
           Sí, contactar
         </a>
       </div>
-      <div class="divided-1-2 ">
+      <div class="divided-1-2 | flex">
         <img class="unselectable | " src="/desarrollo/mobisoft-desarrollo.png" alt="">
       </div>
     </div>
@@ -139,7 +139,7 @@
 
   <section class="content-big | slideanim">
     <div class="contienetitlePasos">
-      <h3 class="center">¿Cómo Empezamos un Proyecto de Programación?</h3>
+      <h3 class="center | tituloParrafo">¿Cómo Empezamos un Proyecto de Programación?</h3>
       <h4 class="center">Los 3 pasos obligatorios antes de empezar</h4>
     </div>
     <div class="divided">
@@ -175,8 +175,8 @@
 
   <section class="" id="proceso" >
     <div class="content-big | slideanim">
-      <div class="titulos | slideanim">
-        <h2>El proceso de desarrollo de software</h2>
+      <div class="titulos | slideanim | ">
+        <h2 class="tituloParrafo">El proceso de desarrollo de software</h2>
         <h3>5 puntos de inflexión para ser un éxito</h3>
       </div>
       <div class="divided">

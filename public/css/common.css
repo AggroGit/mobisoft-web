@@ -242,7 +242,7 @@ p {
 /* MENU */
 .menu {
 
-    z-index: 999;
+    z-index: 99999;
     position: fixed;
     background: var(--fondoOscuro);
     left: 0;top: 67px;
@@ -268,7 +268,7 @@ p {
   top: 0;
   width: calc(90vw - 5px);
 }
-.bocata-help {
+.bocata-help, .info-bocata{
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
@@ -276,25 +276,29 @@ p {
   max-width: 400px;
   border-radius: 30px 30px 30px 0px;
   margin-top: 50px;
+
 }
-.bocata-help > h5 {
+#ayudaMenu {
+  transition: all 0.4s ease;
+}
+.bocata-help > div > h5 {
   width: 100%;
   text-align: center;
   font-size: 1.4rem;
 }
-.bocata-help > div> img {
+.bocata-help > div>div> img {
   width: 30px;
   margin: auto;
 }
 .bocata-help > h5> span  {
   color: var(--lila);
 }
-.bocata-help > div {
+.bocata-help > div> div {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
 }
-.bocata-help > div> span {
+.bocata-help > div>div> span {
   width: 100%;
   text-align: center;
   margin-top: 20px;
@@ -410,12 +414,13 @@ img {
 }
 .lado-form {
  width: 25% ;
- background: var(--verdeClaro);
+ background: var(--verde1);
  float: left;
  color: #ffffff !important;
  padding: 30px;
  border-radius: 0px 40px 40px 0px;
- font-size: 1.3rem;
+ font-weight: normal;
+
 
 }
 .quoted {
@@ -432,10 +437,12 @@ img {
 
 
 .form-title {
-  font-size: 4rem;
+  font-size: 3.6rem;
   color: #ffffff;
   padding: 20px;
   padding-top: 0px;
+  font-weight: 600;
+  margin: inherit;
 }
 .contieneFormulario {
   margin: auto;
@@ -611,6 +618,7 @@ button, input[type="submit"], input[type="reset"] {
   display: flex;
   transform: translateX(-100%) translateY(100%) rotate(0deg);
   transition: all 0.6s ease;
+  margin-top: 60px;
 
 }
 .appear {
@@ -618,8 +626,13 @@ button, input[type="submit"], input[type="reset"] {
   transition: all 0.6s ease;
 
 }
+.opaco {
+  opacity: 0;
+  transition: all
+}
 .android-helper > img {
   width: 140px !important;
+
 
 }
 .hamb-menu>span, .hamb-menu{
@@ -643,12 +656,14 @@ button, input[type="submit"], input[type="reset"] {
 .titleSubtitle {
   text-align: center;
   margin: auto;
+  padding-right: 0 !important;
+  width: 50% !important;
 }
 .titleSubtitle h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
-.titleSubtitle p {
-  font-size: 1.4rem;
+.titleSubtitle p, .titleSubtitle span{
+  font-size: 1.2rem;
 
 }
 .titleSubtitle > a {
@@ -660,6 +675,79 @@ button, input[type="submit"], input[type="reset"] {
 .top10 {
   margin-top: 10vh;
 }
+.contieneWhatsapp-form {
+  margin: auto;
+  display: flex;
+}
+.contieneWhatsapp-form > * {
+  margin-top: auto;
+  margin-bottom: auto;
+  float:left;
+  color: #ffffff;
+
+}
+.contieneWhatsapp-form span {
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+.contieneWhatsapp-form  svg{
+  width: 100%;
+  max-width: 40px;
+  height: auto;
+  fill: #ffffff;
+}
+.cenet {
+  text-align: center;
+}
+
+.portfolio-element ul {
+  font-weight: normal;
+}
+.portfolio-element li {
+  margin-top: 20px;
+}
+.portfolio-element {
+  padding: 10vh 0vh 10vh 0vh;
+}
+.portfolio-element>.divided {
+  max-width: 1200px;
+  margin: auto;
+}
+.collblanc {
+  transform: scale(1.5);
+}
+.titlePortfolio {
+  font-size: 1.7rem;
+}
+.subtitle-portfolio {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+#portfolio {
+  margin-top: 10vh;
+}
+#collblanc {
+  background: #4152B4;
+  color: #ffffff;
+  margin-top: 0;
+  padding-top: 0;
+}
+.tituloPortfolio {
+  background: #4152B4;;
+  margin: 0;
+  padding: 10vh;
+  font-size: 2rem;
+  color: #ffffff;
+}
+#vuitntas {
+  background: #f14d85;
+  color: #ffffff;
+}
+#dipper {
+  background: #000000;
+  color: #ffffff;
+  padding-bottom: 0;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -668,7 +756,7 @@ button, input[type="submit"], input[type="reset"] {
     flex-wrap: wrap;
   }
   .divided >* {
-    width: 100%;
+    width: 100% !important;
   }
   .bigger {
     width: 100% !important;

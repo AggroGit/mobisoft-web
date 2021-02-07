@@ -6,7 +6,7 @@
     <span class="no-selectionable"></span>
   </div>
   <div id="menuLi" class="menu">
-    <ul class="listado-menu">
+    <!-- <ul class="listado-menu">
       <li> <a href="#">Desarrollo de Apps</a> </li>
       <li> <a href="#">Desarrollo Web</a> </li>
       <li> <a href="#">Software</a> </li>
@@ -18,17 +18,21 @@
           <li> <a href="#">Opcion</a> </li>
         </ul>
       </li>
-    </ul>
-    <div class="bocata-help | borde-linear">
-      <h5>¿Necesitas <span>ayuda</span> ?</h5>
-      <div class="">
-        <img class="phone-menu" src="/imagenes/phone.png" alt="">
-        <span>Te llamamos gratis</span>
+    </ul> -->
+    <div  class="bocata-help  ">
+      <div id="ayudaMenu" class="info-bocata | borde-linear | opaco">
+        <h5>¿Necesitas <span>ayuda</span> ?</h5>
+        <div class="">
+          <img class="phone-menu" src="/imagenes/phone.png" alt="">
+          <span>Te llamamos gratis</span>
+        </div>
+        <div class="">
+          <img src="/imagenes/whatsapp.png" alt="">
+          <span>Whatsapp</span>
+        </div>
       </div>
-      <div class="">
-        <img src="/imagenes/whatsapp.png" alt="">
-        <span>Whatsapp</span>
-      </div>
+
+
       <div id="android-helper" class="android-helper">
         <img class="unselectable" src="/imagenes/android.png" alt="">
       </div>
@@ -49,16 +53,19 @@
   var open = false;
   var menu = document.getElementById('nav-icon3');
   var android = document.getElementById('android-helper')
+  var ayuda = document.getElementById('ayudaMenu')
   menu.onclick = () => {
     var menuLi = document.getElementById('menuLi')
     if(open) {
       menuLi.classList.remove('menu-open');
       menu.classList.remove('open');
       android.classList.remove('appear');
+      ayuda.classList.add('opaco');
     }else {
       menuLi.classList.add('menu-open');
       menu.classList.add('open');
-      setTimeout(function(){ android.classList.add('appear'); }, 800);
+      setTimeout(function(){ android.classList.add('appear'); }, 400);
+      setTimeout(function(){ ayuda.classList.remove('opaco'); }, 800);
 
 
     }

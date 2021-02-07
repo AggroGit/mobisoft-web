@@ -1,18 +1,17 @@
-<section class="contieneFormulario" >
-  <div class="formFondo"></div>
+<section class="contieneFormulario | top10" >
   <div id="contacto" class="slideanim | content-big | agranda-en-pe" >
     <div class="formulario">
-      <h4 class="form-title">Empieza a hacer crecer tu negocio con <span class="color-lila">Mobisoft</span></h4>
+      <h4 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h4>
       <form class="" action="index.html" method="post">
         <div class="inputs-forms-divided">
           <div class="form-input">
-            <input placeholder="Nombre" type="email" name="name">
+            <input placeholder="Nombre*" type="email" name="name">
           </div>
           <div class="form-input">
-            <input placeholder="Correo" type="name  " name="email" value="">
+            <input placeholder="Correo*" type="name  " name="email" value="">
           </div>
           <div class="form-input">
-            <input placeholder="Teléfono" type="phone" name="phone" value="">
+            <input placeholder="Teléfono*" type="phone" name="phone" value="">
           </div>
         </div>
         <div class="form-input">
@@ -35,11 +34,24 @@
       </form>
     </div>
     <div class="lado-form">
-      <div class="quoted">
+      <h3>¿Necesitas ayuda con tu presupuesto ahora?</h3>
+      <p>Disponibles de 9.00 a 19:00 horas de lunes a viernes para asesorarte gratuitamente sobre tu proyecto. Si lo prefieres también atendemos por Whats App.</p>
+      <h4>¡Llámanos!</h4>
+      <a class="contieneWhatsapp-form">
+        <x-svg.whatsapp/>
+        <span>747410385</span>
+      </a>
+      <h4>¡También en whatsapp!</h4>
+      <a class="contieneWhatsapp-form">
+        <x-svg.whatsapp/>
+        <span>747410385</span>
+      </a>
+
+      <!-- <div class="quoted">
         <img class="unselectable" src="/desarrollo/quote.png" alt="">
       </div>
       <q class="cita-form" cite="">For me, working with a team of reliable, professional people is a major factor. I am really glad I found Mobisoft, a great team of pros, who outdid my expectations and were always available for new ideas.</q>
       <span class="by-quote">Someone Random</span>
-    </div>
+    </div> -->
   </div>
 </section>

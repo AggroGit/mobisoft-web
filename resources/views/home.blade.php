@@ -121,17 +121,14 @@
     <div class="portfolio-element" id="dipper">
       <div class="divided">
         <div class="divided-1-2">
-          <h4 class="titlePortfolio">Mercat Collblanc Shopping Center</h4>
+          <h4 class="titlePortfolio">GRUPO DIPER</h4>
           <p class="subtitle-portfolio">Funciones principales:</p>
           <ul>
-            <li>Buscador y filtros avanzados</li>
-            <li>Login con redes sociales</li>
-            <li>App tipo Market Place</li>
-            <li>Notificaciones push</li>
-            <li>Chat integrado</li>
-            <li>Compras in-app con solo 3 clics</li>
-            <li>E-Payments con TPV virtual </li>
-            <li>Noticias</li>
+            <li>Fácil de gestionar</li>
+            <li>Venta 100% online</li>
+            <li>Publicación de proyectos como portafolio</li>
+            <li>Contacto para generar <em>leads</em></li>
+
           </ul>
         </div>
         <div class="divided-1-2">
@@ -143,6 +140,56 @@
 
 
   </section>
+
+
+
+  <div class="" id="proceso" >
+    <div class="content-big | slideanim">
+      <div class="titulos | slideanim">
+        <h2>El proceso de desarrollo de software</h2>
+        <h3>5 puntos de inflexión para ser un éxito</h3>
+      </div>
+      <div class="divided">
+        <div class="divided-1-2 | textproceso">
+          <h2>Conceptualización de la idea</h2>
+          <p>Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
+        </div>
+        <div class="divided-1-2">
+          <img class="unselectable " src="/desarrollo/idea-hacer-app.png" alt="">
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="content-big | slideanim">
+      <div class="divided">
+        <div class="divided-1-2 ">
+          <img class="unselectable | " src="/desarrollo/interfaz-app.png" alt="">
+        </div>
+        <div class="divided-1-2 | textproceso">
+          <h2>Interfaz y experiencia de usuario</h2>
+          <p>Seguimos ordenando estas ideas antes de empezar el desarrollo de apps en Barcelona gracias al “card sorting”.</p>
+          <p>Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="content-big | slideanim">
+      <div class="divided">
+        <div class="divided-1-2 | textproceso">
+          <h2>Programación y publicación</h2>
+            <p>En Mobility Software Solutions utilizamos las tecnologías más punteras como son Flutter para el desarrollo Android y iOS, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
+            <p>Todas nuestras entregas ya sean desarrollos de software, apps o web pasan por un proceso de <em>testing</em>.</p>
+        </div>
+        <div class="divided-1-2">
+          <img class="unselectable | " src="/desarrollo/publicar-tu-app.png" alt="">
+        </div>
+
+      </div>
+    </div>
+  </div>
 
 
 

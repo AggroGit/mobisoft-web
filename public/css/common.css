@@ -748,6 +748,12 @@ button, input[type="submit"], input[type="reset"] {
   color: #ffffff;
   padding-bottom: 0;
 }
+#proceso p{
+  font-weight: normal;
+}
+.textproceso {
+  margin-top: 8vh;
+}
 
 
 @media only screen and (max-width: 600px) {

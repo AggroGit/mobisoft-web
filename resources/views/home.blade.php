@@ -8,7 +8,7 @@
         <span>Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
         <p>Operamos con total normalidad a pesar de la situación actual. ¿Buscas presupuesto gratuito?</p>
         <br>
-        <a class="boton-lila | center | down-40" href="#contacto">
+        <a class="boton-lila | center | down-40" href="#presupuestar">
           Sí, contactar
         </a>
       </div>
@@ -248,14 +248,34 @@
   </section>
 
 
+<section class="presupuestoAll" id="presupuestar">
+  <div class="coniteneimg-form | top10">
+    <img src="/logos/mobisoft-logo.png" alt="">
+  </div>
 
-
-
-  <section class="contieneFormulario | top10" >
-    <div id="contacto" class="slideanim | content-big | agranda-en-pe" >
+  <div class="contieneFormulario" >
+    <div id="presupuesto" class="content-big | agranda-en-pe" >
       <div class="formulario">
-        <h4 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h4>
+        <h4 class="title-presupuesto">Somos expertos a tu servicio</h4>
+        <ol>
+          <li>Llevamos +5 años haciendo aplicaciones móviles con una relación calidad/precio inmejorable.</li>
+          <li>Nuestros clientes vuelven a confiar en nosotros para sus futuros desarrollos tanto webs como móviles.</li>
+          <li>No subcontratamos desarrolladores de otros países, todo el equipo es interno.</li>
+        </ol>
+        <h4 class="title-presupuesto">¡Gracias por interactuar con nosotros!</h4>
+        <p>Incluímos en tu presupuesto de manera totalmente gratuita:</p>
+        <ul>
+          <li>2 horas de consultoría para tu idea.</li>
+          <li>Wireframe + 1 revisión.</li>
+          <li>1 revisión adicional.</li>
+          <li>Prototyping</li>
+        </ul>
+
+      </div>
+      <div class="lado-form">
         <form class="" action="index.html" method="post">
+          <h3 class="title-presu">¿Quieres empezar un proyecto?</h3>
+          <p class="desc-form">Apostamos por la transparencia y la honestidad,si buscas un equipo de confianza estás en el lugar correcto. Nos adaptamos al covid19 con MEJORES PRECIOS para los emprendedores y <br> <span>PRESUPUESTO GRATUITO</span>.</p>
           <div class="inputs-forms-divided">
             <div class="form-input">
               <input placeholder="Nombre*" type="email" name="name">
@@ -286,10 +306,10 @@
 
         </form>
       </div>
-      <div class="lado-form">
+  </div>
+</section>
 
-      </div>
-  </section>
+
 
 
 

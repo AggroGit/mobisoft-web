@@ -117,6 +117,7 @@
 
 
 
+
     <div class="portfolio-element" id="dipper">
       <div class="divided">
         <div class="divided-1-2">

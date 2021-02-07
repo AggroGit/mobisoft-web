@@ -40,7 +40,7 @@
   </div>
   <div class="icon">
     <a href="/">
-      <img class="logo-max" src="{{asset('logos/mobisoft-logo-letras.png')}}" alt="Mobility Software Solutions">
+      <img id="logo" class="logo-max" src="{{asset('logos/mobisoft-logo-letras.png')}}" alt="Mobility Software Solutions">
     </a>
   </div>
   <div class="contact | neonhover">
@@ -72,4 +72,28 @@
     open = !open;
 
   }
+  logo();
+  window.addEventListener("resize", logo);
+  // window.addEventListener("scroll", resizeLogo);
+  function logo() {
+    if(window.innerWidth <= 600) {
+      var logo = document.getElementById('logo')
+      logo.src = "logos/mobisoft-mini.png"
+    } else {
+      var logo = document.getElementById('logo')
+      logo.src = "logos/mobisoft-logo-letras.png"
+    }
+
+  }
+  function resizeLogo() {
+    if(document.documentElement.scrollTop == 0 ) {
+      var logo = document.getElementById('logo')
+      logo.src = "logos/mobisoft-logo-letras.png"
+    } else {
+      var logo = document.getElementById('logo')
+      logo.src = "logos/mobisoft-mini.png"
+    }
+
+  }
+
 </script>

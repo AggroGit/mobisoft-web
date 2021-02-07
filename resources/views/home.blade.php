@@ -250,7 +250,7 @@
 
 <section class="presupuestoAll" id="presupuestar">
   <div class="coniteneimg-form | top10">
-    <img src="/logos/mobisoft-logo.png" alt="">
+    <img src="/logos/mobisoft-logo.png" alt="Mobility Software Solutions">
   </div>
 
   <div class="contieneFormulario" >

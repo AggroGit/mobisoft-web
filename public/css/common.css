@@ -817,6 +817,7 @@ button, input[type="submit"], input[type="reset"] {
   display: flex;
   max-width: 1100px;
   padding-top: 5vh;
+  margin-bottom: 5vh;
 
 }
 #presupuesto>div {

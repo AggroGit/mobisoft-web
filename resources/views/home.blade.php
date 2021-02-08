@@ -242,10 +242,12 @@
         <img src="/imagenes/clientes/aftermarketing.png" alt="">
       </div>
       <div class="contiene_trust">
+        <img src="/imagenes/clientes/barcelona_open_data.png" alt="">
+      </div>
+      <div class="contiene_trust">
         <img src="/imagenes/clientes/collblanc.png" alt="">
       </div>
     </div>
-
   </section>
 
 

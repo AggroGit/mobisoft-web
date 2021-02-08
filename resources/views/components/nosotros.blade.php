@@ -7,9 +7,9 @@
   </div>
   <div class="triangle"></div>
   <div class="citado">
-    <div class="citaimg">
+    <!-- <div class="citaimg">
       <img src="/imagenes/Stephen.jpg" alt="Stephen R. Covey">
-    </div>
+    </div> -->
     <div class="quienCita">
       <span>Stephen R. Covey</span>
       <p>Escritor y conferenciante</p>

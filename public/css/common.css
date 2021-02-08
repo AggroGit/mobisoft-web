@@ -642,8 +642,12 @@ button, input[type="submit"], input[type="reset"] {
 }
 .android-helper > img {
   width: 140px !important;
+  height: 100%;
 
 
+}
+svg {
+  height: 100% !important;
 }
 .hamb-menu>span, .hamb-menu{
    -moz-user-select: none !important;
@@ -768,7 +772,8 @@ button, input[type="submit"], input[type="reset"] {
 }
 .content-proceso {
   padding: 50px;
-  display: grid;
+  display: inline-block;
+  text-align: center;
 }
 .contienetitlePasos {
   padding: 50px;

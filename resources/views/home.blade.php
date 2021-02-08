@@ -184,7 +184,7 @@
           <h2>Conceptualización de la idea</h2>
           <p>Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
         </div>
-        <div class="divided-1-2">
+        <div class="divided-1-2 | flex">
           <img class="unselectable " src="/desarrollo/idea-hacer-app.png" alt="">
         </div>
 
@@ -194,7 +194,7 @@
 
     <div class="content-big | slideanim">
       <div class="divided">
-        <div class="divided-1-2 ">
+        <div class="divided-1-2 | flex">
           <img class="unselectable | " src="/desarrollo/interfaz-app.png" alt="">
         </div>
         <div class="divided-1-2 | textproceso">
@@ -214,7 +214,7 @@
             <p>Todas nuestras entregas ya sean desarrollos de software, apps o web pasan por un proceso de <em>testing</em>.</p>
         </div>
         <div class="divided-1-2">
-          <img class="unselectable | " src="/desarrollo/publicar-tu-app.png" alt="">
+          <img class="unselectable | flex " src="/desarrollo/publicar-tu-app.png" alt="">
         </div>
 
       </div>

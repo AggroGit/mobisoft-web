@@ -34,7 +34,7 @@
 
 
       <div id="android-helper" class="android-helper">
-        <img class="unselectable" src="/imagenes/android-relleno.png" alt="">
+        <img class="unselectable" src="/imagenes/android-relleno.png" alt="Android Dark" title="Android Dark">
       </div>
     </div>
   </div>

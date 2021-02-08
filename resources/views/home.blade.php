@@ -26,7 +26,7 @@
     <p>¿Qué es lo que mejor nos define? Sin duda alguna la transparencia. Adecuamos cada proyecto a tu presupuesto </b>para conseguir el mejor resultado.</b> Sentirás desde el primer momento que somos mucho más que una empresa, <strong>somos tu propio equipo de desarrollo de aplicaciones.</strong></p>
   </section>
 
-  <section class="content | slideanim">
+  <section class="content | slideanim ">
     <div class="borde-linear">
       <h2 class="collapsible">Empresa Desarrollo de Software</h2>
       <div class="contentCollapsable">
@@ -38,7 +38,7 @@
     </div>
   </section>
 
-  <section class="content | slideanim">
+  <section class="content | slideanim | griuped">
     <div class="borde-linear">
       <h2 class="collapsible">Empresa Desarrollo de apps</h2>
       <div class="contentCollapsable">
@@ -49,7 +49,7 @@
     </div>
   </section>
 
-  <section class="content | slideanim">
+  <section class="content | slideanim | griuped">
     <div class="borde-linear">
       <h2 class="collapsible">Empresa Desarrollo de webs</h2>
       <div class="contentCollapsable">

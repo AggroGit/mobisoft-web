@@ -930,8 +930,13 @@ button, input[type="submit"], input[type="reset"] {
     margin: auto;
     width: 95%;
   }
-  .lado-form  {
-    display: none !important;
+  .lado-form, #presupuesto > .formulario  {
+    display: none;
+  }
+  #presupuesto > .lado-form {
+    width: 100%;
+    border-radius: 40px;
+
   }
   .form-input {
     width: 100% !important;

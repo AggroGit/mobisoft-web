@@ -18,7 +18,6 @@
           <input placeholder="Breve descripción de tu proyecto" type="text" name="about" value="">
         </div>
 
-
         <div class="contienecheckandbutton">
           <div class="checkbox">
             <label class="container-check">Aceptar política <a href="df ">de privacidad</a>

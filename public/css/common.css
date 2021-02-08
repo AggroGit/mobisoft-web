@@ -323,7 +323,7 @@ p {
 
 
 /* ANIMATION */
-.slideanim {visibility:hidden;}
+/* .slideanim {visibility:hidden;}
 .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
@@ -351,7 +351,7 @@ p {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
-}
+} */
 footer {
   background: var(--footerCol);
   padding: 5%;

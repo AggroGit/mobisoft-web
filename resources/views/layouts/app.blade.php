@@ -105,20 +105,20 @@
       // calculamos sus hijos
     }
 
-    // SCROLL SMOTH APPEAR
-    var elements = document.getElementsByClassName('slideanim');
-    var altura = window.innerHeight*0.8;
-    window.onscroll = function() {checkSmothAppeares(elements,altura)};
-    // initial
-    this.checkSmothAppeares(elements,altura);
-    function checkSmothAppeares(elements,altura) {
-
-      for (var i = 0; i < elements.length; i++) {
-        if(document.documentElement.scrollTop+altura >= elements[i].offsetTop || elements[i].offsetTop<=100){
-          elements[i].classList.add('slide')
-        }
-      }
-    }
+    // // SCROLL SMOTH APPEAR
+    // var elements = document.getElementsByClassName('slideanim');
+    // var altura = window.innerHeight*0.8;
+    // window.onscroll = function() {checkSmothAppeares(elements,altura)};
+    // // initial
+    // this.checkSmothAppeares(elements,altura);
+    // function checkSmothAppeares(elements,altura) {
+    //
+    //   for (var i = 0; i < elements.length; i++) {
+    //     if(document.documentElement.scrollTop+altura >= elements[i].offsetTop || elements[i].offsetTop<=100){
+    //       elements[i].classList.add('slide')
+    //     }
+    //   }
+    // }
 
 
 

@@ -37,12 +37,12 @@
       <h3>¿Necesitas ayuda con tu presupuesto ahora?</h3>
       <p>Disponibles de 9.00 a 19:00 horas de lunes a viernes para asesorarte gratuitamente sobre tu proyecto. Si lo prefieres también atendemos por Whats App.</p>
       <h4>¡Llámanos!</h4>
-      <a class="contieneWhatsapp-form" href="tel:+34747410385">
+      <a class="contieneWhatsapp-form" rel="nofollow" href="tel:+34747410385">
         <x-svg.phone/>
         <span>747410385</span>
       </a>
       <h4>¡También en whatsapp!</h4>
-      <a class="contieneWhatsapp-form" href="https://wa.me/34747410385?text=Hola%20!%20me%20interesa%20hacer%20una%20app">
+      <a class="contieneWhatsapp-form" rel="nofollow" href="https://wa.me/34747410385?text=Hola%20!%20me%20interesa%20hacer%20una%20app">
         <x-svg.whatsapp/>
         <span>747410385</span>
       </a>

@@ -131,7 +131,7 @@
           </ul>
         </div>
         <div class="divided-1-2">
-          <img class="phone-img | unselectable" src="/imagenes/apps/collblanc-2.png" alt="">
+          <img class="phone-img | unselectable" src="/imagenes/apps/dipper.png" alt="">
         </div>
       </div>
     </div>
@@ -233,19 +233,19 @@
 
     <div class="content-big | contieneClientes">
       <div class="contiene_trust">
-        <img src="/imagenes/clientes/ajuntament_barcelona.png" alt="">
+        <img src="/imagenes/clientes/ajuntament_barcelona.png" alt="Ayuntamiento de Barcelona Open Data" title="Ayuntamiento de Barcelona logo">
       </div>
       <div class="contiene_trust">
-        <img src="/imagenes/clientes/zincobs.png" alt="">
+        <img src="/imagenes/clientes/zincobs.png" alt="Zincobs" title="Zincobs logo">
       </div>
       <div class="contiene_trust">
-        <img src="/imagenes/clientes/aftermarketing.png" alt="">
+        <img src="/imagenes/clientes/aftermarketing.png" alt="AfterMarketing" title="Aftermarketing logo">
       </div>
       <div class="contiene_trust">
-        <img src="/imagenes/clientes/barcelona_open_data.png" alt="">
+        <img src="/imagenes/clientes/barcelona_open_data.png" alt="Barcelona Open Data" alt="Barcelona open data logo">
       </div>
       <div class="contiene_trust">
-        <img src="/imagenes/clientes/collblanc.png" alt="">
+        <img src="/imagenes/clientes/collblanc.png" alt="Collblanc app" title="Collblanc app logo">
       </div>
     </div>
   </section>

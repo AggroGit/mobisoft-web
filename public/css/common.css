@@ -723,10 +723,12 @@ svg {
 .portfolio-element {
   padding: 10vh 0vh 10vh 0vh;
 }
+
 .portfolio-element>.divided {
   max-width: 1200px;
   margin: auto;
 }
+
 .collblanc {
   transform: scale(1.5);
 }
@@ -760,9 +762,11 @@ svg {
   color: #ffffff;
 }
 #dipper {
-  background: #000000;
+  background: #151b22;
   color: #ffffff;
   padding-bottom: 0;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
 }
 #proceso p{
   font-weight: normal;

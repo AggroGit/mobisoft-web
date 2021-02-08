@@ -957,5 +957,10 @@ button, input[type="submit"], input[type="reset"] {
     margin-top: 5vh;
     flex-direction: column-reverse;
   }
+  .tituloPortfolio {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
 
 }

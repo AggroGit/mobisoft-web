@@ -30,11 +30,46 @@
 
 
     <footer>
+      <div class="content-big | footercolumnas">
+        <div class="columnafooter">
+          <h5>Legal</h5>
+          <ul>
+            <li>
+              <a href="#">Política de cookies</a>
+            </li>
+            <li>
+              <a href="#">Política de cookies</a>
+            </li>
+            <li>
+              <a href="#">Política de cookies</a>
+            </li>
+          </ul>
+        </div>
+        <div class="columnafooter">
+          <h5>Legal</h5>
+          <ul>
+            <li>
+              <a href="#">Política de cookies</a>
+            </li>
+            <li>
+              <a href="#">Política de cookies</a>
+            </li>
+            <li>
+              <a href="#">Política de cookies</a>
+            </li>
+          </ul>
+        </div>
+        <div class="columnafooter | righted">
+          <a class="ionosCol" rel="nofollow" href="https://partnernetwork.ionos.es/partner/mobility.software.solutions?origin=PartnerBadge">
+            <img src="/imagenes/normal_white_eco.svg" alt="IONOS - Colaborador oficial">
+          </a>
+        </div>
+      </div>
 
-        <p>Made with ❤️ by <span>Mobisoft</span> </p>
-        <a class="ionosCol" rel="nofollow" href="https://partnernetwork.ionos.es/partner/mobility.software.solutions?origin=PartnerBadge">
-          <img src="/imagenes/normal_white_eco.svg" alt="IONOS - Colaborador oficial">
-        </a>
+
+
+
+        <p class="love">Made with ❤️ by <span>Mobisoft</span> </p>
 
     </footer>
 

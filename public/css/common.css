@@ -15,6 +15,7 @@
   --fondoOscuroClaro: #4C5686;
   --verdeBeix: #A3CACD;
   --blanquino: #363e3cc4;
+  --footerCol:#151A2F;
 }
 
 
@@ -353,13 +354,14 @@ p {
   }
 }
 footer {
-  background: var(--fondoOscurodARK);
+  background: var(--footerCol);
   padding: 5%;
   margin: 0;
   width: 90%;
   font-weight: lighter;
   display: inline-block;
   flex-wrap: wrap;
+  padding-top: 10vh;
 }
 footer p> span {
   color: var(--lila);
@@ -885,8 +887,34 @@ button, input[type="submit"], input[type="reset"] {
 .ionosCol {
   float: right;
   max-width: 150px;
+  margin: 30px;
 }
-
+.righted {
+  float: right !important;
+}
+.columnafooter > h5 {
+  font-size: 1.2rem;
+}
+.columnafooter ul{
+  list-style: none;
+}
+.columnafooter ul > li> a {
+  color: var(--verdeBeix);
+}
+.columnafooter ul>li{
+  list-style: thai;
+}
+.footercolumnas {
+  width: 100%;
+  display: inline-block;
+}
+.columnafooter {
+  float: left;
+  margin-left: 20px ;
+}
+.love {
+  margin: 50px 0px 20px 0px;
+}
 
 @media only screen and (max-width: 600px) {
   .content-proceso {
@@ -930,13 +958,12 @@ button, input[type="submit"], input[type="reset"] {
     margin: auto;
     width: 95%;
   }
-  .lado-form, #presupuesto > .formulario  {
+  #contacto > .lado-form, #presupuesto > .formulario  {
     display: none;
   }
   #presupuesto > .lado-form {
     width: 100%;
     border-radius: 40px;
-
   }
   .form-input {
     width: 100% !important;
@@ -973,5 +1000,30 @@ button, input[type="submit"], input[type="reset"] {
     padding-right: 0;
     padding-bottom: 0;
   }
+  .ionosCol {
+    margin: auto;
+    float: none;
+    margin-top: 20px;
+    max-width: 100px !important;
+  }
+  .righted {
+    float: left !important;
+    width: auto;
+    margin-left: 0px;
+    display: flex;
+  }
+  .columnafooter {
+    width: 100%;
+  }
+  .ionosCol >img {
+    max-width: 100px;
+  }
+  .footercolumnas {
+    padding: 0 !important;
+  }
+  .love {
+    text-align: center;
+  }
+
 
 }

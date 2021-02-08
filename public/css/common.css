@@ -98,7 +98,6 @@ p {
 
 .boton-lila {
   margin: auto;
-  background: red;
   font-weight: 530;
   padding: 15px 30px;
   font-size: 1rem;
@@ -561,7 +560,7 @@ button, input[type="submit"], input[type="reset"] {
   left: 0;
   height: 25px;
   width: 25px;
-  background-color: var(--verdeClaro);
+  background-color: #e0f9f4;
 }
 
 /* On mouse-over, add a grey background color */

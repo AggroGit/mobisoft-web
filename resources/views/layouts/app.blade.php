@@ -107,7 +107,7 @@
 
     // SCROLL SMOTH APPEAR
     var elements = document.getElementsByClassName('slideanim');
-    var altura = window.innerHeight*0.6;
+    var altura = window.innerHeight*0.8;
     window.onscroll = function() {checkSmothAppeares(elements,altura)};
     // initial
     this.checkSmothAppeares(elements,altura);

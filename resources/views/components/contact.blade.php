@@ -8,14 +8,14 @@
             <input placeholder="Nombre*" type="email" name="name">
           </div>
           <div class="form-input">
-            <input placeholder="Correo*" type="name  " name="email" value="">
+            <input placeholder="Email*" type="name  " name="email" value="">
           </div>
           <div class="form-input">
             <input placeholder="Teléfono*" type="phone" name="phone" value="">
           </div>
         </div>
         <div class="form-input">
-          <input placeholder="Sobre tu proyecto" type="text" name="about" value="">
+          <input placeholder="Breve descripción de tu proyecto" type="text" name="about" value="">
         </div>
 
 
@@ -39,12 +39,12 @@
       <h4>¡Llámanos!</h4>
       <a class="contieneWhatsapp-form" rel="nofollow" href="tel:+34747410385">
         <x-svg.phone/>
-        <span>747410385</span>
+        <span>+34 747 410 385</span>
       </a>
       <h4>¡También en whatsapp!</h4>
       <a class="contieneWhatsapp-form" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola%20!%20me%20interesa%20hacer%20una%20app">
         <x-svg.whatsapp/>
-        <span>747410385</span>
+        <span>+34 747 410 385</span>
       </a>
 
   </div>

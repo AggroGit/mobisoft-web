@@ -284,14 +284,14 @@
               <input placeholder="Nombre*" type="email" name="name">
             </div>
             <div class="form-input">
-              <input placeholder="Correo*" type="name  " name="email" value="">
+              <input placeholder="Email*" type="name  " name="email" value="">
             </div>
             <div class="form-input">
               <input placeholder="Teléfono*" type="phone" name="phone" value="">
             </div>
           </div>
           <div class="form-input">
-            <input placeholder="Sobre tu proyecto" type="text" name="about" value="">
+            <input placeholder="Breve descripción de tu proyecto" type="text" name="about" value="">
           </div>
 
 

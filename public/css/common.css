@@ -358,6 +358,8 @@ footer {
   margin: 0;
   width: 90%;
   font-weight: lighter;
+  display: inline-block;
+  flex-wrap: wrap;
 }
 footer p> span {
   color: var(--lila);
@@ -879,6 +881,10 @@ button, input[type="submit"], input[type="reset"] {
 .flex > img {
   height: auto;
   margin: auto;
+}
+.ionosCol {
+  float: right;
+  max-width: 150px;
 }
 
 

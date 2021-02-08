@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('title',"Mobisoft")
 @section('content')
 
   <section class="content-big | slideanim | first">

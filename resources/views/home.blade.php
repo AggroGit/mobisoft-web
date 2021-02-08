@@ -95,9 +95,7 @@
 
     <div class="portfolio-element" id="vuitntas">
       <div class="divided | slideanim">
-        <div class="divided-1-2">
-          <img class="phone-img | unselectable" src="/imagenes/apps/vuitantas.png" alt="">
-        </div>
+
         <div class="divided-1-2">
           <h4 class="titlePortfolio">Vuitantas 80’s</h4>
           <p class="subtitle-portfolio">Funciones principales:</p>
@@ -107,6 +105,9 @@
             <li>Ofertas</li>
             <li>Notificaciones push</li>
             <li>Gestión de pedidos vía back-office</li>
+        </div>
+        <div class="divided-1-2">
+          <img class="phone-img | unselectable" src="/imagenes/apps/vuitantas.png" alt="">
         </div>
 
       </div>

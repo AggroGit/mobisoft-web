@@ -14,7 +14,7 @@
         </a>
       </div>
       <div class="divided-1-2 | flex">
-        <img class="unselectable | " src="/desarrollo/nuevo.png" alt="">
+        <img class="unselectable | " src="/desarrollo/nuevo.png " alt="">
       </div>
     </div>
   </section>
@@ -187,7 +187,7 @@
           <p>Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
         </div>
         <div class="divided-1-2 | flex">
-          <img class="unselectable " src="/desarrollo/idea-hacer-app.png" alt="">
+          <img class="unselectable " src="/desarrollo/usuario-objetivo.png" alt="">
         </div>
 
       </div>
@@ -197,7 +197,7 @@
     <div class="content-big | slideanim">
       <div class="divided">
         <div class="divided-1-2 | flex">
-          <img class="unselectable | " src="/desarrollo/interfaz-app.png" alt="">
+          <img class="unselectable | " src="/desarrollo/ui-original.png" alt="">
         </div>
         <div class="divided-1-2 | textproceso">
           <h2>Interfaz y experiencia de usuario</h2>
@@ -216,7 +216,7 @@
             <p>Todas nuestras entregas ya sean desarrollos de software, apps o web pasan por un proceso de <em>testing</em>.</p>
         </div>
         <div class="divided-1-2">
-          <img class="unselectable | flex " src="/desarrollo/publicar-tu-app.png" alt="">
+          <img class="unselectable | flex " src="/desarrollo/publicar-app.png" alt="">
         </div>
 
       </div>

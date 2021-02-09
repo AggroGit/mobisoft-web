@@ -247,7 +247,7 @@ p {
     position: fixed;
     background: var(--fondoOscuro);
     left: 0;
-    top: 61px;
+    top: 55px;
     height: 100%;
     padding: 7vw;
     /* box-shadow: 20px 4px 20px 4px #2d3352; */
@@ -611,7 +611,7 @@ button, input[type="submit"], input[type="reset"] {
   font-size: 2rem !important;
 }
 .phone-img {
-  height: 100%;
+  /* height: 100%; */
 }
 .hamb-menu {
   margin-top: 7px !important;
@@ -767,9 +767,7 @@ svg {
 #dipper {
   background: #151b22;
   color: #ffffff;
-  padding-bottom: 0;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+
 }
 #proceso p{
   font-weight: normal;
@@ -891,8 +889,9 @@ svg {
   background: var(--fondoOscurodARK);
 }
 .logo-max {
-  max-height: 50px;
+  max-height: 38px;
   width: auto;
+  margin-top: 6px;
 }
 .flex {
   display: flex;
@@ -939,6 +938,8 @@ svg {
   font-weight: bold;
   font-size: 1.1rem;
   transition: all 0.3s ease;
+}
+.portfolio-element {
 }
 
 @media only screen and (max-width: 600px) {

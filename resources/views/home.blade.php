@@ -14,7 +14,7 @@
         </a>
       </div>
       <div class="divided-1-2 | flex">
-        <img class="unselectable | " src="/desarrollo/mobisoft-desarrollo.png" alt="">
+        <img class="unselectable | " src="/desarrollo/nuevo.png" alt="">
       </div>
     </div>
   </section>

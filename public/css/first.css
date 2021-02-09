@@ -36,11 +36,11 @@ q {
   color: #1A1F35;
 }
 .contieneLema {
-  padding: 0px 30px;
-  padding-bottom: 20px;
+  padding: 0px 30px 20px 30px;
   background: #FBFAE1;
-  width: 90%;
+  width: calc(100% - 60px);
   margin: auto;
+  border-radius: 3px;
 }
 .triangle {
 

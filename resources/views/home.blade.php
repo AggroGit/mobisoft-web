@@ -68,30 +68,6 @@
 
   <section id="portfolio" class="">
     <h3 class="center | tituloPortfolio">Portafolio Proyectos de Software, Webs y Apps</h3>
-    <div class="portfolio-element" id="collblanc">
-      <div class="divided | slideanim">
-        <div class="divided-1-2">
-          <h4 class="titlePortfolio">Mercat Collblanc Shopping Center</h4>
-          <p class="subtitle-portfolio">Funciones principales:</p>
-          <ul>
-            <li>Buscador y filtros avanzados</li>
-            <li>Login con redes sociales</li>
-            <li>App tipo Market Place</li>
-            <li>Notificaciones push</li>
-            <li>Chat integrado</li>
-            <li>Compras in-app con solo 3 clics</li>
-            <li>E-Payments con TPV virtual </li>
-            <li>Noticias</li>
-          </ul>
-        </div>
-        <div class="divided-1-2">
-          <img class="phone-img | unselectable" src="/imagenes/apps/collblanc-2.png" alt="">
-        </div>
-      </div>
-    </div>
-
-
-
 
     <div class="portfolio-element" id="vuitntas">
       <div class="divided | slideanim">
@@ -117,6 +93,38 @@
 
 
 
+    <div class="separador"></div>
+    <div class="portfolio-element" id="collblanc">
+
+      <div class="divided | slideanim">
+        <div class="divided-1-2">
+          <h4 class="titlePortfolio">Mercat Collblanc Shopping Center</h4>
+          <p class="subtitle-portfolio">Funciones principales:</p>
+          <ul>
+            <li>Buscador y filtros avanzados</li>
+            <li>Login con redes sociales</li>
+            <li>App tipo Market Place</li>
+            <li>Notificaciones push</li>
+            <li>Chat integrado</li>
+            <li>Compras in-app con solo 3 clics</li>
+            <li>E-Payments con TPV virtual </li>
+            <li>Noticias</li>
+          </ul>
+        </div>
+        <div class="divided-1-2">
+          <img class="phone-img | unselectable" src="/imagenes/apps/collblanc-2.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="separadorDipper"></div>
 
     <div class="portfolio-element" id="dipper">
       <div class="divided | slideanim">
@@ -215,7 +223,7 @@
             <p>En Mobility Software Solutions utilizamos las tecnologías más punteras como son Flutter para el desarrollo Android y iOS, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
             <p>Todas nuestras entregas ya sean desarrollos de software, apps o web pasan por un proceso de <em>testing</em>.</p>
         </div>
-        <div class="divided-1-2">
+        <div class="divided-1-2 | flex">
           <img class="unselectable | flex " src="/desarrollo/publicar-app.png" alt="">
         </div>
 

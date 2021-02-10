@@ -40,7 +40,7 @@
   </div>
   <div class="icon">
     <a href="/">
-      <img id="logo" class="logo-max" src="{{asset('logos/mobisoft-logo-letras.png')}}" alt="Mobility Software Solutions">
+      <img id="logo" class="logo-max" src="/logos/mobisoft-logo-letras.png" alt="Mobility Software Solutions">
     </a>
   </div>
   <div class="contact">
@@ -78,20 +78,20 @@
   function logo() {
     if(window.innerWidth <= 600) {
       var logo = document.getElementById('logo')
-      logo.src = "logos/mobisoft-mini.png"
+      logo.src = "/logos/mobisoft-mini.png"
     } else {
       var logo = document.getElementById('logo')
-      logo.src = "logos/mobisoft-logo-letras.png"
+      logo.src = "/logos/mobisoft-logo-letras.png"
     }
 
   }
   function resizeLogo() {
     if(document.documentElement.scrollTop == 0 ) {
       var logo = document.getElementById('logo')
-      logo.src = "logos/mobisoft-logo-letras.png"
+      logo.src = "/logos/mobisoft-logo-letras.png"
     } else {
       var logo = document.getElementById('logo')
-      logo.src = "logos/mobisoft-mini.png"
+      logo.src = "/logos/mobisoft-mini.png"
     }
 
   }

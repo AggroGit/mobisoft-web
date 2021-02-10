@@ -100,7 +100,7 @@ p {
   margin: auto;
   font-weight: 530;
   padding: 15px 30px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #ffffff !important;
   background: var(--verde1);
   border-radius: 5px;
@@ -662,7 +662,7 @@ svg {
   margin: 15px;
 }
 .titleSubtitle {
-  text-align: center;
+  text-align: left;
   margin: auto;
   padding-right: 0 !important;
   width: 50% !important;
@@ -795,27 +795,7 @@ svg {
 .contienetitlePasos h4 {
   font-size: 1.4rem;
 }
-.contiene_trust {
-  width: 200px;
-  display: flex;
-  padding: 30px;
-  background: #ffffff;
-  border-radius: 8px;
-  margin: 20px;
-  float: left;
-  max-height: 50px;
-}
-.contiene_trust > img {
-  margin: auto;
-  height: 100%;
-  width: auto;
-}
-.contieneClientes {
-  display: -webkit-box;
-  overflow-x: scroll;
-  scrollbar-width: none !important;
 
-}
 #presupuesto {
   width: 90%;
   margin: auto;
@@ -965,6 +945,37 @@ svg {
 .contact a {
   color: #ffffff;
 }
+.cabezera {
+  background-image: linear-gradient(to bottom, rgb(6 6 6 / 58%), rgb(0 0 0)), url(/fondos/fondo.webp);
+  background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    padding-top: 0px;
+}
+.contieneImagenSeparador {
+  width: 100%;
+  display: flex;
+}
+.separadorCabezera img{
+  margin: auto;
+
+  margin-bottom: -10px;
+  max-width: 1200px;
+  height: 100%;
+}
+.contieneBotonLila {
+  width: 100%;
+  display: flex;
+  margin-top: -10vh;
+}
+.noPadding > .divided-1-2 {
+  padding: 0;
+}
+.imgCabezera {
+  padding-top: 5% !important;
+}
+
 @media only screen and (max-width: 600px) {
   .contact {
     display: none;
@@ -1053,6 +1064,8 @@ svg {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .ionosCol {
     margin: auto;
@@ -1077,6 +1090,27 @@ svg {
   }
   .love {
     text-align: center;
+  }
+  .contiene_trust {
+    width: 200px;
+    display: flex;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 20px;
+    float: left;
+    max-height: 50px;
+  }
+  .contiene_trust > img {
+    margin: auto;
+    height: 100%;
+    width: auto;
+  }
+  .contieneClientes {
+    display: -webkit-box;
+    overflow-x: scroll;
+    scrollbar-width: none !important;
+
   }
 
 

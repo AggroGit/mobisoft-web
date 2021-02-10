@@ -2,24 +2,35 @@
 @section('title',"Mobisoft")
 @section('content')
 
-  <section class="content-big | slideanim | first">
-    <div class="divided">
+<div class="cabezera">
+  <section class="content-big">
+    <div class="divided | noPadding">
       <div class="divided-1-2  | titleSubtitle">
         <h1>Mobisoft | Empresa de Desarrollo de Apps, Software y Webs a Medida</h1>
-        <span>Somos verdaderos expertos en crear proyectos que funcionan tanto para ti como tus usuarios.</span>
-        <p>Operamos con total normalidad a pesar de la situación actual. ¿Buscas presupuesto gratuito?</p>
+        <span>Soluciones innovadoras para usuarios reales, nuestro equipo de desarrolladores interno es experto en aplicaciones móviles y lanzamiento de Startups</span>
+        <p>Operamos con total normalidad a pesar de la situación actual. ¿Buscas presupuesto gratuito? Te ayudamos.</p>
         <br>
-        <a class="boton-lila | center | down-40" href="#presupuestar">
-          Sí, contactar
-        </a>
+
       </div>
-      <div class="divided-1-2 | flex">
-        <img class="unselectable | " src="/desarrollo/nuevo.png " alt="">
+      <div class="divided-1-2 | flex | imgCabezera">
+        <img class="unselectable | " src="/imagenes/apps/both.png " alt="">
       </div>
     </div>
   </section>
+  <div class="separadorCabezera">
+    <div class="contieneBotonLila">
+      <a class="boton-lila | center | down-40" href="#presupuestar">
+        Sí, contactar
+      </a>
+    </div>
 
-  <section class="content | slideanim">
+    <div class="contieneImagenSeparador">
+      <img src="/imagenes/barcelona.png" alt="">
+    </div>
+  </div>
+</div>
+
+  <section class="content">
     <p><b>Mobisoft</b> es el equipo y <strong>empresa de desarrollo de aplicaciones, software y páginas web que te ayudará en todo el ciclo de programación</strong> para que tu nueva startup, producto o servicio sea un total éxito. ¡Cuenta con nosotros!</p>
     <p>Internet es la plataforma de comunicación líder del siglo XXI, su importancia es vital para cualquier negocio. Gracias a este medio puedes darte a conocer en todo el mundo pero... ¿cuál es la forma más eficaz, popular y revolucionaria? Sencillo, creando software ya sea App o Web que permita <strong>mejorar la imagen de marca del negocio, aumentar las conversiones y fidelizar a los clientes.<strong></p>
     <p>¿Cómo puedes hacer una aplicación de calidad y a un precio razonable? Precisamente en Mobisoft llevamos más de 5 años haciendo las cosas muy bien. Somos capaces de entender y priorizar tus objetivos además de resolver cada una de tus preocupaciones. <b>Nos encanta lo que hacemos y lo reflejamos en cada detalle.</b></p>

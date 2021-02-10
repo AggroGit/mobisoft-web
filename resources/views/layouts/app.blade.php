@@ -17,18 +17,6 @@
   <body>
     <x-cabezera/>
     @yield('content')
-
-
-
-
-
-
-
-
-
-
-
-
     <footer>
       <div class="content-big | footercolumnas">
         <div class="columnafooter">
@@ -66,10 +54,7 @@
         </div>
       </div>
 
-
-
-
-        <p class="love">Made with ❤️ by <span>Mobisoft</span> </p>
+      <p class="love">Made with ❤️ by <span>Mobisoft</span> </p>
 
     </footer>
 

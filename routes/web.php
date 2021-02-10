@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CityController;
+use App\Http\Controllers\legalController;
 use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
@@ -18,3 +19,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',      [HomeController::class, 'home']);
 Route::get('/city',      [CityController::class, 'common']);
+
+
+Route::get('/legal/aviso',      [legalController::class, 'aviso']);
+Route::get('/legal/cookies',      [legalController::class, 'cookies']);
+Route::get('/legal/privacidad',      [legalController::class, 'privacidad']);

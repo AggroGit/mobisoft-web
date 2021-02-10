@@ -70,7 +70,7 @@
     <h3 class="center | tituloPortfolio">Portafolio Proyectos de Software, Webs y Apps</h3>
 
     <div class="portfolio-element" id="vuitntas">
-      <div class="divided | slideanim">
+      <div class="divided">
 
         <div class="divided-1-2">
           <h4 class="titlePortfolio">Vuitantas 80’s</h4>
@@ -82,7 +82,7 @@
             <li>Notificaciones push</li>
             <li>Gestión de pedidos vía back-office</li>
         </div>
-        <div class="divided-1-2">
+        <div class="divided-1-2 | slideanim">
           <img class="phone-img | unselectable" src="/imagenes/apps/vuitantas.png" alt="">
         </div>
 
@@ -96,7 +96,7 @@
     <div class="separador"></div>
     <div class="portfolio-element" id="collblanc">
 
-      <div class="divided | slideanim">
+      <div class="divided | ">
         <div class="divided-1-2">
           <h4 class="titlePortfolio">Mercat Collblanc Shopping Center</h4>
           <p class="subtitle-portfolio">Funciones principales:</p>
@@ -111,7 +111,7 @@
             <li>Noticias</li>
           </ul>
         </div>
-        <div class="divided-1-2">
+        <div class="divided-1-2 | slideanim">
           <img class="phone-img | unselectable" src="/imagenes/apps/collblanc-2.png" alt="">
         </div>
       </div>
@@ -127,7 +127,7 @@
     <div class="separadorDipper"></div>
 
     <div class="portfolio-element" id="dipper">
-      <div class="divided | slideanim">
+      <div class="divided">
         <div class="divided-1-2">
           <h4 class="titlePortfolio">GRUPO DIPER</h4>
           <p class="subtitle-portfolio">Funciones principales:</p>
@@ -139,7 +139,7 @@
 
           </ul>
         </div>
-        <div class="divided-1-2">
+        <div class="divided-1-2 | slideanim">
           <img class="phone-img | unselectable" src="/imagenes/apps/dipper.png" alt="">
         </div>
       </div>
@@ -147,7 +147,7 @@
   </section>
 
 
-  <section class="content-big | slideanim">
+  <section class="content-big |">
     <div class="contienetitlePasos">
       <h3 class="center | tituloParrafo">¿Cómo Empezamos un Proyecto de Programación?</h3>
       <h4 class="center">Los 3 pasos obligatorios antes de empezar</h4>

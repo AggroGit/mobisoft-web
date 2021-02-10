@@ -692,6 +692,7 @@ svg {
   margin-bottom: auto;
   float:left;
   color: #ffffff;
+  text-decoration: underline;
 
 }
 .contieneWhatsapp-form span {

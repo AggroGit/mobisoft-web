@@ -12,7 +12,7 @@
         <br>
 
       </div>
-      <div class="divided-1-2 | flex | imgCabezera">
+      <div class="divided-1-2 | flex | imgCabezera | unselectable" >
         <img class="unselectable | " src="/imagenes/apps/both.png " alt="">
       </div>
     </div>
@@ -25,7 +25,7 @@
     </div>
 
     <div class="contieneImagenSeparador">
-      <img src="/imagenes/barcelona.png" alt="">
+      <img class="unselectable" src="/imagenes/barcelona.png" alt="">
     </div>
   </div>
 </div>

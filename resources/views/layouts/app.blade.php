@@ -12,6 +12,7 @@
     <link async href="{{ asset('css/common.css?v=0.6') }}" rel="stylesheet">
     <link async href="{{ asset('css/first.css?v=0.6') }}" rel="stylesheet">
     <link async href="{{ asset('css/menu.css?v=0.6') }}" rel="stylesheet">
+    <script defer src="{{asset('js/lazysizes.min.js')}}"></script>
 
   </head>
   <body>

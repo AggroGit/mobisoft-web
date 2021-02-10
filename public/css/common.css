@@ -666,6 +666,7 @@ svg {
   margin: auto;
   padding-right: 0 !important;
   width: 50% !important;
+  margin-top: 80px;
 }
 .titleSubtitle h1 {
   font-size: 2rem;

@@ -43,8 +43,8 @@
       <img id="logo" class="logo-max" src="{{asset('logos/mobisoft-logo-letras.png')}}" alt="Mobility Software Solutions">
     </a>
   </div>
-  <div class="contact | neonhover">
-    <a href="#">Contacta</a>
+  <div class="contact">
+    <a href="#presupuestar">PRESUPUESTO GRATUITO</a>
   </div>
 </nav>
 

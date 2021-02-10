@@ -369,13 +369,8 @@ footer p> span {
   color: var(--lila);
   font-weight: bold;
 }
-.contact {
-  color: var(--lila);
-  font-weight: bold;
-  float: right;
-  margin: auto;
-  margin-right: 0;
-}
+
+
 .neonhover:hover {
   text-shadow: var(--lila) 0px 2px 7px;
 }
@@ -960,7 +955,19 @@ svg {
   border-left: 100vw solid transparent;
   margin-top: -150px;
 }
-
+.contact {
+  color: #ffffff !important;
+  font-weight: bold;
+  float: right;
+  margin: auto;
+  margin-right: 0;
+  background: var(--verde1);
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+.contact a {
+  color: #ffffff;
+}
 @media only screen and (max-width: 700px) {
   .content-proceso {
     padding: 0px;

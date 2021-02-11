@@ -9,9 +9,9 @@
     <meta name="robots" content="noindex">
     @yield('head')
     <!-- STYLES -->
-    <link async href="{{ asset('css/common.css?v=0.6') }}" rel="stylesheet">
-    <link async href="{{ asset('css/first.css?v=0.6') }}" rel="stylesheet">
-    <link async href="{{ asset('css/menu.css?v=0.6') }}" rel="stylesheet">
+    <link async href="{{ asset('css/common.css?v=0.7') }}" rel="stylesheet">
+    <link async href="{{ asset('css/first.css?v=0.7') }}" rel="stylesheet">
+    <link async href="{{ asset('css/menu.css?v=0.7') }}" rel="stylesheet">
     <script defer src="{{asset('js/lazysizes.min.js')}}"></script>
 
   </head>
@@ -35,7 +35,7 @@
           </ul>
         </div>
         <div class="columnafooter">
-          
+
         </div>
         <div class="columnafooter | righted">
           <a class="ionosCol" rel="nofollow" href="https://partnernetwork.ionos.es/partner/mobility.software.solutions?origin=PartnerBadge">

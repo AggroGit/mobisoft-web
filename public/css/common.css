@@ -96,7 +96,7 @@ p {
   line-height: 180%;
   font-weight: normal;
 }
-b {
+b, strong {
   color: #e0fdff;
 }
 

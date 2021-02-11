@@ -44,7 +44,10 @@
         </div>
       </div>
 
-      <p class="love">Made with ❤️ by <span>Mobisoft</span> </p>
+      <div class="contieneLove">
+        <p class="love">Made with ❤️ by <span>Mobisoft</span> </p>
+      </div>
+
 
     </footer>
 

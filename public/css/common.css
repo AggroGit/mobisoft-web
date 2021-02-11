@@ -957,6 +957,14 @@ svg {
 }
 .portfolio-element {
 }
+.contieneLove {
+  float: left;
+  width: 100%;
+  text-align: center;
+  max-width: 1200px;
+  margin-top:  20px;
+  margin: auto;
+}
 
 
 .separador {

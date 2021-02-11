@@ -1029,7 +1029,7 @@ ul, li {
 	grid-auto-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .contieneServiciosInd>h4 {

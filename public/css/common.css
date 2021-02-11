@@ -1074,7 +1074,9 @@ ul, li {
 .topped {
   margin-top: 100px;
 }
-
+.padded {
+  padding: 5%;
+}
 
 @media only screen and (min-width: 700px) {
   .contieneClientela {

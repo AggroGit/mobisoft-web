@@ -279,7 +279,7 @@
 
 
   <section>
-    <div class="content">
+    <div class="content-big | padded">
       <h3 class="center | titleBigger | top10">Somos todo lo que necesitas</h3>
       <p>Nos complace comunicarte que ofrecemos el <strong>servicio más completo de entre todas las empresas de desarrollo de apps, webs y software</strong>. El 70% de nuestros clientes son emprendedores y como entendemos a la perfección sus necesidades hemos creado un <b>plan de apoyo total al emprendedor</b> que seguro será de tu interés.
       <p>En Mobility Software Solutions trabajamos con los mejores expertos de cada campo. Nuestra red de <em>partners</em> especializados nos permiten apoyarte desde el primer momento tanto si necesitas constituir una empresa, crear un plan de negocio, lanzamiento o marketing digital como asesoría jurídica o económica.</p>

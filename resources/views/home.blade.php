@@ -179,17 +179,17 @@
       <div class="divided-1-2">
         <h2>1. ONBOARDING: Hablamos y Definimos los Objetivos</h2>
         <p>Para facilitar la colaboración e integración contamos con el proceso de <em>onboarding</em>:</p>
-        <ul class="numbered">
-          <li><b>Definimos</b> los objetivos del proyecto.</li>
-          <li><b>Hablamos</b> sobre las principales funcionalidades y los requisitos técnicos.</li>
-          <li><b>Asesoramos</b> sobre las mejores formas de monetización.</li>
+        <ul class="listado">
+          <li><b>1. Definimos</b> los objetivos del proyecto.</li>
+          <li><b>2. Hablamos</b> sobre las principales funcionalidades y los requisitos técnicos.</li>
+          <li><b>3. Asesoramos</b> sobre las mejores formas de monetización.</li>
         </ul>
         <p>Seguidos estos pasos <b>el entendimiento es completo y mutuo.</b>
         </p>
       </div>
 
 
-      <div class="divided-1-2">
+      <div class="divided-1-2 | flex">
         <img class="unselectable " src="/desarrollo/definicion-objetivos.png" alt="">
       </div>
     </div>

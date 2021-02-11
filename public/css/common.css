@@ -116,7 +116,7 @@ b, strong {
   font-size: 1.2rem;
   color: #ffffff !important;
   background: var(--verde1);
-  border-radius: 5px;
+  border-radius: 3px;
   box-shadow: 6px 6px var(--lila);
 
 }
@@ -702,6 +702,7 @@ svg {
 }
 .titleSubtitle h1 {
   font-size: 2rem;
+  letter-spacing: 2px;
 }
 .titleSubtitle p, .titleSubtitle span{
   font-size: 1.2rem;
@@ -1049,13 +1050,17 @@ ul, li {
   margin: auto;
   background: var(--lighterFondo);
   color: #ffffff;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 10px;
   margin-top: 10vh;
   width: 100%;
   max-width: 300px;
   height: 100%;
 
 
+}
+.listado {
+  padding-inline-start: 0;
+  list-style: none;
 }
 .contieneServiciosInd {
   padding: 10px;

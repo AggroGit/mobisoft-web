@@ -232,6 +232,10 @@ b, strong {
   width: 40%;
   padding: 5%;
 }
+.divided-1-1 {
+  width: 90%;
+  padding: 5%;
+}
 /*  */
 .boton-sencillo {
   padding: 10px 30px;
@@ -1076,6 +1080,7 @@ ul, li {
 }
 .padded {
   padding: 5%;
+  max-width: 1400px;
 }
 
 @media only screen and (min-width: 700px) {

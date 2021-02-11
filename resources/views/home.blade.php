@@ -167,15 +167,15 @@
 
   <section id="proceso" class="top10">
 
-    <div class="content-big | slideanim">
-      <div class="titulos | slideanim | ">
+    <div class="content-big |">
+      <div class="titulos  | ">
         <h2 class="tituloParrafo">¿Cómo Empezamos un Proyecto de Programación?</h2>
         <h3 class="subtitul">La comunicación es el primer paso para lograr que el desarrollo de software sea un éxito y el <b>uso de metodologías ágiles</b> nos ayudará a entender las necesidades de los usuarios finales para adaptarnos a ellas.</h3>
       </div>
     </div>
 
     <!-- PASO 1 -->
-    <div class="content-big | divided | top10 | slideanim">
+    <div class="content-big | divided | top10 ">
       <div class="divided-1-2">
         <h2>1. ONBOARDING: Hablamos y Definimos los Objetivos</h2>
         <p>Para facilitar la colaboración e integración contamos con el proceso de <em>onboarding</em>:</p>
@@ -196,7 +196,7 @@
 
 
     <!-- PASO 2 -->
-    <div class="content-big | divided | reverse | slideanim">
+    <div class="content-big | divided | reverse ">
       <div class="divided-1-2">
         <h2>2. La Conceptualización de la Idea</h2>
           <p>Empezamos con un <em>“Brainstorming”</em> (lluvia de ideas) para <b>plasmar todas las necesidades de los usuarios</b> de manera clara y concisa.
@@ -211,7 +211,7 @@
 
     <!-- TITULO -->
     <div class="content">
-      <div class="titulos | slideanim | ">
+      <div class="titulos | ">
         <h2 class="tituloParrafo">El proceso de desarrollo de software</h2>
         <h3>Los puntos de inflexión para ser un éxito</h3>
       </div>
@@ -219,7 +219,7 @@
 
 
     <!-- PASO 3 -->
-    <div class="content-big | divided | slideanim">
+    <div class="content-big | divided ">
       <div class="divided-1-2">
         <h2>3. Diseño de Interfaz UI y Experiencia de Usuario UX con Material Design</h2>
         <p>Conseguimos que el diseño sea siempre un acierto gracias a las guías <em>Material design</em> design de Google.</p>
@@ -235,7 +235,7 @@
 
 
     <!-- PASO 4 -->
-    <div class="content-big | divided | reverse | slideanim">
+    <div class="content-big | divided | reverse ">
       <div class="divided-1-2">
         <h2>4. Proceso de Desarrollo de Software</h2>
         <p>En Mobility Software Solutions como empresa dedicada al desarrollo de software utilizamos las tecnologías más punteras como son: <strong>Flutter para el desarrollo Android y iOS</strong>, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
@@ -251,7 +251,7 @@
 
 
     <!-- PASO 5 -->
-    <div class="content-big | divided | slideanim">
+    <div class="content-big | divided ">
       <div class="divided-1-2">
         <h2>5. Testing en entorno real, publicación y seguimiento</h2>
         <p>Llega el día señalado y publicamos el proyecto tanto en web como en las <em>App Stores</em>, ¿ahora qué?</p>
@@ -359,7 +359,7 @@
     <img src="/logos/mobisoft-logo.png" alt="Mobility Software Solutions">
   </div>
 
-  <div class="contieneFormulario | slideanim" >
+  <div class="contieneFormulario |" >
     <div id="presupuesto" class="content-big | agranda-en-pe" >
       <div class="formulario">
         <h4 class="title-presupuesto">Somos expertos a tu servicio</h4>

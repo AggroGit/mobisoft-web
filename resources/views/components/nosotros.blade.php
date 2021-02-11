@@ -1,4 +1,4 @@
-<section class="content | slideanim | top10">
+<section class="content | top10">
   <div class="contieneLema">
     <div class="lema">
       <p>Nuestro lema en <span>Mobility</span> </p>

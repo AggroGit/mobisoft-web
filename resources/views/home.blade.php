@@ -31,13 +31,17 @@
 </div>
 
   <section class="content">
-    <p><b>Mobisoft</b> es el equipo y <strong>empresa de desarrollo de aplicaciones, software y páginas web que te ayudará en todo el ciclo de programación</strong> para que tu nueva startup, producto o servicio sea un total éxito. ¡Cuenta con nosotros!</p>
-    <p>Internet es la plataforma de comunicación líder del siglo XXI, su importancia es vital para cualquier negocio. Gracias a este medio puedes darte a conocer en todo el mundo pero... ¿cuál es la forma más eficaz, popular y revolucionaria? Sencillo, creando software ya sea App o Web que permita <strong>mejorar la imagen de marca del negocio, aumentar las conversiones y fidelizar a los clientes.<strong></p>
+    <p><b>Mobisoft</b> es el equipo y <strong>empresa de desarrollo de aplicaciones móviles, software y páginas web que te ayudará en todo el ciclo de programación</strong> para que tu nueva startup, producto o servicio sea un total éxito. ¡Cuenta con nosotros!</p>
+
+    <p>Internet es la plataforma de comunicación líder del siglo XXI, su importancia es vital para cualquier negocio. Gracias a este medio puedes darte a conocer en todo el mundo pero… ¿cuál es la forma más eficaz, popular y revolucionaria? Sencillo, creando software ya sea App o Web que permita <strong>mejorar la imagen de marca del negocio, aumentar las conversiones y fidelizar a los clientes.<strong></p>
+
     <p>¿Cómo puedes hacer una aplicación de calidad y a un precio razonable? Precisamente en Mobisoft llevamos más de 5 años haciendo las cosas muy bien. Somos capaces de entender y priorizar tus objetivos además de resolver cada una de tus preocupaciones. <b>Nos encanta lo que hacemos y lo reflejamos en cada detalle.</b></p>
+
     <p>¿Qué es lo que mejor nos define? Sin duda alguna la transparencia. Adecuamos cada proyecto a tu presupuesto </b>para conseguir el mejor resultado.</b> Sentirás desde el primer momento que somos mucho más que una empresa, <strong>somos tu propio equipo de desarrollo de aplicaciones.</strong></p>
+
   </section>
 
-  <section class="content | slideanim ">
+  <section class="content ">
     <div class="borde-linear">
       <h2 class="collapsible">Empresa Desarrollo de Software</h2>
       <div class="contentCollapsable">
@@ -49,7 +53,7 @@
     </div>
   </section>
 
-  <section class="content | slideanim | griuped">
+  <section class="content | griuped">
     <div class="borde-linear">
       <h2 class="collapsible">Empresa Desarrollo de apps</h2>
       <div class="contentCollapsable">
@@ -60,7 +64,7 @@
     </div>
   </section>
 
-  <section class="content | slideanim | griuped">
+  <section class="content | griuped">
     <div class="borde-linear">
       <h2 class="collapsible">Empresa Desarrollo de webs</h2>
       <div class="contentCollapsable">
@@ -158,125 +162,149 @@
   </section>
 
 
-  <section class="content-big |">
-    <div class="contienetitlePasos">
-      <h3 class="center | tituloParrafo">¿Cómo Empezamos un Proyecto de Programación?</h3>
-      <h4 class="center">Los 3 pasos obligatorios antes de empezar</h4>
-    </div>
-    <div class="divided">
-      <div class="divided-1-3">
-        <div class="content-proceso">
-          <x-svg.web/>
-          <h3 class="center">1. Definir el usuario objetivo</h3>
-          <p class="center">Definir al usuario objetivo permite enfocar el software desde el inicio a las personas que realmente lo van a utilizar.</p>
-        </div>
-      </div>
-
-      <div class="divided-1-3">
-        <div class="content-proceso">
-          <x-svg.ux/>
-          <h3 class="center">2. Trabajar la UI/UX en los diseños</h3>
-          <p class="center">Definir al usuario objetivo permite enfocar el software desde el inicio a las personas que realmente lo van a utilizar.</p>
-        </div>
-      </div>
-
-      <div class="divided-1-3">
-        <div class="content-proceso">
-          <x-svg.list/>
-          <h3 class="center">3. Definición de objetivos</h3>
-          <p class="center">La tarea más clara para facilitar el entendimiento del proyecto y potenciar sus puntos fuertes es la definición de objetivos</p>
-        </div>
-      </div>
-
-    </div>
-
-  </section>
 
 
 
-  <section class="" id="proceso" >
+  <section id="proceso" class="top10">
+
     <div class="content-big | slideanim">
       <div class="titulos | slideanim | ">
-        <h2 class="tituloParrafo">El proceso de desarrollo de software</h2>
-        <h3>5 puntos de inflexión para ser un éxito</h3>
+        <h2 class="tituloParrafo">¿Cómo Empezamos un Proyecto de Programación?</h2>
+        <h3 class="subtitul">La comunicación es el primer paso para lograr que el desarrollo de software sea un éxito y el <b>uso de metodologías ágiles</b> nos ayudará a entender las necesidades de los usuarios finales para adaptarnos a ellas.</h3>
       </div>
-      <div class="divided">
-        <div class="divided-1-2 | textproceso">
-          <h2>Conceptualización de la idea</h2>
-          <p>Iniciamos el proyecto realizando un "brainstorming" que consiste en reflejar todas las ideas clave sobre las funcionalidades.</p>
-        </div>
-        <div class="divided-1-2 | flex">
-          <img class="unselectable " src="/desarrollo/usuario-objetivo.png" alt="">
-        </div>
+    </div>
 
+    <!-- PASO 1 -->
+    <div class="content-big | divided | top10 | slideanim">
+      <div class="divided-1-2">
+        <h2>1. ONBOARDING: Hablamos y Definimos los Objetivos</h2>
+        <p>Para facilitar la colaboración e integración contamos con el proceso de <em>onboarding</em>:</p>
+        <ul>
+          <li><b>Definimos</b> los objetivos del proyecto.</li>
+          <li><b>Hablamos</b> sobre las principales funcionalidades y los requisitos técnicos.</li>
+          <li><b>Asesoramos</b> sobre las mejores formas de monetización.</li>
+        </ul>
+        <p>Seguidos estos pasos <b>el entendimiento es completo y mutuo.</b>
+        </p>
+      </div>
+
+
+      <div class="divided-1-2">
+        <img class="unselectable " src="/desarrollo/definicion-objetivos.png" alt="">
       </div>
     </div>
 
 
-    <div class="content-big | slideanim">
-      <div class="divided">
-        <div class="divided-1-2 | flex">
-          <img class="unselectable | " src="/desarrollo/ui-original.png" alt="">
-        </div>
-        <div class="divided-1-2 | textproceso">
-          <h2>Interfaz y experiencia de usuario</h2>
-          <p>Seguimos ordenando estas ideas antes de empezar el desarrollo de apps en Barcelona gracias al “card sorting”.</p>
-          <p>Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
-        </div>
+    <!-- PASO 2 -->
+    <div class="content-big | divided | reverse | slideanim">
+      <div class="divided-1-2">
+        <h2>2. La Conceptualización de la Idea</h2>
+          <p>Empezamos con un <em>“Brainstorming”</em> (lluvia de ideas) para <b>plasmar todas las necesidades de los usuarios</b> de manera clara y concisa.
+          <p>Continuamos trabajando el perfil del usuario objetivo <b>hasta definir los casos de uso</b>, entonces ordenamos los resultados mediante <em>"Card Sorting"</em> para estructurar la aplicación al completo.</p>
+      </div>
+
+
+      <div class="divided-1-2">
+        <img class="unselectable " src="/desarrollo/usuario-objetivo.png" alt="">
       </div>
     </div>
 
-
-    <div class="content-big | slideanim">
-      <div class="divided">
-        <div class="divided-1-2 | textproceso">
-          <h2>Programación y publicación</h2>
-            <p>En Mobility Software Solutions utilizamos las tecnologías más punteras como son Flutter para el desarrollo Android y iOS, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
-            <p>Todas nuestras entregas ya sean desarrollos de software, apps o web pasan por un proceso de <em>testing</em>.</p>
-        </div>
-        <div class="divided-1-2 | flex">
-          <img class="unselectable | flex " src="/desarrollo/publicar-app.png" alt="">
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <section  id="trust_us">
+    <!-- TITULO -->
     <div class="content">
-      <h3>Ya confían en nosotros</h3>
+      <div class="titulos | slideanim | ">
+        <h2 class="tituloParrafo">El proceso de desarrollo de software</h2>
+        <h3>Los puntos de inflexión para ser un éxito</h3>
+      </div>
     </div>
-    <div class="content-big">
 
+
+    <!-- PASO 3 -->
+    <div class="content-big | divided | slideanim">
+      <div class="divided-1-2">
+        <h2>3. Diseño de Interfaz UI y Experiencia de Usuario UX con Material Design</h2>
+        <p>Conseguimos que el diseño sea siempre un acierto gracias a las guías <em>Material design</em> design de Google.</p>
+        <p>Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
+      </div>
+
+
+      <div class="divided-1-2">
+        <img class="unselectable " src="/desarrollo/ui-original.png" alt="">
+      </div>
     </div>
 
-    <div class="content-big | contieneClientes">
-      <div class="contiene_trust">
-        <img src="/imagenes/clientes/ajuntament_barcelona.png" alt="Ayuntamiento de Barcelona Open Data" title="Ayuntamiento de Barcelona logo">
+
+
+    <!-- PASO 4 -->
+    <div class="content-big | divided | reverse | slideanim">
+      <div class="divided-1-2">
+        <h2>4. Proceso de Desarrollo de Software</h2>
+        <p>En Mobility Software Solutions como empresa dedicada al desarrollo de software utilizamos las tecnologías más punteras como son: <strong>Flutter para el desarrollo Android y iOS</strong>, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
+        <p>Durante el desarrollo <strong>aplicamos metodologías ágiles (principalmente Scrum Master, Lean o Kanban)</strong> para asegurar los tiempos de entrega. También nos permite entregar aplicaciones sin bugs ya que probamos  continuamente los programas durante su fabricación.</p>
       </div>
-      <div class="contiene_trust">
-        <img src="/imagenes/clientes/zincobs.png" alt="Zincobs" title="Zincobs logo">
+
+
+      <div class="divided-1-2">
+        <img class="unselectable " src="/desarrollo/aplicaciones.png" alt="">
       </div>
-      <div class="contiene_trust">
-        <img src="/imagenes/clientes/aftermarketing.png" alt="AfterMarketing" title="Aftermarketing logo">
+    </div>
+
+
+
+    <!-- PASO 5 -->
+    <div class="content-big | divided | slideanim">
+      <div class="divided-1-2">
+        <h2>5. Testing en entorno real, publicación y seguimiento</h2>
+        <p>Llega el día señalado y publicamos el proyecto tanto en web como en las <em>App Stores</em>, ¿ahora qué?</p>
+        <p>Nuestra amplia garantía nos permite encargarnos de la asistencia a tus usuarios. Puedes estar tranquilo al contar con nosotros a tu lado ya que <strong>nos responsabilizamos del apartado técnico para que te enfoques en lo verdaderamente importante</strong>: hacer crecer tu software.</p>
+        <p>Orgullosos de nuestros datos, <b>resolvemos el 100% de las incidencias en menos de 48 horas</b>.</p>
+        <p>¿Necesitas mantenimiento adicional? También podemos configurar y mantener tu servidor e incluso facilitarte <strong>servicios de <em>programación outsourcing</em> para que nuestros programadores seniors estén a tu completa disposición.</strong></p>
       </div>
-      <div class="contiene_trust">
-        <img src="/imagenes/clientes/barcelona_open_data.png" alt="Barcelona Open Data" alt="Barcelona open data logo">
+
+
+      <div class="divided-1-2">
+        <img class="unselectable " src="/desarrollo/aplicacion.png" alt="">
       </div>
-      <div class="contiene_trust">
-        <img src="/imagenes/clientes/collblanc_icono.png" alt="Collblanc app" title="Collblanc app logo">
+    </div>
+
+
+  </section>
+
+
+
+
+
+
+
+  <section  id="trust_us" class="top10">
+    <h3 class="center">Ya confían en nosotros</h3>
+    <div class="contieneClientela">
+      <div class="content-big | contieneClientes">
+        <div class="contiene_trust">
+          <img src="/imagenes/clientes/ajuntament_barcelona.png" alt="Ayuntamiento de Barcelona Open Data" title="Ayuntamiento de Barcelona logo">
+        </div>
+        <div class="contiene_trust">
+          <img src="/imagenes/clientes/zincobs.png" alt="Zincobs" title="Zincobs logo">
+        </div>
+        <div class="contiene_trust">
+          <img src="/imagenes/clientes/aftermarketing.png" alt="AfterMarketing" title="Aftermarketing logo">
+        </div>
+        <div class="contiene_trust">
+          <img src="/imagenes/clientes/barcelona_open_data.png" alt="Barcelona Open Data" alt="Barcelona open data logo">
+        </div>
+        <div class="contiene_trust">
+          <img src="/imagenes/clientes/collblanc_icono.png" alt="Collblanc app" title="Collblanc app logo">
+        </div>
       </div>
     </div>
   </section>
 
 
-<section class="presupuestoAll" id="presupuestar">
-  <div class="coniteneimg-form | top10">
+<section class="presupuestoAll " id="presupuestar">
+  <div class="coniteneimg-form ">
     <img src="/logos/mobisoft-logo.png" alt="Mobility Software Solutions">
   </div>
 
-  <div class="contieneFormulario" >
+  <div class="contieneFormulario | slideanim" >
     <div id="presupuesto" class="content-big | agranda-en-pe" >
       <div class="formulario">
         <h4 class="title-presupuesto">Somos expertos a tu servicio</h4>

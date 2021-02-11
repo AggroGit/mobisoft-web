@@ -327,31 +327,35 @@ p {
 
 
 /* ANIMATION */
-.slideanim {transform: scale(0.8);}
+.slideanim {
+  transform: translateY(200px) scale(0.5);
+}
 .slide {
   animation-name: slide;
   -webkit-animation-name: slide;
   animation-duration: 0.6s;
   -webkit-animation-duration: 0.6s;
-  transform: scale(1);
+  transform: translateY(0px) scale(1);
   z-index: 700;
 }
 @keyframes slide {
   0% {
-    transform: scale(0.8);
+    transform: translateY(200px) scale(0.5);
   }
   100% {
-    transform: scale(1);
+    transform: translateY(0px) scale(1);
   }
 }
 @-webkit-keyframes slide {
   0% {
-    transform: scale(0.8);
+    transform: translateY(200px) scale(0.5);
   }
   100% {
-    transform: scale(1);
+    transform: translateY(0px) scale(1);
   }
 }
+
+
 footer {
   background: var(--footerCol);
   padding: 5%;
@@ -394,6 +398,9 @@ img {
 }
 .color-lila {
   color: var(--lila);
+}
+.titleBigger {
+  font-size: 2rem;
 }
 #contacto {
   width: 90%;
@@ -599,6 +606,9 @@ button, input[type="submit"], input[type="reset"] {
 .titulos {
   width: 100%;
   text-align: center;
+}
+.titulos h3 {
+  font-weight: normal !important;
 }
 .tituloParrafo{
   font-size: 2rem !important;
@@ -977,6 +987,38 @@ svg {
 .imgCabezera {
   padding-top: 5% !important;
 }
+.subtitul {
+  width: 90%;
+  margin: auto;
+}
+ul, li {
+  font-weight: normal;
+}
+
+
+@media only screen and (min-width: 700px) {
+  .contieneClientela {
+    background: #ffffff;
+  }
+
+  .contieneClientes {
+    display: flex;
+    display: flex;
+    padding: 80px;
+  }
+  .contiene_trust {
+    margin: auto;
+    float: left;
+  }
+  .contieneClientes img {
+    max-height: 60px;
+    width: auto;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .contact {
@@ -1012,7 +1054,7 @@ svg {
     width: 100% !important;
   }
   .content-big {
-    padding: 0px 50px;
+    padding: 0px 5vw;
   }
   #contacto {
     width: 90% !important;
@@ -1116,6 +1158,9 @@ svg {
     overflow-x: scroll;
     scrollbar-width: none !important;
 
+  }
+  .reverse {
+    flex-direction: inherit;
   }
 
 

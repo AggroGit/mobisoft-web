@@ -68,7 +68,7 @@
     <div class=" | plano">
       <h2 class="collapsible">Empresa Desarrollo de webs</h2>
       <div class="contentCollapsable">
-        <p>Si quieres realizar una página web lo primero es decidir si necesitas una web para darte a conocer, un <em>e-commerce</em> para vender de manera <em>Online</em> o bien crear una herramienta a modo de aplicación web.<b>Necesitarás un asesoramiento a la altura y aquí es precisamente cuando en Mobility Software Solutions ya empezamos a ayudarte.</b></p>
+        <p>Si quieres realizar una página web lo primero es decidir si necesitas una web para darte a conocer, un <em>e-commerce</em> para vender de manera <em>Online</em> o bien crear una herramienta a modo de aplicación web.<b> Necesitarás un asesoramiento a la altura y aquí es precisamente cuando en Mobility Software Solutions ya empezamos a ayudarte.</b></p>
         <p>Seguramente algunas de las preguntas que te planteas ahora mismo son: ¿Qué diferencia hay entre una empresa de desarrollo web y una agencia de desarrollo web? ¿Cuál sería mejor opción para mi proyecto?</p>
         <p>La única respuesta coherente es depende, no solo del proyecto que quieres realizar sino también de tu visión sobre el futuro del mismo. En Mobisoft <b>te guiaremos desde el primer momento brindándote toda nuestra experiencia, un enfoque estratégico y total transparencia</b>.</p>
         <p>Trabajar con Mobisoft es como tener un miembro más en el equipo. Somos tu empresa de desarrollo de software, apps y webs de éxito.</p>

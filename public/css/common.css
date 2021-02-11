@@ -703,7 +703,7 @@ svg {
   margin: auto;
   padding-right: 0 !important;
   width: 50% !important;
-  
+
 }
 .titleSubtitle h1 {
   font-size: 2rem;
@@ -1236,7 +1236,7 @@ ul, li {
     width: 100%;
   }
   .ionosCol >img {
-    max-width: 100px;
+    max-width: 400px;
   }
   .footercolumnas {
     padding: 0 !important;

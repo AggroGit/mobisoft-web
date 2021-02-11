@@ -92,10 +92,16 @@ user-select: none;
 .center {
   text-align: center;
 }
+span {
+
+}
+li {
+  margin-top: 10px;
+}
 p {
   line-height: 180%;
   font-weight: normal;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.5px;
 }
 b, strong {
   color: #e0fdff;

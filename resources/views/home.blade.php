@@ -179,7 +179,7 @@
       <div class="divided-1-2">
         <h2>1. ONBOARDING: Hablamos y Definimos los Objetivos</h2>
         <p>Para facilitar la colaboración e integración contamos con el proceso de <em>onboarding</em>:</p>
-        <ul>
+        <ul class="numbered">
           <li><b>Definimos</b> los objetivos del proyecto.</li>
           <li><b>Hablamos</b> sobre las principales funcionalidades y los requisitos técnicos.</li>
           <li><b>Asesoramos</b> sobre las mejores formas de monetización.</li>
@@ -275,7 +275,62 @@
 
 
 
-  <section  id="trust_us" class="top10">
+
+
+
+  <section>
+    <div class="content">
+      <h3 class="center | titleBigger | top10">Somos todo lo que necesitas</h3>
+      <p>Nos complace comunicarte que ofrecemos el <strong>servicio más completo de entre todas las empresas de desarrollo de apps, webs y software</strong>. El 70% de nuestros clientes son emprendedores y como entendemos a la perfección sus necesidades hemos creado un <b>plan de apoyo total al emprendedor</b> que seguro será de tu interés.
+      <p>En Mobility Software Solutions trabajamos con los mejores expertos de cada campo. Nuestra red de <em>partners</em> especializados nos permiten apoyarte desde el primer momento tanto si necesitas constituir una empresa, crear un plan de negocio, lanzamiento o marketing digital como asesoría jurídica o económica.</p>
+      <div class="contieneServicios">
+        <div class="servicio">
+          <div class="imagenServicio">
+            <img src="/imagenes/clientes/zincobs.png" alt="Zincobs" title="Zincobs logo">
+          </div>
+          <div class="contieneServiciosInd">
+            <h4>Asesoría económica</h4>
+            <ul>
+              <li>Administración de empresas</li>
+              <li>Contabilidad</li>
+              <li>Auditoría</li>
+            </ul>
+            <h4>Asesoría jurídica</h4>
+
+            <ul>
+              <li>Laboral</li>
+              <li>Fiscal</li>
+              <li>Administrativo</li>
+              <li>Mercantil</li>
+              <li>GDPR</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="servicio">
+          <div class="imagenServicio">
+            <img src="/imagenes/clientes/aftermarketing.png" alt="AfterMarketing" title="Aftermarketing logo">
+          </div>
+          <div class="contieneServiciosInd">
+            <h4>Marketing</h4>
+            <ul>
+              <li>SEO</li>
+              <li>ASO</li>
+              <li>Gestión de eventos</li>
+              <li>Innovación tecnológica</li>
+              <li>Relaciones laborales</li>
+              <li>Generación de leads</li>
+              <li>Social Media Marketing</li>
+              <li>Community Manager</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section  id="trust_us" class="top30">
     <h3 class="center">Ya confían en nosotros</h3>
     <div class="contieneClientela">
       <div class="content-big | contieneClientes">

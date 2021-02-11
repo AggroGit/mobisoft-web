@@ -24,29 +24,18 @@
           <h5>Legal</h5>
           <ul>
             <li>
-              <a href="#">Política de cookies</a>
+              <a href="/legal/cookies">Política de cookies</a>
             </li>
             <li>
-              <a href="#">Política de cookies</a>
+              <a href="/legal/privacidad">Política de privacidad</a>
             </li>
             <li>
-              <a href="#">Política de cookies</a>
+              <a href="/legal/aviso">Aviso legal</a>
             </li>
           </ul>
         </div>
         <div class="columnafooter">
-          <h5>Legal</h5>
-          <ul>
-            <li>
-              <a href="#">Política de cookies</a>
-            </li>
-            <li>
-              <a href="#">Política de cookies</a>
-            </li>
-            <li>
-              <a href="#">Política de cookies</a>
-            </li>
-          </ul>
+          
         </div>
         <div class="columnafooter | righted">
           <a class="ionosCol" rel="nofollow" href="https://partnernetwork.ionos.es/partner/mobility.software.solutions?origin=PartnerBadge">

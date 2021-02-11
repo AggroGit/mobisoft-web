@@ -19,7 +19,7 @@
     <x-cabezera/>
     @yield('content')
     <footer>
-      <div class="content-big | footercolumnas">
+      <div class="content-big">
         <div class="columnafooter">
           <h5>Legal</h5>
           <ul>

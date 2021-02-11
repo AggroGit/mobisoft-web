@@ -7,7 +7,7 @@
     <div class="divided | noPadding">
       <div class="divided-1-2  | titleSubtitle">
         <h1>Mobisoft | Empresa de Desarrollo de Apps, Software y Webs a Medida</h1>
-        <span>Soluciones innovadoras para usuarios reales, nuestro equipo de desarrolladores interno es experto en aplicaciones móviles y lanzamiento de Startups</span>
+        <p>Soluciones innovadoras para usuarios reales, nuestro equipo de desarrolladores interno es experto en aplicaciones móviles y lanzamiento de Startups</p>
         <p>Operamos con total normalidad a pesar de la situación actual. ¿Buscas presupuesto gratuito? Te ayudamos.</p>
         <br>
 

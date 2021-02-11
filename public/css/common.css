@@ -1029,6 +1029,7 @@ ul, li {
 	grid-auto-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  padding-top: 80px;
 }
 
 .contieneServiciosInd>h4 {
@@ -1051,7 +1052,6 @@ ul, li {
   background: var(--lighterFondo);
   color: #ffffff;
   border-radius: 10px;
-  margin-top: 10vh;
   width: 100%;
   max-width: 300px;
   height: 100%;
@@ -1067,6 +1067,9 @@ ul, li {
 }
 .top30 {
   margin-top: 30vh;
+}
+.topped {
+  margin-top: 100px;
 }
 
 

@@ -330,8 +330,7 @@
     </div>
   </section>
 
-  <section  id="trust_us" class="top30">
-    <h3 class="center">Ya confían en nosotros</h3>
+  <section  id="trust_us" class="topped">
     <div class="contieneClientela">
       <div class="content-big | contieneClientes">
         <div class="contiene_trust">

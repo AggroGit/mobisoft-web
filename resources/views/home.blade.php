@@ -42,7 +42,7 @@
   </section>
 
   <section class="content ">
-    <div class="borde-linear">
+    <div class=" | plano">
       <h2 class="collapsible">Empresa Desarrollo de Software</h2>
       <div class="contentCollapsable">
         <p>Los motivos que acercan a las pequeñas, medianas y grandes empresas en España a la necesidad de seguir las tendencias tecnológicas <strong>pasan por el asesoramiento de una empresa de desarrollo de <em>software</em></strong>. Analizamos las necesidades de nuestros clientes, sus usuarios y mercado para poder dar soluciones concretas y específicas.</p>
@@ -54,7 +54,7 @@
   </section>
 
   <section class="content | griuped">
-    <div class="borde-linear">
+    <div class=" | plano">
       <h2 class="collapsible">Empresa Desarrollo de apps</h2>
       <div class="contentCollapsable">
         <p>Nuestra empresa de desarrollo de apps ofrece <strong>tanto servicio de diseño como creación</strong> para tu aplicación móvil. Sea cual sea el tamaño de tu empresa o proyecto para desarrollar una app o incluso si requieres servicios de <em>mantenimiento de software, outsourcing</em> o incluso asesoramiento para <em>Startups</em></p>
@@ -65,7 +65,7 @@
   </section>
 
   <section class="content | griuped">
-    <div class="borde-linear">
+    <div class=" | plano">
       <h2 class="collapsible">Empresa Desarrollo de webs</h2>
       <div class="contentCollapsable">
         <p>Si quieres realizar una página web lo primero es decidir si necesitas una web para darte a conocer, un <em>e-commerce</em> para vender de manera <em>Online</em> o bien crear una herramienta a modo de aplicación web.<b>Necesitarás un asesoramiento a la altura y aquí es precisamente cuando en Mobility Software Solutions ya empezamos a ayudarte.</b></p>

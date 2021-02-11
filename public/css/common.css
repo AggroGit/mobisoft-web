@@ -95,7 +95,7 @@ user-select: none;
 p {
   line-height: 180%;
   font-weight: normal;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 b, strong {
   color: #e0fdff;

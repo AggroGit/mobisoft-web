@@ -48,7 +48,7 @@
         <p>Los motivos que acercan a las pequeñas, medianas y grandes empresas en España a la necesidad de seguir las tendencias tecnológicas <strong>pasan por el asesoramiento de una empresa de desarrollo de <em>software</em></strong>. Analizamos las necesidades de nuestros clientes, sus usuarios y mercado para poder dar soluciones concretas y específicas.</p>
         <p>Programamos <em>software</em> de manera modular acompañado de toda clase de documentación para asegurar su futuro. Crecimiento, cambios, adaptación y personalización son algunas de las palabras que mejor definen nuestras soluciones tecnológicas.</p>
         <p>Utilizamos <strong>metodologías ágiles tanto durante la conceptualización como la programación</strong> para asegurar los tiempos de entrega y la máxima calidad en el resultado. Adicionalmente los TIC (Tecnologías de la información y la comunicación) nos ayudan a optimizar procesos y adaptarnos con las mejores soluciones tecnológicas a cada necesidad.</p>
-        <p>El futuro es ahora y los avances tecnológicos significan la ventaja competitiva sobre el mercado. ¿Buscas asesoramiento? Puedes contactar con nuestro equipo si buscas ayuda de una empresa de desarrollo de software <a href=“”>aquí.</a> </p>
+        <p>El futuro es ahora y los avances tecnológicos significan la ventaja competitiva sobre el mercado. ¿Buscas asesoramiento? Puedes contactar con nuestro equipo si buscas ayuda de una empresa de desarrollo de software. </p>
       </div>
     </div>
   </section>

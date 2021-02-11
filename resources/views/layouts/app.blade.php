@@ -9,9 +9,9 @@
     <meta name="robots" content="noindex">
     @yield('head')
     <!-- STYLES -->
-    <link async href="{{ asset('css/common.css?v=0.7') }}" rel="stylesheet">
-    <link async href="{{ asset('css/first.css?v=0.7') }}" rel="stylesheet">
-    <link async href="{{ asset('css/menu.css?v=0.7') }}" rel="stylesheet">
+    <link async href="{{ asset('css/common.css?v=0.8') }}" rel="stylesheet">
+    <link async href="{{ asset('css/first.css?v=0.8') }}" rel="stylesheet">
+    <link async href="{{ asset('css/menu.css?v=0.8') }}" rel="stylesheet">
     <script defer src="{{asset('js/lazysizes.min.js')}}"></script>
 
   </head>

@@ -22,12 +22,12 @@
     <div  class="bocata-help  ">
       <div id="ayudaMenu" class="info-bocata | borde-linear | opaco">
         <h5>¿Necesitas <span>ayuda</span> ?</h5>
-        <a class="" href="tel:+34747410385">
-          <img class="phone-menu" src="/imagenes/phone.png" alt="">
+        <a class="" rel="nofollow" href="tel:+34747410385">
+          <img class="phone-menu" src="/imagenes/phone.png" alt="Contacto teléfono">
           <span>Llámanos</span>
         </a>
         <a class="" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
-          <img src="/imagenes/whatsapp.png" alt="">
+          <img src="/imagenes/whatsapp.png" alt="Contacto Whatsapp">
           <span>Whatsapp</span>
         </a>
       </div>

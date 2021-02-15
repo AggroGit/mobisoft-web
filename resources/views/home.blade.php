@@ -434,7 +434,7 @@
 
           <div class="contienecheckandbutton">
             <div class="checkbox">
-              <label class="container-check">Aceptar política <a href="df ">de privacidad</a>
+              <label class="container-check">Aceptar política <a rel="nofollow" href="/legal/privacidad ">de privacidad</a>
                 <input name="privacidad" type="checkbox" >
                 <span class="checkmark"></span>
               </label>

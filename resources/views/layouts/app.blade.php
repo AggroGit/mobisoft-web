@@ -24,13 +24,13 @@
           <h5>Legal</h5>
           <ul>
             <li>
-              <a href="/legal/cookies">Política de cookies</a>
+              <a rel="nofollow" href="/legal/cookies">Política de cookies</a>
             </li>
             <li>
-              <a href="/legal/privacidad">Política de privacidad</a>
+              <a rel="nofollow" href="/legal/privacidad">Política de privacidad</a>
             </li>
             <li>
-              <a href="/legal/aviso">Aviso legal</a>
+              <a rel="nofollow" href="/legal/aviso">Aviso legal</a>
             </li>
           </ul>
         </div>

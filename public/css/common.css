@@ -34,7 +34,7 @@ html {
 }
 body {
   background: var(--fondoOscuro);
-  color: var(--verdeBeix);
+  color: #FBFBFB;
   font: 400 1.1rem Mono, sans-serif;
   padding: 0;
   margin: 0;

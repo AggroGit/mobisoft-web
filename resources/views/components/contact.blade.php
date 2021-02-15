@@ -3,12 +3,12 @@
     <div class="lado-form">
       <h3>¿Necesitas ayuda con tu presupuesto ahora?</h3>
       <p>Disponibles de 9.00 a 19:00 horas de lunes a viernes para asesorarte gratuitamente sobre tu proyecto. Si lo prefieres también atendemos por Whats App.</p>
-      <h4>¡Llámanos!</h4>
+      <h3>¡Llámanos!</h3>
       <a class="contieneWhatsapp-form" rel="nofollow" href="tel:+34747410385">
         <x-svg.phone/>
         <span>+34 747 410 385</span>
       </a>
-      <h4>¡También en whatsapp!</h4>
+      <h3>¡También en whatsapp!</h3>
       <a class="contieneWhatsapp-form" target="_blank" rel="noopener" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
         <x-svg.whatsapp/>
         <span>+34 747 410 385</span>
@@ -16,7 +16,7 @@
 
   </div>
     <div class="formulario">
-      <h4 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h4>
+      <h3 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h3>
       <form onsubmit="return validateForm()" name="presupuesto1" action="{{url('presupuesto')}}" method="post">
         @csrf
         <div class="inputs-forms-divided">

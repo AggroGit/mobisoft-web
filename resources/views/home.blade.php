@@ -205,7 +205,7 @@
 
 
       <div class="divided-1-2 | flex">
-        <img class="unselectable " src="/desarrollo/definicion-objetivos.png" alt="Definición de objetivos">
+        <img class="unselectable " src="/imagenes/desarrollo/definicion-objetivos.png" alt="Definición de objetivos">
       </div>
     </div>
 
@@ -220,7 +220,7 @@
 
 
       <div class="divided-1-2">
-        <img class="unselectable " src="/desarrollo/usuario-objetivo.png" alt="Conceptualización de ideas en el desarrollo de aplicaciones">
+        <img class="unselectable " src="/imagenes/desarrollo/usuario-objetivo.png" alt="Conceptualización de ideas en el desarrollo de aplicaciones">
       </div>
     </div>
 
@@ -243,7 +243,7 @@
 
 
       <div class="divided-1-2">
-        <img class="unselectable " src="/desarrollo/ui-original.png" alt="Diseño de interfaz UI">
+        <img class="unselectable " src="/imagenes/desarrollo/ui-original.png" alt="Diseño de interfaz UI">
       </div>
     </div>
 
@@ -259,7 +259,7 @@
 
 
       <div class="divided-1-2">
-        <img class="unselectable " src="/desarrollo/aplicaciones.png" alt="Processo de desarrollo de software">
+        <img class="unselectable " src="/imagenes/desarrollo/aplicaciones.png" alt="Processo de desarrollo de software">
       </div>
     </div>
 
@@ -277,7 +277,7 @@
 
 
       <div class="divided-1-2">
-        <img class="unselectable " src="/desarrollo/aplicacion.png" alt="Testing y publicación de una Aplicación">
+        <img class="unselectable " src="/imagenes/desarrollo/aplicacion.png" alt="Testing y publicación de una Aplicación">
       </div>
     </div>
 

@@ -34,7 +34,7 @@
       <img class="phone-menu" src="/imagenes/phone.png" alt="Contacto teléfono">
       <span>Llámanos</span>
     </a>
-    <a class="" target="_blank" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
+    <a class=""  href="/">
       <img src="/imagenes/home.png" alt="Icono Inicio Mobility">
       <span>Inicio</span>
     </a>

@@ -16,7 +16,7 @@ class CreateForms extends Migration
         Schema::create('forms', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('name');
+            $table->string('name')->nullable();
             $table->string('email');
             $table->string('phone');
             $table->text('about')->nullable();

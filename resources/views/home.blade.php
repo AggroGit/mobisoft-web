@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('title',"Mobisoft")
+
 @section('content')
+
+
 
 <div class="cabezera">
   <section class="content-big">
@@ -29,6 +32,17 @@
     </div>
   </div>
 </div>
+@if(session('thanks'))
+<div class="containAlert">
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <strong>¡Gracias! 😊</strong> ¡Pronto nos pondremos en contacto contigo!
+  </div>
+</div>
+
+@else
+Nope
+@endif
 
   <section class="content">
     <p><b>Mobisoft</b> es el equipo y <strong>empresa de desarrollo de aplicaciones móviles, software y páginas web que te ayudará en todo el ciclo de programación</strong> para que tu nueva startup, producto o servicio sea un total éxito. ¡Cuenta con nosotros!</p>

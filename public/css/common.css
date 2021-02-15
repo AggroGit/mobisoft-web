@@ -316,6 +316,39 @@ b, strong {
 .bocata-help > h5> span  {
   color: var(--lila);
 }
+.alert {
+  padding: 50px;
+  background-color: var(--verde1);
+  color: white;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+}
+.containAlert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+  display: flex;
+  width: 100%;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
 .whatsappHeader {
   display: flex;
   float: right;

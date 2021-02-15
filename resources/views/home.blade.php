@@ -39,9 +39,6 @@
     <strong>¡Gracias! 😊</strong> ¡Pronto nos pondremos en contacto contigo!
   </div>
 </div>
-
-@else
-Nope
 @endif
 
   <section class="content">

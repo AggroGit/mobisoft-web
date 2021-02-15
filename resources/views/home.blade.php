@@ -422,21 +422,21 @@
           <p class="desc-form">Apostamos por la transparencia y la honestidad,si buscas un equipo de confianza estás en el lugar correcto. Nos adaptamos al covid19 con MEJORES PRECIOS para los emprendedores y <br> <span>PRESUPUESTO GRATUITO</span>.</p>
           <div class="inputs-forms-divided">
             <div class="form-input">
-              <label for="name">Nombre*</label>
-              <input id="name" type="text" name="name">
+              <label for="name2">Nombre*</label>
+              <input id="name2" type="text" name="name">
             </div>
             <div class="form-input">
-              <label for="email">Email*</label>
-              <input id="email" type="email" name="email" value="">
+              <label for="email2">Email*</label>
+              <input id="email2" type="email" name="email" value="">
             </div>
             <div class="form-input">
-              <label for="phone">Teléfono*</label>
-              <input id="phone" type="phone" name="phone" value="">
+              <label for="phone2">Teléfono*</label>
+              <input id="phone2" type="phone" name="phone" value="">
             </div>
           </div>
           <div class="form-input">
-            <label  for="about">Breve descripción de tu proyecto</label>
-            <input id="about" type="text" name="about" value="">
+            <label  for="about2">Breve descripción de tu proyecto</label>
+            <input id="about2" type="text" name="about" value="">
           </div>
 
 

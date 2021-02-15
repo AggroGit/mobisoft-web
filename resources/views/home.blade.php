@@ -1,5 +1,9 @@
 @extends('layouts.app')
-@section('title',"Mobisoft")
+@section('title',"Mobisoft | Empresa de Desarrollo de Apps, Software y Webs a Medida")
+
+@section('heads')
+<meta name="description" content="Empresa de Desarrollo de Apps, Software y Webs a Medida para impulsar tu negocio o idea."/>
+@endsection
 
 @section('content')
 

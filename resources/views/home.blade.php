@@ -74,7 +74,7 @@
       <div class="contentCollapsable">
         <p>Nuestra empresa de desarrollo de apps ofrece <strong>tanto servicio de diseño como creación</strong> para tu aplicación móvil. Sea cual sea el tamaño de tu empresa o proyecto para desarrollar una app o incluso si requieres servicios de <em>mantenimiento de software, outsourcing</em> o incluso asesoramiento para <em>Startups</em></p>
         <p>Somos 100% nativos, desarrollamos <strong>aplicaciones para empresas con la mayor calidad posible y con las tecnologías más avanzadas</strong> como Flutter, Firebase y Laravel. Nuestros programadores expertos trabajan con estas herramientas desde antes de su lanzamiento y cuentan con la experiencia de haber creado ya decenas de apps. Cumplimos las fechas de entrega al 100% con aplicativos completamente funcionales gracias a las metodologías ágiles y los ciclos de testing.</p>
-        <p>Adecuamos cada proyecto al presupuesto del que dispones <b>consiguiendo la mejor calidad precio</b> y facilitando el acceso a cualquier persona o empresa para que disponga de su propio equipo de <a href=“”>desarrollo de apps</a> bajo su propia marca y con las mejores funcionalidades del mercado.</p>
+        <p>Adecuamos cada proyecto al presupuesto del que dispones <b>consiguiendo la mejor calidad precio</b> y facilitando el acceso a cualquier persona o empresa para que disponga de su propio equipo de desarrollo de apps bajo su propia marca y con las mejores funcionalidades del mercado.</p>
       </div>
     </div>
   </section>

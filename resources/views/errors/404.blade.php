@@ -10,9 +10,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link href="{{ asset('css/common.css?v=0.1') }}" rel="stylesheet">
   <meta name="robots" content="noindex">
-
-
-<link rel="stylesheet" href="{{asset('css/404Neon/style.css')}}">
+  <link rel="stylesheet" href="{{asset('css/404Neon/style.css?v=0.1')}}">
 
 
 

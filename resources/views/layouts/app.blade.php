@@ -21,7 +21,7 @@
     <footer>
       <div class="content-big">
         <div class="columnafooter">
-          <h5>Legal</h5>
+          <h4>Legal</h4>
           <ul>
             <li>
               <a rel="nofollow" href="/legal/cookies">Política de cookies</a>

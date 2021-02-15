@@ -451,7 +451,7 @@ footer p> span {
 nav {
   display: flex;
   padding: 4px 5%;
-  background: var(--fondoOscuro);
+  background: #2D3352;
 }
 img {
   width: 100%;

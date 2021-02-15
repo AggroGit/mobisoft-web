@@ -38,7 +38,7 @@
       <img src="/imagenes/home.png" alt="Icono Inicio Mobility">
       <span>Inicio</span>
     </a>
-    <a class="" target="_blank" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
+    <a class="" rel="noopener" target="_blank" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
       <img src="/imagenes/whatsapp.png" alt="Contacto Whatsapp">
       <span>Whatsapp</span>
     </a>

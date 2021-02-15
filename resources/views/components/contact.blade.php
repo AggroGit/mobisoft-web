@@ -9,7 +9,7 @@
         <span>+34 747 410 385</span>
       </a>
       <h4>¡También en whatsapp!</h4>
-      <a class="contieneWhatsapp-form" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
+      <a class="contieneWhatsapp-form" target="_blank" rel="noopener" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
         <x-svg.whatsapp/>
         <span>+34 747 410 385</span>
       </a>

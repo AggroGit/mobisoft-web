@@ -401,12 +401,13 @@
 
       </div>
       <div class="lado-form">
-        <form class="" action="index.html" method="post">
+        <form onsubmit="return validateForm(2)" name="presupuesto2" action="{{url('presupuesto')}}" method="post">
+          @csrf
           <h3 class="title-presu">¿Quieres empezar un proyecto?</h3>
           <p class="desc-form">Apostamos por la transparencia y la honestidad,si buscas un equipo de confianza estás en el lugar correcto. Nos adaptamos al covid19 con MEJORES PRECIOS para los emprendedores y <br> <span>PRESUPUESTO GRATUITO</span>.</p>
           <div class="inputs-forms-divided">
             <div class="form-input">
-              <input placeholder="Nombre*" type="email" name="name">
+              <input placeholder="Nombre*" type="text" name="name">
             </div>
             <div class="form-input">
               <input placeholder="Email*" type="name  " name="email" value="">
@@ -423,7 +424,7 @@
           <div class="contienecheckandbutton">
             <div class="checkbox">
               <label class="container-check">Aceptar política <a href="df ">de privacidad</a>
-                <input type="checkbox" >
+                <input name="privacidad" type="checkbox" >
                 <span class="checkmark"></span>
               </label>
             </div>

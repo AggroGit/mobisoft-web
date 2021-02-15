@@ -316,6 +316,23 @@ b, strong {
 .bocata-help > h5> span  {
   color: var(--lila);
 }
+.whatsappHeader {
+  display: flex;
+  float: right;
+  margin: auto;
+  margin-right: 40px;
+  color: #ffffff !important;
+
+}
+.whatsappHeader span {
+  margin: auto;
+  margin-left: 10px;
+}
+.whatsappHeader svg{
+  height: 30px !important;
+  fill: var(--verdeClaro);
+  width: auto;
+}
 .bocata-help > div> a {
   width: 50%;
   display: flex;
@@ -986,14 +1003,15 @@ svg {
   color: #ffffff !important;
   font-weight: bold;
   float: right;
-  margin: auto;
   margin-right: 0;
   background: var(--verde1);
   padding: 10px 30px;
   border-radius: 3px;
+  display: flex;
 }
 .contact a {
   color: #ffffff;
+  margin: auto;
 }
 .cabezera {
   background-image: linear-gradient(to bottom, rgb(6 6 6 / 58%), rgb(0 0 0)), url(/fondos/fondo.webp);
@@ -1119,7 +1137,7 @@ ul, li {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
   .contact {
     display: none;
   }

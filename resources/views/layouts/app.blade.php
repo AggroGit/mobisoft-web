@@ -98,6 +98,27 @@
     }
 
 
+    function validateForm(num=1) {
+      var email = document.forms["presupuesto"+num]["email"].value;
+      var phone = document.forms["presupuesto"+num]["phone"].value;
+      var privacidad = document.forms["presupuesto"+num]["privacidad"];
+        if (email == "") {
+          alert("El Email es obligatorio");
+          return false;
+        }
+        if (phone == "") {
+          alert("El Teléfono es obligatorio");
+          return false;
+        }
+        if (privacidad.checked == false) {
+          alert("Debes aceptar nuestra política de privacidad");
+          return false;
+        }
+        return true;
+
+      }
+
+
 
 
 

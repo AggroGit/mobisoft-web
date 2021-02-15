@@ -9,7 +9,7 @@
         <span>+34 747 410 385</span>
       </a>
       <h4>¡También en whatsapp!</h4>
-      <a class="contieneWhatsapp-form" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola%20!%20me%20interesa%20hacer%20una%20app">
+      <a class="contieneWhatsapp-form" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
         <x-svg.whatsapp/>
         <span>+34 747 410 385</span>
       </a>
@@ -17,10 +17,11 @@
   </div>
     <div class="formulario">
       <h4 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h4>
-      <form class="" action="index.html" method="post">
+      <form onsubmit="return validateForm()" name="presupuesto1" action="{{url('presupuesto')}}" method="post">
+        @csrf
         <div class="inputs-forms-divided">
           <div class="form-input">
-            <input placeholder="Nombre*" type="email" name="name">
+            <input placeholder="Nombre*" type="text" name="name">
           </div>
           <div class="form-input">
             <input placeholder="Email*" type="name  " name="email" value="">
@@ -36,7 +37,7 @@
         <div class="contienecheckandbutton">
           <div class="checkbox">
             <label class="container-check">Aceptar política <a href="df ">de privacidad</a>
-              <input required type="checkbox" >
+              <input name="privacidad" type="checkbox" >
               <span class="checkmark"></span>
             </label>
           </div>
@@ -47,5 +48,8 @@
 
       </form>
     </div>
+
+
+
 
 </section>

@@ -26,7 +26,7 @@
           <img class="phone-menu" src="/imagenes/phone.png" alt="">
           <span>Llámanos</span>
         </a>
-        <a class="" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola%20!%20me%20interesa%20hacer%20una%20app">
+        <a class="" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
           <img src="/imagenes/whatsapp.png" alt="">
           <span>Whatsapp</span>
         </a>
@@ -43,6 +43,10 @@
       <img id="logo" class="logo-max" src="/logos/mobisoft-logo-letras.png" alt="Mobility Software Solutions">
     </a>
   </div>
+  <a class="whatsappHeader" target="_blank" rel="nofollow" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
+    <x-svg.whatsapp/>
+    <span>722318180</span>
+  </a>
   <div class="contact">
     <a href="/#presupuestar">PRESUPUESTO GRATUITO</a>
   </div>

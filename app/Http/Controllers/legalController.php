@@ -21,4 +21,6 @@ class legalController extends Controller
     {
       return view('legal.privacidad');
     }
+
+  
 }

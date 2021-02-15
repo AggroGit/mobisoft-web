@@ -11,4 +11,10 @@ class HomeController extends Controller
     {
       return view('home');
     }
+
+    public function sendForm(Request $request)
+    {
+
+      return "asd";
+    }
 }

@@ -24,3 +24,5 @@ Route::get('/city',      [CityController::class, 'common']);
 Route::get('/legal/aviso',      [legalController::class, 'aviso']);
 Route::get('/legal/cookies',      [legalController::class, 'cookies']);
 Route::get('/legal/privacidad',      [legalController::class, 'privacidad']);
+
+Route::post('/presupuesto',      [HomeController::class, 'sendForm']);

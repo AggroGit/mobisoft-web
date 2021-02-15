@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Form;
+use App\Models\form;
 
 class HomeController extends Controller
 {
@@ -15,7 +15,7 @@ class HomeController extends Controller
 
     public function sendForm(Request $request)
     {
-      $form = new Form($request->all());
+      $form = new form($request->all());
       $form->save();
       return redirect('/')->with('thanks',true);
     }

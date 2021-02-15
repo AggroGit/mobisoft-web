@@ -6,7 +6,6 @@
     <!-- TITULO -->
     <title>@yield('title')</title>
     <!-- BUSCADORES -->
-    <meta name="robots" content="noindex">
     @yield('head')
     <!-- STYLES -->
     <link async href="{{ asset('css/common.css?v=1') }}" rel="stylesheet">

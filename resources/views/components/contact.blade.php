@@ -22,20 +22,20 @@
         <div class="inputs-forms-divided">
           <div class="form-input">
             <label for="name">Nombre*</label>
-            <input  type="text" name="name">
+            <input  type="text" id="name" name="name">
           </div>
           <div class="form-input">
             <label for="email">Email*</label>
-            <input  type="email" name="email" value="">
+            <input  type="email" id="email" name="email" value="">
           </div>
           <div class="form-input">
             <label for="phone">Teléfono*</label>
-            <input type="phone" name="phone" value="">
+            <input type="phone" id="phone" name="phone" value="">
           </div>
         </div>
         <div class="form-input">
           <label for="about">Breve descripción de tu proyecto</label>
-          <input  type="text" name="about" value="">
+          <input  type="text" id="about" name="about" value="">
         </div>
 
         <div class="contienecheckandbutton">

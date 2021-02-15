@@ -423,20 +423,20 @@
           <div class="inputs-forms-divided">
             <div class="form-input">
               <label for="name">Nombre*</label>
-              <input  type="text" name="name">
+              <input id="name" type="text" name="name">
             </div>
             <div class="form-input">
               <label for="email">Email*</label>
-              <input  type="email" name="email" value="">
+              <input id="email" type="email" name="email" value="">
             </div>
             <div class="form-input">
               <label for="phone">Teléfono*</label>
-              <input type="phone" name="phone" value="">
+              <input id="phone" type="phone" name="phone" value="">
             </div>
           </div>
           <div class="form-input">
-            <label for="about">Breve descripción de tu proyecto</label>
-            <input  type="text" name="about" value="">
+            <label  for="about">Breve descripción de tu proyecto</label>
+            <input id="about" type="text" name="about" value="">
           </div>
 
 

@@ -8,7 +8,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link href="{{ asset('css/common.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/common.css?v=0.1') }}" rel="stylesheet">
   <meta name="robots" content="noindex">
 
 

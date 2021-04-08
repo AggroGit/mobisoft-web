@@ -20,8 +20,5 @@ class HomeController extends Controller
       return redirect('/')->with('thanks',true);
     }
 
-    public function error()
-    {
-      throw new \Exception("Esto es un error de prueba", 69);
-    }
+  
 }

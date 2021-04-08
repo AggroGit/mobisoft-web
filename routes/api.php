@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::any('/error',      [HomeController::class, 'error']);
+// Route::any('/error',      [HomeController::class, 'error']);

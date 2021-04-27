@@ -432,7 +432,7 @@
             </div>
             <div class="form-input">
               <label for="phone2">Teléfono*</label>
-              <input id="phone2" type="phone" name="phone" value="">
+              <input id="phone2" type="tel" name="phone" value="">
             </div>
           </div>
           <div class="form-input">

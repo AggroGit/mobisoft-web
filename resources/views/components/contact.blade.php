@@ -30,7 +30,7 @@
           </div>
           <div class="form-input">
             <label for="phone">Teléfono*</label>
-            <input type="phone" id="phone" name="phone" value="">
+            <input type="tel" id="phone" name="phone" value="">
           </div>
         </div>
         <div class="form-input">

@@ -382,7 +382,7 @@
           <img src="/imagenes/clientes/aftermarketing.png" alt="AfterMarketing" title="Aftermarketing logo">
         </div>
         <div class="contiene_trust">
-          <img src="/imagenes/clientes/barcelona_open_data.png" alt="Barcelona Open Data" alt="Barcelona open data logo">
+          <img src="/imagenes/clientes/barcelona_open_data.png" alt="Barcelona open data logo">
         </div>
         <div class="contiene_trust">
           <img src="/imagenes/clientes/collblanc_icono.png" alt="Collblanc app" title="Collblanc app logo">

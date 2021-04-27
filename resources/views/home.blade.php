@@ -10,7 +10,7 @@
 
 <div class="cabezera">
   <section class="content-big">
-    <div class="divided | noPadding">
+    <div class="divided | noPadding reverse">
       <div class="divided-1-2  | titleSubtitle">
         <h1>Mobisoft | Empresa de Desarrollo de Apps, Software y Webs a Medida</h1>
         <p>Soluciones innovadoras para usuarios reales, nuestro equipo de desarrolladores interno es experto en aplicaciones móviles y lanzamiento de Startups</p>

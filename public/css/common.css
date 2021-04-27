@@ -759,6 +759,10 @@ svg {
   font-size: 2rem;
   letter-spacing: 2px;
 }
+.noTopMob > span {
+  font-size: none !important;
+  color: var(--verde1);
+}
 .titleSubtitle p, .titleSubtitle span{
   font-size: 1.2rem;
 

@@ -13,8 +13,7 @@
         <x-svg.whatsapp/>
         <span>+34 747 410 385</span>
       </a>
-
-  </div>
+    </div>
     <div class="formulario">
       <h3 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h3>
       <form onsubmit="return validateForm()" name="presupuesto1" action="{{url('presupuesto')}}" method="post">
@@ -52,8 +51,5 @@
 
       </form>
     </div>
-
-
-
-
+  </div>
 </section>

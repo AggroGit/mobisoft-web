@@ -112,6 +112,7 @@
             <li>Ofertas</li>
             <li>Notificaciones push</li>
             <li>Gestión de pedidos vía back-office</li>
+          </ul>
         </div>
         <div class="divided-1-2 | slideanim">
           <img class="phone-img | unselectable" src="/imagenes/apps/vuitantas.png" alt="Aplicación para restaurantes">

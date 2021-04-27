@@ -70,7 +70,7 @@ user-select: none;
 .content {
   margin: auto;
   max-width: 1260px;
-  padding: 0px 14px;
+  padding: 0px 80px;
   margin-top: 5vh;
 }
 .content-big {
@@ -1181,9 +1181,13 @@ ul, li {
 
 }
 
+
 @media only screen and (max-width: 750px) {
   .contact {
     display: none;
+  }
+  .content {
+    padding: 0px 14px;
   }
 }
 @media only screen and (max-width: 700px) {

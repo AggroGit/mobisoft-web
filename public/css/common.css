@@ -1157,6 +1157,9 @@ ul, li {
   flex-direction: row-reverse;
 
 }
+.imgCabezera>img {
+  transform: scale(0.8);
+}
 
 @media only screen and (min-width: 700px) {
   .contieneClientela {
@@ -1185,6 +1188,10 @@ ul, li {
 
 
 @media only screen and (max-width: 750px) {
+  .imgCabezera>img {
+    transform: scale(0.8);
+
+  }
   .contact {
     display: none;
   }

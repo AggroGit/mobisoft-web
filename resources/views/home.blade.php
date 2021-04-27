@@ -395,7 +395,7 @@
   </section>
 
 
-<section class="presupuestoAll " id="presupuestar">
+<section class="presupuestoAll | topped" id="presupuestar">
   <div class="coniteneimg-form ">
     <img src="/logos/mobisoft-logo.png" alt="Mobility Software Solutions">
   </div>

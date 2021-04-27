@@ -765,7 +765,7 @@ svg {
   font-size: 1.2rem;
 
 }
-.noTopMob > span {
+.noTopMob  span {
   font-size: 2rem !important;
   color: var(--verde1) !important;
 }

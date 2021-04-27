@@ -1053,6 +1053,7 @@ svg {
     color: white;
     background-attachment: fixed;
     padding-top: 0px;
+    padding-bottom: 30px;
 }
 .contieneImagenSeparador {
   width: 100%;

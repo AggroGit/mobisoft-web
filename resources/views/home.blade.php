@@ -372,7 +372,7 @@
   </section>
 
   <section  id="trust_us" class="topped">
-    <h2>Nuestros clientes nos avalan:</h2>
+    <h2 class="content">Nuestros clientes nos avalan:</h2>
     <div class="contieneClientela">
       <div class="content-big | contieneClientes">
         <div class="contiene_trust">

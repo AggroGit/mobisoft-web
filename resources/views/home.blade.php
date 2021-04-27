@@ -90,9 +90,10 @@
         <p>Trabajar con Mobisoft es como tener un miembro más en el equipo. Somos tu empresa de desarrollo de software, apps y webs de éxito.</p>
       </div>
     </div>
+    <x-nosotros/>
   </section>
 
-  <x-nosotros/>
+
 
   <x-contact/>
 

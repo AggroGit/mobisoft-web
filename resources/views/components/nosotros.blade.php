@@ -1,4 +1,4 @@
-<section class="content | top10">
+<div class="content | top10">
   <div class="contieneLema">
     <div class="lema">
       <p>Nuestro lema en <span>Mobility</span> </p>
@@ -15,4 +15,4 @@
       <p>Escritor y conferenciante</p>
     </div>
   </div>
-</section>
+</div>

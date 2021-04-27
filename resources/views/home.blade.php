@@ -45,7 +45,7 @@
 @endif
 
   <section class="content">
-    <h2>Nuestra filosofía para crear Software que enamora ❤️</h2>
+    <h2>Tenemos todos los elementos necesarios para un desarrollo de primer nivel</h2>
     <p><b>Mobisoft</b> es el equipo y <strong>empresa de desarrollo de aplicaciones móviles, software y páginas web que te ayudará en todo el ciclo de programación</strong> para que tu nueva startup, producto o servicio sea un total éxito. ¡Cuenta con nosotros!</p>
 
     <p>Internet es la plataforma de comunicación líder del siglo XXI, su importancia es vital para cualquier negocio. Gracias a este medio puedes darte a conocer en todo el mundo pero… ¿cuál es la forma más eficaz, popular y revolucionaria? Sencillo, creando software ya sea App o Web que permita <strong>mejorar la imagen de marca del negocio, aumentar las conversiones y fidelizar a los clientes.</strong></p>

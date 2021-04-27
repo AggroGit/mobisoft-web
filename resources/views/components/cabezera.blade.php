@@ -48,7 +48,7 @@
     <span>747410385</span>
   </a>
   <div class="contact">
-    <a href="/#presupuestar">PRESUPUESTO GRATUITO</a>
+    <a href="/#presupuestar">Contactar</a>
   </div>
 </nav>
 

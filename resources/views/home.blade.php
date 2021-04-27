@@ -373,6 +373,7 @@
 
   <section  id="trust_us" class="topped">
     <h2 class="content">Nuestros clientes nos avalan:</h2>
+    <br>
     <div class="contieneClientela">
       <div class="content-big | contieneClientes">
         <div class="contiene_trust">

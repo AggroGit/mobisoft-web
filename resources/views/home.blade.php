@@ -52,9 +52,10 @@
 
     <p>¿Cómo puedes hacer una aplicación de calidad y a un precio razonable? Precisamente en Mobisoft llevamos más de 5 años haciendo las cosas muy bien. Somos capaces de entender y priorizar tus objetivos además de resolver cada una de tus preocupaciones. <b>Nos encanta lo que hacemos y lo reflejamos en cada detalle.</b></p>
 
-    <p>¿Qué es lo que mejor nos define? Sin duda alguna la transparencia. Adecuamos cada proyecto a tu presupuesto </b>para conseguir el mejor resultado.</b> Sentirás desde el primer momento que somos mucho más que una empresa, <strong>somos tu propio equipo de desarrollo de aplicaciones.</strong></p>
+    <p>¿Qué es lo que mejor nos define? Sin duda alguna la transparencia. <b>Adecuamos cada proyecto a tu presupuesto </b>para conseguir el mejor resultado.</b> Sentirás desde el primer momento que somos mucho más que una empresa, <strong>somos tu propio equipo de desarrollo de aplicaciones.</strong></p>
 
   </section>
+
 
   <section class="content ">
     <div class=" | plano">

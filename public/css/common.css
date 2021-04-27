@@ -1076,8 +1076,8 @@ svg {
 }
 .contieneBotonLila {
   width: 100%;
-  display: flex;
-  margin-top: -10vh;
+  /* display: flex; */
+  /* margin-top: -10vh; */
 }
 .noPadding > .divided-1-2 {
   padding: 0;

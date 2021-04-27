@@ -52,7 +52,7 @@
   </div>
 </nav>
 
-<script type="text/javascript">
+<script>
 
   var open = false;
   var menu = document.getElementById('nav-icon3');

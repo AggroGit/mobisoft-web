@@ -1185,6 +1185,9 @@ ul, li {
     flex-direction: column-reverse;
     padding-top: 6vh;
  }
+ .noTopMob {
+   padding-top: 0px !important;
+ }
   .contieneServicios {
     display: flex;
     flex-wrap: wrap;

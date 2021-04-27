@@ -16,6 +16,11 @@
         <p>Soluciones innovadoras para usuarios reales, nuestro equipo de desarrolladores interno es experto en aplicaciones móviles y lanzamiento de Startups.</p>
         <p>Operamos con total normalidad a pesar de la situación actual. ¿Buscas presupuesto gratuito? Te ayudamos.</p>
         <br>
+        <div class="contieneBotonLila">
+          <a class="boton-lila | center | down-40" href="#presupuestar">
+            Presupuesto Gratuito
+          </a>
+        </div>
 
       </div>
       <div class="divided-1-2 | flex | imgCabezera | unselectable" >
@@ -24,11 +29,7 @@
     </div>
   </section>
   <div class="separadorCabezera">
-    <div class="contieneBotonLila">
-      <a class="boton-lila | center | down-40" href="#presupuestar">
-        Presupuesto Gratuito
-      </a>
-    </div>
+
 
     <!-- <div class="contieneImagenSeparador">
       <img class="unselectable" src="/imagenes/barcelona.png" alt="Desarrollo de aplicaciones en Barcelona">

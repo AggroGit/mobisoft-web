@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',      [HomeController::class, 'home']);
-Route::get('/city',      [CityController::class, 'common']);
+// Route::get('/city',      [CityController::class, 'common']);
 
 
 Route::get('/legal/aviso',      [legalController::class, 'aviso']);

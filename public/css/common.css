@@ -755,10 +755,7 @@ svg {
   width: 50% !important;
 
 }
-.noTopMob > span {
-  font-size: 2rem !important;
-  color: var(--verde1) !important;
-}
+
 .titleSubtitle h1 {
   font-size: 2rem;
   letter-spacing: 2px;
@@ -767,6 +764,10 @@ svg {
 .titleSubtitle p, .titleSubtitle span{
   font-size: 1.2rem;
 
+}
+.noTopMob > span {
+  font-size: 2rem !important;
+  color: var(--verde1) !important;
 }
 .titleSubtitle > a {
   margin-top: 200px;

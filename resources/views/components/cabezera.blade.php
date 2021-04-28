@@ -43,13 +43,22 @@
       <img id="logo" class="logo-max" src="/logos/mobisoft-logo-letras.png" alt="Mobility Software Solutions">
     </a>
   </div>
-  <a class="whatsappHeader" target="_blank" rel="noopener" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
-    <x-svg.whatsapp/>
-    <span>747410385</span>
-  </a>
-  <div class="contact">
-    <a href="/#presupuestar">Contactar</a>
+
+  <div class="contactar_desarrollo_apps">
+    <div class="contactB">
+      <a class="whatsappHeader" target="_blank" rel="noopener" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
+        <x-svg.whatsapp/>
+      </a>
+      <a class="" rel="nofollow" href="tel:+34747410385">
+        <span>747410385</span>
+      </a>
+    </div>
+    <div class="contact">
+      <a href="/#presupuestar">Contactar</a>
+    </div>
   </div>
+
+
 </nav>
 
 <script>

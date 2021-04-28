@@ -1047,8 +1047,7 @@ svg {
   padding: 10px 30px;
   border-radius: 3px;
   display: flex;
-  height: 100%;
-  margin-top: 4px;
+  margin: auto;
 }
 .contact a {
   color: #ffffff;
@@ -1061,7 +1060,7 @@ svg {
     color: white;
     background-attachment: fixed;
     padding-top: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 .contieneImagenSeparador {
   width: 100%;
@@ -1160,6 +1159,28 @@ ul, li {
 .imgCabezera>img {
   transform: scale(0.8);
 }
+.contactB, .contact {
+  display: flex;
+  width: auto;
+}
+
+.contactB a {
+  margin: auto;
+  margin-left: 0;
+  margin-right: 10px;
+
+}
+.contact {
+  margin-right: 0;
+}
+.contactar_desarrollo_apps {
+  display: flex;
+    margin-right: 0 !important;
+    float: right;
+    right: 0;
+    margin: auto;
+}
+
 
 @media only screen and (min-width: 700px) {
   .contieneClientela {

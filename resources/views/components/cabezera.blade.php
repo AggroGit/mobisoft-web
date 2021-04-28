@@ -22,11 +22,11 @@
     <div  class="bocata-help  ">
       <div id="ayudaMenu" class="info-bocata | borde-linear | opaco">
         <h5>¿Necesitas <span>ayuda</span> ?</h5>
-        <a class="" rel="nofollow" href="tel:+34747410385">
+        <a class="llamar" rel="nofollow" href="tel:+34747410385">
           <img class="phone-menu | lazyload" data-src="/imagenes/phone.png" alt="Contacto teléfono">
           <span>Llámanos</span>
         </a>
-        <a class="" target="_blank" rel="noopener" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
+        <a class="whatsappllamar" target="_blank" rel="noopener" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
           <img class="lazyload" data-src="/imagenes/whatsapp.png" alt="Contacto Whatsapp">
           <span>Whatsapp</span>
         </a>

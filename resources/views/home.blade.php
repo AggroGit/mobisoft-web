@@ -24,7 +24,7 @@
 
       </div>
       <div class="divided-1-2 | flex | imgCabezera | unselectable" >
-        <img class="unselectable | " data-src="/imagenes/apps/both.png " alt="Aplicacion Merco para Comercios">
+        <img data-src="/imagenes/apps/both.png" class="unselectable"  alt="Aplicacion Merco para Comercios">
       </div>
     </div>
   </section>

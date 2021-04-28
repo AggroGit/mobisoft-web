@@ -49,7 +49,7 @@
       <a class="whatsappHeader" target="_blank" rel="noopener" href="https://wa.me/34747410385?text=¡Hola!%20me%20interesa%20hacer%20una%20app">
         <x-svg.whatsapp/>
       </a>
-      <a class="" rel="nofollow" href="tel:+34747410385">
+      <a class="llamar" rel="nofollow" href="tel:+34747410385">
         <span>747410385</span>
       </a>
     </div>

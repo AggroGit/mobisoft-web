@@ -16,13 +16,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::middleware('cache.headers:max_age=31536000')->group(function() {
 
-Route::get('/',      [HomeController::class, 'home']);
-// Route::get('/city',      [CityController::class, 'common']);
+  Route::get('/',      [HomeController::class, 'home']);
+  // Route::get('/city',      [CityController::class, 'common']);
 
 
-Route::get('/legal/aviso',      [legalController::class, 'aviso']);
-Route::get('/legal/cookies',      [legalController::class, 'cookies']);
-Route::get('/legal/privacidad',      [legalController::class, 'privacidad']);
+  Route::get('/legal/aviso',      [legalController::class, 'aviso']);
+  Route::get('/legal/cookies',      [legalController::class, 'cookies']);
+  Route::get('/legal/privacidad',      [legalController::class, 'privacidad']);
 
-Route::post('/presupuesto',      [HomeController::class, 'sendForm']);
+  Route::post('/presupuesto',      [HomeController::class, 'sendForm']);
+
+});

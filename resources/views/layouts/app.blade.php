@@ -50,7 +50,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <div class="columnafooter | righted">
           <a class="ionosCol" href="https://partnernetwork.ionos.es/partner/mobility.software.solutions?origin=PartnerBadge">
-            <img src="/imagenes/normal_white_eco.svg" alt="IONOS - Colaborador oficial">
+            <img class="lazyload" data-src="/imagenes/normal_white_eco.svg" alt="IONOS - Colaborador oficial">
           </a>
         </div>
       </div>

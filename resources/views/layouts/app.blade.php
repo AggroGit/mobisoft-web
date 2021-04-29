@@ -12,6 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- TITULO -->
     <title>@yield('title')</title>
+
+    <link rel="icon" href="{{asset('imagenes/logo-mobility-software-solutions.png')}}">
+
     <!-- BUSCADORES -->
     @yield('head')
     <!-- STYLES -->

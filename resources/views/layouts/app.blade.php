@@ -13,7 +13,7 @@
     <!-- TITULO -->
     <title>@yield('title')</title>
 
-    <link rel="icon" href="{{asset('imagenes/logo-mobility-software-solutions.webp')}}">
+    <link rel="icon" href="{{asset('imagenes/logo-mobility-software-solutions.png')}}">
 
     <!-- BUSCADORES -->
     @yield('head')

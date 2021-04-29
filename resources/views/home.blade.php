@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="divided-1-2 | flex | imgCabezera | unselectable" >
-        <img data-src="/imagenes/apps/both.png" class="unselectable | lazyload"  alt="Aplicacion Merco para Comercios">
+        <img data-src="/imagenes/apps/both.webp" class="unselectable | lazyload"  alt="Aplicacion Merco para Comercios">
       </div>
     </div>
   </section>

@@ -18,9 +18,9 @@
     <!-- BUSCADORES -->
     @yield('head')
     <!-- STYLES -->
-    <link href="{{ asset('css/common.css?v=1.2') }}" rel="stylesheet">
-    <link href="{{ asset('css/first.css?v=1.2') }}" rel="stylesheet">
-    <link href="{{ asset('css/menu.css?v=1.2') }}" rel="stylesheet">
+    <link href="{{ asset('css/common.css?v=1.3') }}" rel="stylesheet">
+    <link href="{{ asset('css/first.css?v=1.3') }}" rel="stylesheet">
+    <link href="{{ asset('css/menu.css?v=1.3') }}" rel="stylesheet">
     <script src="{{asset('js/lazysizes.min.js')}}"></script>
 
 

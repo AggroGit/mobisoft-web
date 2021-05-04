@@ -1,0 +1,72 @@
+{
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Mobility Software Solutions",
+    "address": {
+       "@type": "PostalAddress",
+       "addressLocality": "Barcelona, España",
+       "postalCode": "08007",
+       "streetAddress": "Plaza Letamendi 1-2",
+       "addressCountry": "ISO 3166-2:ES",
+       "addressRegion": "Catalunya",
+     },
+     "areaServed": "España",
+     "award":"Ganadores Hackató Comerç 2020 Barcelona Open Data",
+     "knowsAbout":"Desarrolladores de apps en Barcelona",
+     "brand": {
+       "url": "https://mobisoft.works",
+       "image": "https://mobisoft.works/logos/mobisoft_logo.png",
+       "name": "Mobisoft",
+       "slogan": "Desarrollo de Aplicaciones, Software y Webs"
+     },
+     "ContactPoint": {
+       "@type":"ContactPoint",
+       "telephone":"+34 93 441 32 83",
+       "email":"hola@mobisoft.works",
+       "contactType":"sales contact",
+       "name": "Contacto",
+     },
+     "logo": "https://mobisoft.works/logos/mobisoft_logo.png",
+     "email": "hola@mobisoft.works",
+     "legalName": "Mobility Software Solutions SL",
+     "location": {
+       "@type": "Place",
+       "address": "Barcelona, Plaza Letamendi 1-2, 1o 2a",
+       "geo": {
+         "@type": "GeoCoordinates",
+         "latitude": "41.388604",
+         "longitude": "2.161163",
+         "postalCode": "08007",
+         "description": "Nos encontramos en pleno centro de Barcelona, con vistas a Plaza Letamendi",
+         "image" : ""
+       },
+     },
+
+
+
+
+
+
+
+      "slogan":"Desarrolladores de apps en Barcelona",
+      "description" : "Líderes en desarrollo de apps en Barcelona ⭐ 93 441 32 83 ⭐ Creadores de apps móviles para startups y empresas ⭐ ¡Asesoramiento gratuito hoy!",
+      "url":"https://www.abalit.org",
+      "logo":"https://www.abalit.org/images/logo.png",
+    "sameAs":
+        ["https://www.facebook.com/Abalittechnologies/",
+        "https://www.linkedin.com/company/abalit-technologies"],
+    "contactPoint":[
+        {
+            "@type":"ContactPoint",
+            "telephone":"+34 93 441 32 83",
+            "email":"support@abalit.org",
+            "contactType":"customer support"
+        },
+        {
+            "@type":"ContactPoint",
+            "telephone":"+34 93 441 32 83",
+            "email":"info@abalit.org",
+            "contactType":"sales"
+        }
+    ]
+}

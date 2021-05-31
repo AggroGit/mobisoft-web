@@ -34,13 +34,15 @@ h1 {
 q {
   width: 100%;
   color: #1A1F35;
+  font-weight: 300;
 }
 .contieneLema {
   padding: 0px 30px 20px 30px;
   background: #BBC4F5;
   width: calc(100% - 60px);
   margin: auto;
-  border-radius: 3px;
+  border-radius: 12px;
+  padding-top: 20px;
 }
 .triangle {
 
@@ -77,7 +79,7 @@ q {
 }
 .quienCita span {
   font-weight: 600;
-  color: var(--lila);
+  /* color: var(--lila); */
 }
 .quienCita p {
   font-weight: lighter;

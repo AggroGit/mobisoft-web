@@ -1,7 +1,7 @@
-<div class="content | top10">
+<div class="| top10">
   <div class="contieneLema">
     <div class="lema">
-      <p>Nuestro lema en <span>Mobility</span> </p>
+      <!-- <p>Nuestro lema en <span>Mobility</span> </p> -->
     </div>
     <q cite="">Cuando la confianza es alta, la comunicación es fácil, instantánea y efectiva</q>
   </div>

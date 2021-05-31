@@ -15,7 +15,7 @@
       </a>
     </div>
     <div class="formulario">
-      <h3 class="form-title">Escápate de lo ordinario con <span class="color-lila">Mobility Software Solutions</span></h3>
+      <h3 class="form-title | color-verde">Escápate de lo ordinario  <span class="color-blanco">con <strong>Mobility Software Solutions</strong></span></h3>
       <form onsubmit="return validateForm()" name="presupuesto1" action="{{url('presupuesto')}}" method="post">
         @csrf
         <div class="inputs-forms-divided">

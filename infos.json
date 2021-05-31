@@ -2,17 +2,18 @@
     "@context":"https://schema.org",
     "@type":"Organization",
     "name":"Mobility Software Solutions",
+    "description":"Mobisoft | Empresa de Desarrollo de Apps, Software y Webs a Medida para tu empresa o Startup ✅ 📱 ",
     "address": {
        "@type": "PostalAddress",
        "addressLocality": "Barcelona, España",
        "postalCode": "08007",
        "streetAddress": "Plaza Letamendi 1-2",
        "addressCountry": "ISO 3166-2:ES",
-       "addressRegion": "Catalunya",
+       "addressRegion": "Catalunya"
      },
      "areaServed": "España",
      "award":"Ganadores Hackató Comerç 2020 Barcelona Open Data",
-     "knowsAbout":"Desarrolladores de apps en Barcelona",
+     "knowsAbout":"Desarrolladores de apps",
      "brand": {
        "url": "https://mobisoft.works",
        "image": "https://mobisoft.works/logos/mobisoft_logo.png",
@@ -24,7 +25,7 @@
        "telephone":"+34 93 441 32 83",
        "email":"hola@mobisoft.works",
        "contactType":"sales contact",
-       "name": "Contacto",
+       "name": "Contacto"
      },
      "logo": "https://mobisoft.works/logos/mobisoft_logo.png",
      "email": "hola@mobisoft.works",
@@ -37,36 +38,14 @@
          "latitude": "41.388604",
          "longitude": "2.161163",
          "postalCode": "08007",
-         "description": "Nos encontramos en pleno centro de Barcelona, con vistas a Plaza Letamendi",
+         "description": "Realizamos servicios especializados en pleno centro de Barcelona, con vistas a Plaza Letamendi",
          "image" : "https://mobisoft.works/imagenes/barcelona/oficina.jpg"
-       },
+       }
      },
-
-
-
-
-
-
-
-      "slogan":"Desarrolladores de apps en Barcelona",
-      "description" : "Líderes en desarrollo de apps en Barcelona ⭐ 93 441 32 83 ⭐ Creadores de apps móviles para startups y empresas ⭐ ¡Asesoramiento gratuito hoy!",
-      "url":"https://www.abalit.org",
-      "logo":"https://www.abalit.org/images/logo.png",
-    "sameAs":
-        ["https://www.facebook.com/Abalittechnologies/",
-        "https://www.linkedin.com/company/abalit-technologies"],
-    "contactPoint":[
-        {
-            "@type":"ContactPoint",
-            "telephone":"+34 93 441 32 83",
-            "email":"support@abalit.org",
-            "contactType":"customer support"
-        },
-        {
-            "@type":"ContactPoint",
-            "telephone":"+34 93 441 32 83",
-            "email":"info@abalit.org",
-            "contactType":"sales"
-        }
-    ]
+     "slogan":"Empresa de Desarrollo de Apps, Software y Webs a Medida",
+     "knowsLanguage": ["es-ES","ca-ES","en"],
+     "sameAs": [
+       "https://es.linkedin.com/company/mobility-software-solutions",
+       "https://www.instagram.com/mobisoft.works/"
+     ]
 }

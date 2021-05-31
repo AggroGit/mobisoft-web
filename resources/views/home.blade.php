@@ -7,6 +7,13 @@
 
 @section('content')
 
+<div class="fondo">
+  <div class="trapecio gris"></div>
+  <div class="trapecio gris2"></div>
+
+  <div class="trapecio trapecio-top"></div>
+  <div class="trapecio trapecio-lila"></div>
+</div>
 
 <div class="cabezera">
   <section class="content-big">
@@ -162,18 +169,21 @@
     <div class="portfolio-element" id="dipper">
       <div class="divided">
         <div class="divided-1-2">
-          <h4 class="titlePortfolio">GRUPO DIPER</h4>
+          <h4 class="titlePortfolio">Daspi Pinturas</h4>
           <p class="subtitle-portfolio">Funciones principales:</p>
           <ul>
-            <li>Fácil de gestionar</li>
-            <li>Venta 100% online</li>
-            <li>Publicación de proyectos como portafolio</li>
+            <li>Lista para SEM</li>
+            <li>Primer paso para digitalización</li>
             <li>Contacto para generar <em>leads</em></li>
+
+
+
+
 
           </ul>
         </div>
         <div class="divided-1-2 | slideanim">
-          <img width="480" height="741" class="phone-img | unselectable | lazyload" data-src="/imagenes/apps/dipper.png" alt="Desarrollo de proyecto Web">
+          <img width="500" height="741" class="phone-img | unselectable | lazyload" data-src="/imagenes/apps/daspi.png" alt="Desarrollo de proyecto Web">
         </div>
       </div>
     </div>
@@ -452,8 +462,12 @@
                 <span class="checkmark"></span>
               </label>
             </div>
-            <div class="btn-form">
-              <button class="btn-form-b" type="submit" name="button">Enviar</button>
+
+          </div>
+
+          <div class="contienecheckandbutton ">
+            <div class="btn-form center">
+              <button class="boton-lila | lilaForm" type="submit" name="button">Sí. contactar</button>
             </div>
           </div>
 

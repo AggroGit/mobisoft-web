@@ -116,7 +116,7 @@ b, strong {
   font-size: 1.2rem;
   color: #ffffff !important;
   background: var(--verde1);
-  border-radius: 3px;
+  border-radius: 10px !important;
   box-shadow: 6px 6px var(--lila);
 
 }
@@ -194,7 +194,7 @@ b, strong {
 
 .collapsible:after {
   content: '\002B';
-  color: var(--verdeBeix);
+  color: #1AD5B0;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -394,6 +394,7 @@ b, strong {
 .plano {
   background: #1A1E33;
   padding-top:1px;
+  border-radius: 18px;
 }
 
 
@@ -472,6 +473,12 @@ img {
 .color-lila {
   color: var(--lila);
 }
+.color-verde {
+  color: var(--verde2);
+}
+.color-blanco {
+  color: #ffffff !important;
+}
 .titleBigger {
   font-size: 2rem;
 }
@@ -479,8 +486,9 @@ img {
   width: 90%;
   margin: auto;
   display: flex;
-  max-width: 1100px;
+  max-width: 890px;
   padding-top: 5vh;
+
 
 }
 #contacto>div {
@@ -495,7 +503,7 @@ img {
 }
 .lado-form {
  width: 25% ;
- background: var(--verde1);
+ background: #2D365D;
  float: left;
  color: #ffffff !important;
  padding: 30px;
@@ -504,6 +512,9 @@ img {
  min-width: 200px;
 
 
+}
+.lado-form h3 {
+  font-size: 22px;
 }
 .quoted {
   opacity: 0.2;
@@ -517,14 +528,16 @@ img {
   color: var(--blanquino);
 }
 
-
+.lado-form p {
+  font-size: 16px;
+}
 .form-title {
-  font-size: 3.6rem;
-  color: #ffffff;
+  font-size: 2.3rem;
+  /* color: #ffffff; */
   padding: 20px;
   padding-top: 0px;
-  font-weight: 600;
   margin: inherit;
+  font-weight: normal;
 }
 .contieneFormulario {
   margin: auto;
@@ -537,6 +550,10 @@ textarea, input {
   border: none;
   background: none;
 
+}
+.center {
+  margin: auto;
+  float: none !important;
 }
 .form-input {
     margin-top: 22px;
@@ -564,7 +581,7 @@ textarea, input {
 .contienecheckandbutton {
   display: inline-block;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 54px;
 }
 .checkbox{
   float: left;
@@ -781,6 +798,7 @@ svg {
 .contieneWhatsapp-form {
   margin: auto;
   display: flex;
+
 }
 .contieneWhatsapp-form > * {
   margin-top: auto;
@@ -793,10 +811,16 @@ svg {
 .contieneWhatsapp-form span {
   margin-left: 10px;
   font-size: 1.1rem;
+  color: var(--verde2) !important;
+
+}
+.contieneWhatsapp-form:visited, .contieneWhatsapp-form:hover {
+  color: var(--verde2) !important;
+
 }
 .contieneWhatsapp-form  svg{
   width: 100%;
-  max-width: 40px;
+  max-width: 28px;
   height: auto;
   fill: #ffffff;
 }
@@ -854,9 +878,9 @@ svg {
   color: #060606;
 }
 #dipper {
-  background: #151b22;
+  background: #1C1818;
   color: #ffffff;
-  padding: 21vh 0;
+  padding: 14vh 0;
 
 }
 #proceso p{
@@ -906,7 +930,7 @@ svg {
 }
 #presupuesto> .formulario {
   width: 50%;
-  background: var(--verde1);
+  background: #2D365D;
 }
 #presupuesto >.lado-form {
   background: var(--fondoOscuroClaro);
@@ -931,11 +955,10 @@ svg {
   font-size: 1.4rem;
 }
 .desc-form >span {
-  color: var(--lila);
   font-weight: bold;
 }
 .desc-form {
-  color: #cffcff;
+  /* color: #cffcff; */
 }
 .content-proceso  > svg {
   max-width: 150px;
@@ -1034,9 +1057,10 @@ svg {
 .separadorDipper {
   width: 0;
   height: 0;
-  border-bottom: 80px solid #151b22;
+  border-bottom: 80px solid #1C1818;
   border-left: 100vw solid transparent;
   margin-top: -150px;
+
 }
 .contact {
   color: #ffffff !important;
@@ -1045,7 +1069,7 @@ svg {
   margin-right: 0;
   background: var(--verde1);
   padding: 10px 30px;
-  border-radius: 3px;
+  border-radius: 8px;
   display: flex;
   margin: auto;
 }
@@ -1054,7 +1078,7 @@ svg {
   margin: auto;
 }
 .cabezera {
-  background-image: linear-gradient(to bottom, rgb(6 6 6 / 58%), rgb(0 0 0)), url(/fondos/fondo.webp);
+  /* background-image: linear-gradient(to bottom, rgb(6 6 6 / 58%), rgb(0 0 0)), url(/fondos/fondo.webp); */
   background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -1268,6 +1292,7 @@ ul, li {
   }
   #contacto {
     width: 90% !important;
+
   }
   .form-title {
     font-size: 2rem !important;
@@ -1373,5 +1398,74 @@ ul, li {
     flex-direction: inherit;
   }
 
+
+}
+* {
+  z-index: 999999;
+}
+.fondo {
+  height: 100vh;
+  width: 100%;
+  background: #232740;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1 !important;
+  overflow: hidden;
+}
+.rectangulo {
+  width: 100px;
+  height: 80%;
+  background: red;
+  position: absolute;
+}
+.trapecio-top {
+  width: 250px;
+height: 0px;
+border-right: 104px solid transparent;
+border-left: 104px solid transparent;
+border-top: 100px solid var(--verde2);
+transform: rotate(
+45deg
+) translate(-80px, 13px);
+top: 0;
+right: 0;
+}
+.trapecio-lila {
+  width: 260px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-top: 100px solid var(--lila);
+  transform: translate(30%,10%) rotate(
+225deg
+);
+}
+.trapecio {
+  margin-top: 75vh;
+    position: absolute;
+    top: 0;
+    right: -54px;
+    /* overflow: hidden; */
+}
+.gris {
+  width: 1275px;
+  height: 0px;
+  border-right: 315px solid transparent;
+  border-left: 149px solid transparent;
+  border-top: 316px solid #31354cdb;
+  transform: translate(20%,-229%) rotate(
+225deg
+);
+}
+.gris2 {
+  width: 1260px;
+    height: 0px;
+    border-right: 120px solid transparent;
+    border-left: 120px solid transparent;
+    border-top: 100px solid #3b3f58db;
+    transform: translate(30%,-475%) rotate(
+225deg
+ );
 
 }

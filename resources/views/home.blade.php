@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="divided-1-2 | flex | imgCabezera | unselectable" >
-        <img width="382" height="500" data-src="/imagenes/apps/both.png" class="unselectable | lazyload"  alt="Aplicacion Merco para Comercios">
+        <img width="382" height="500" data-src="/imagenes/triple.png" class="unselectable | lazyload"  alt="Aplicacion Merco para Comercios">
       </div>
     </div>
   </section>

@@ -1181,7 +1181,7 @@ ul, li {
 
 }
 .imgCabezera>img {
-  transform: scale(0.8);
+  transform: scale(1);
 }
 .contactB, .contact {
   display: flex;
@@ -1235,9 +1235,10 @@ ul, li {
 
 @media only screen and (max-width: 750px) {
   .imgCabezera>img {
-    transform: scale(0.8);
+    transform: scale(1);
 
   }
+
   .contact {
     display: none;
   }
@@ -1246,12 +1247,21 @@ ul, li {
   }
 }
 @media only screen and (max-width: 700px) {
+  .imgCabezera>img {
+    margin-top: 30px;
+  }
   .reverseOnPhone {
     flex-direction: column-reverse;
     padding-top: 6vh;
  }
  .noTopMob {
    padding-top: 0px !important;
+ }
+ .fondo {
+   transform: translateY(60%);
+ }
+ .gris, .gris2 {
+   opacity: 0.1;
  }
   .contieneServicios {
     display: flex;

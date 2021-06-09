@@ -18,9 +18,9 @@
     <!-- BUSCADORES -->
     @yield('head')
     <!-- STYLES -->
-    <link href="{{ asset('css/common.css?v=1.3') }}" rel="stylesheet">
-    <link href="{{ asset('css/first.css?v=1.3') }}" rel="stylesheet">
-    <link href="{{ asset('css/menu.css?v=1.3') }}" rel="stylesheet">
+    <link href="{{ asset('css/common.css?v=1.4') }}" rel="stylesheet">
+    <link href="{{ asset('css/first.css?v=1.4') }}" rel="stylesheet">
+    <link href="{{ asset('css/menu.css?v=1.4') }}" rel="stylesheet">
     <script src="{{asset('js/lazysizes.min.js')}}"></script>
 
 
@@ -138,6 +138,40 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
+    </script>
+
+    <!-- Scroll Efect -->
+    <script type="text/javascript">
+    function hacerFijo( scrollcontent, divided, poner = true) {
+      // a partir de un integro de número de un elemento de divided lo pondremos fijo
+      var content = document.getElementsByClassName('scrollcontent')[scrollcontent]
+      var parte = content.getElementsByClassName('divided')[divided];
+      if(poner)
+        parte.classList.add('fixedScroll')
+      else
+        parte.classList.remove('fixedScroll')
+
+
+    }
+    function scrollea() {
+      // cogemos todos los elementos scrolleables
+      for (var i = 0; i < document.getElementsByClassName('scrollcontent').length; i++) {
+        var scrollcontent = document.getElementsByClassName('scrollcontent')[i]        // ahora de los elementos de dentro que sean divided deberemos saber si el scroll está dentro o fuera
+        // ahora de los elementos de dentro que sean divided deberemos saber si el scroll está dentro o fuera
+        var divideds = scrollcontent.getElementsByClassName('divided')
+        for (var a = 0; a < divideds.length; a++) {
+          if(window.scrollY >= (divideds[a].offsetTop - window.innerHeight*0.44) && window.scrollY < divideds[a].offsetTop + divideds[a].offsetHeight- window.innerHeight*0.44) {
+            console.log('EXITO'+'estas en'+a)
+            hacerFijo(i,a)
+          } else {
+            hacerFijo(i,a,false)
+          }
+
+        }
+      }
+    }
+    document.onscroll = function() {scrollea()};
 
     </script>
 

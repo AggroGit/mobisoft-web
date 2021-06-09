@@ -288,6 +288,7 @@ b, strong {
   position: fixed;
   left: 0;
   top: 0;
+
   width: calc(90vw);
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 14%);
 }
@@ -693,9 +694,10 @@ button, input[type="submit"], input[type="reset"] {
 .checkbox {
   margin-right: 0;
 }
-.titulos {
+.titulos, .titulosAux {
   width: 100%;
   text-align: center;
+  padding-bottom: 50px;
 }
 .titulos h3 {
   font-weight: normal !important;
@@ -1207,10 +1209,12 @@ ul, li {
 }
 
 
+
 @media only screen and (min-width: 700px) {
   .contieneClientela {
     background: #ffffff;
   }
+
 
   .contieneClientes {
     display: flex;
@@ -1229,6 +1233,46 @@ ul, li {
     flex-direction: row-reverse;
 
   }
+  .scrollcontent > .divided {
+    min-height: 100vh;
+    transition: all 0.4s ease;
+    opacity: 1;
+
+  }
+  .scrollcontent> .divided> .divided-1-2 img  {
+    opacity: 0;
+    transition: all 0.4s ease;
+
+
+  }
+  .fixedScroll>.divided-1-2 img {
+    opacity: 1 !important;
+
+  }
+  .scrollcontent > .divided > .divided-1-2 {
+    transition: all 0.4s ease;
+
+  }
+  .fixedScroll {
+    opacity: 1 !important;
+  }
+  .fixedScroll.divided>div:nth-child(2) {
+    position: fixed;
+    top: 24vh;
+    right: 5%;
+    z-index: -1;
+    max-width: 30%;
+  }
+  .fixedScroll {
+    /* background: red; */
+  }
+  .divided-1-2 > img {
+    margin-top: inherit !important;
+  }
+  .titulosAux {
+    text-align: left;
+
+  }
 
 }
 
@@ -1237,6 +1281,9 @@ ul, li {
   .imgCabezera>img {
     transform: scale(1);
 
+  }
+  .top10 {
+    margin-top: 20px !important;
   }
 
   .contact {
@@ -1409,9 +1456,14 @@ ul, li {
   }
 
 
+
 }
 * {
-  z-index: 999999;
+  z-index: 999;
+}
+.backBlack {
+  background: var(--fondoOscuro);
+  z-index: 1000;
 }
 .fondo {
   height: 100vh;

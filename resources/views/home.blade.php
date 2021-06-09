@@ -193,8 +193,7 @@
 
 
 
-  <section id="proceso" class="top10">
-
+  <section id="proceso" class="top10 | scrollcontent | ">
     <div class="content-big |">
       <div class="titulos  | ">
         <h2 class="tituloParrafo">¿Cómo Empezamos un Proyecto de Programación?</h2>
@@ -224,7 +223,7 @@
 
 
     <!-- PASO 2 -->
-    <div class="content-big | divided | reverse ">
+    <div class="content-big | divided  ">
       <div class="divided-1-2">
         <h2>2. La Conceptualización de la Idea</h2>
           <p>Empezamos con un <em>“Brainstorming”</em> (lluvia de ideas) para <b>plasmar todas las necesidades de los usuarios</b> de manera clara y concisa.
@@ -238,17 +237,21 @@
     </div>
 
     <!-- TITULO -->
-    <div class="content">
+    <!-- <div class="content">
       <div class="titulos | ">
         <h2 class="tituloParrafo">El proceso de desarrollo de software</h2>
         <h3>Los puntos de inflexión para ser un éxito</h3>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- PASO 3 -->
     <div class="content-big | divided ">
       <div class="divided-1-2">
+        <div class="titulosAux | ">
+          <h2 class="tituloParrafo">El proceso de desarrollo de software</h2>
+          <h3>Los puntos de inflexión para ser un éxito</h3>
+        </div>
         <h2>3. Diseño de Interfaz UI y Experiencia de Usuario UX con Material Design</h2>
         <p>Conseguimos que el diseño sea siempre un acierto gracias a las guías <em>Material design</em> design de Google.</p>
         <p>Con todas las funciones claras es hora de plasmar la idea en un diseño en la que ver como quedan los colores y las pantallas. En este momento es donde ponemos especial atención a los casos de uso y la experiencia de usuario con tal de realizar el diseño más acorde posible.</p>
@@ -263,7 +266,7 @@
 
 
     <!-- PASO 4 -->
-    <div class="content-big | divided | reverse ">
+    <div class="content-big | divided  ">
       <div class="divided-1-2">
         <h2>4. Proceso de Desarrollo de Software</h2>
         <p>En Mobility Software Solutions como empresa dedicada al desarrollo de software utilizamos las tecnologías más punteras como son: <strong>Flutter para el desarrollo Android y iOS</strong>, Firebase para notificaciones y tanto Laravel como Vue.js para los desarrollos en servidor y web respectivamente.</p>
@@ -306,10 +309,10 @@
 
 
 
-  <section>
-    <div class="content-big | divided">
+  <section class="backBlack">
+    <div class="content-big | divided | ">
       <div class="divided-1-1">
-        <h3 class="center | titleBigger | top10">Somos todo lo que necesitas</h3>
+        <h3 class="center | titleBigger | top10 | ">Somos todo lo que necesitas</h3>
         <p>Nos complace comunicarte que ofrecemos el <strong>servicio más completo de entre todas las empresas de desarrollo de apps, webs y software</strong>. El 70% de nuestros clientes son emprendedores y como entendemos a la perfección sus necesidades hemos creado un <b>plan de apoyo total al emprendedor</b> que seguro será de tu interés.
         <p>En Mobility Software Solutions trabajamos con los mejores expertos de cada campo. Nuestra red de <em>partners</em> especializados nos permiten apoyarte desde el primer momento tanto si necesitas constituir una empresa, crear un plan de negocio, lanzamiento o marketing digital como asesoría jurídica o económica.</p>
         <div class="contieneServicios">

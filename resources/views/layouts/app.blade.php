@@ -161,7 +161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         // ahora de los elementos de dentro que sean divided deberemos saber si el scroll está dentro o fuera
         var divideds = scrollcontent.getElementsByClassName('divided')
         for (var a = 0; a < divideds.length; a++) {
-          if(window.scrollY >= (divideds[a].offsetTop - window.innerHeight*0.44) && window.scrollY < divideds[a].offsetTop + divideds[a].offsetHeight- window.innerHeight*0.44) {
+          if(window.scrollY > (divideds[a].offsetTop - window.innerHeight*0.44) && window.scrollY < divideds[a].offsetTop + divideds[a].offsetHeight- window.innerHeight*0.44) {
             console.log('EXITO'+'estas en'+a)
             hacerFijo(i,a)
           } else {

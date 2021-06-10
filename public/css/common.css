@@ -1234,7 +1234,7 @@ ul, li {
 
   }
   .scrollcontent > .divided {
-    min-height: 100vh;
+    min-height: 50vh;
     transition: all 0.4s ease;
     opacity: 1;
 
@@ -1251,17 +1251,32 @@ ul, li {
   }
   .scrollcontent > .divided > .divided-1-2 {
     transition: all 0.4s ease;
+    opacity: 0.5;
+    transition: all 0.4s ease;
+
 
   }
   .fixedScroll {
     opacity: 1 !important;
   }
   .fixedScroll.divided>div:nth-child(2) {
+    /* position: fixed;
+    top: 24vh;
+    right: 5%;
+    z-index: -1;
+    max-width: 30%; */
+    opacity: 1 !important;
+  }
+  .fixedScroll.divided>div:nth-child(1) {
+    opacity: 1;
+  }
+  .scrollcontent > .divided >div:nth-child(2) {
     position: fixed;
     top: 24vh;
     right: 5%;
     z-index: -1;
-    max-width: 30%;
+    max-width: 35vw;
+
   }
   .fixedScroll {
     /* background: red; */
@@ -1271,6 +1286,7 @@ ul, li {
   }
   .titulosAux {
     text-align: left;
+    /* display: none; */
 
   }
 

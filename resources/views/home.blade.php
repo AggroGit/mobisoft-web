@@ -3,6 +3,7 @@
 
 @section('head')
 <meta name="description" content="Empresa de Desarrollo de Apps, Software y Webs a Medida para impulsar tu negocio o idea."/>
+  <!-- Hola, esto es una prueba -->
 @endsection
 
 @section('content')
